@@ -1,0 +1,62 @@
+site_name: MysterSmith Docs
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - search.suggest
+  palette:
+    scheme: default
+    primary: indigo
+markdown_extensions:
+- attr_list
+- md_in_html
+- toc
+plugins:
+- search
+- glightbox:
+    touchNavigation: true
+    loop: true
+    effect: zoom
+nav:
+- What is MysterSmith?: index.md
+- About MysterSmith:
+  - Download the app: about-mystersmith/download-the-app.md
+  - Upcoming features and routines: about-mystersmith/upcoming-features.md
+  - Quotes from users: about-mystersmith/quotes-from-users.md
+  - The WearOS watch app: about-mystersmith/wearos.md
+  - What can I do with MysterSmith?: about-mystersmith/explore.md
+  - Free features for everyone: about-mystersmith/free-features.md
+- User Guide:
+  - Text recognition: user-guide/text-recognition.md
+  - A.I. text and drawing recognition: user-guide/ai-recognition.md
+  - Supported devices: user-guide/supported-devices.md
+  - The SWIPE method: user-guide/swipe.md
+- Purchase add-ons:
+  - External Displays (add-on): purchase-add-ons/external-displays.md
+  - Image Buffer (add-on): purchase-add-ons/image-buffer.md
+  - API + A.I. access (add-on): purchase-add-ons/api-ai-access.md
+  - Audio Assistant (add-on): purchase-add-ons/audio-assistant.md
+  - Voice Recorder (add-on): purchase-add-ons/voice-recorder.md
+  - Printers (add-on): purchase-add-ons/printers.md
+  - Offline text recognition (iOS): purchase-add-ons/offline-recognition.md
+  - Dictionary API (add-on): purchase-add-ons/dictionary-api.md
+  - Transformer add-on: purchase-add-ons/transformer.md
+  - Advanced Input Methods: purchase-add-ons/advanced-inputs.md
+- Subscriptions:
+  - BASIC subscription: subscriptions/basic-subscription.md
+  - PREMIUM subscription: subscriptions/premium-subscription.md
+  - Subscription plans: subscriptions/subscription-plans.md
+  - Credits reward: subscriptions/credits-reward.md
+  - MINI subscription: subscriptions/mini-subscription.md
+- Integrations:
+  - Send data to Inject: integrations/inject-send.md
+  - Notarized: integrations/notarized.md
+  - Bridge A.I.: integrations/bridge.md
+- Tutorial & DEMO videos:
+  - Tutorial videos: videos/tutorial-videos.md
+  - DEMO videos: videos/demo-videos.md
+- F.A.Q.:
+  - F.A.Q. - read before you ask: faq/faq.md
+- Contact:
+  - Contact: contact/contact-5.md

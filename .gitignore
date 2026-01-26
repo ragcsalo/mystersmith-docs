@@ -1,0 +1,13 @@
+# Python szemetek
+__pycache__/
+*.pyc
+venv/
+.env
+
+# MkDocs generált mappa (ezt nem tároljuk, ezt generáljuk!)
+site/
+
+# IDE beállítások (ha használsz VSCode-ot vagy ilyesmit)
+.vscode/
+.idea/
+.DS_Store
