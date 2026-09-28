@@ -10,6 +10,16 @@
       {% endfor %}
     </ul>
 
+    {% if page.is_homepage %}
+    <div class="ms-toc-custom-box">
+      <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 5px; color: #e50041;">Download the app</div>
+      <p style="font-size: 0.8rem; margin: 0 0 10px; line-height: 1.4; color: #444;">
+        Android APK and iOS TestFlight
+      </p>
+      <a href="https://mystersmith.info/about-mystersmith/download-the-app/"><img src="https://mystersmith.info/assets/images/Android_APK.png" width="100%" border="0" alt="Download for Android" style="margin-bottom: 6px;"><img src="https://mystersmith.info/assets/images/TestFlight.png" width="100%" border="0" alt="Download for iOS"></a>
+    </div>
+    {% endif %}
+
     <div class="ms-toc-custom-box">
       <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 5px; color: #e50041;">Got questions?</div>
       <p style="font-size: 0.8rem; margin: 0 0 10px; line-height: 1.4; color: #444;">

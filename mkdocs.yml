@@ -35,6 +35,10 @@ markdown_extensions:
     custom_checkbox: true
 plugins:
 - search
+# the old address of a moved page keeps working (an invisible redirect page is generated there)
+- redirects:
+    redirect_maps:
+      user-guide/download-the-app.md: about-mystersmith/download-the-app.md
 - glightbox:
     touchNavigation: true
     loop: true
@@ -46,13 +50,13 @@ validation:
 nav:
 - Home: index.md
 - About MysterSmith:
+  - Download the app: about-mystersmith/download-the-app.md
   - What can I do with MysterSmith?: about-mystersmith/explore.md
   - Free features for everyone: about-mystersmith/free-features.md
   - What's new: about-mystersmith/whats-new.md
   - Upcoming features and routines: about-mystersmith/upcoming-features.md
   - Quotes from users: about-mystersmith/quotes-from-users.md
 - User Guide:
-  - Download the app: user-guide/download-the-app.md
   - The WearOS watch app: user-guide/wearos.md
   - Supported devices: user-guide/supported-devices.md
   - Text recognition: user-guide/text-recognition.md
@@ -73,11 +77,11 @@ nav:
   - Offline text recognition: purchase-add-ons/offline-recognition.md
   - Dictionary API: purchase-add-ons/dictionary-api.md
 - Subscriptions:
-  - SUMMER OFFER (risk-free): subscriptions/summer-offer.md
   - Subscription plans: subscriptions/subscription-plans.md
   - MINI subscription: subscriptions/mini-subscription.md
   - BASIC subscription: subscriptions/basic-subscription.md
   - PREMIUM subscription: subscriptions/premium-subscription.md
+  - Free Gemini A.I.: subscriptions/free-gemini.md
   - Credits reward: subscriptions/credits-reward.md
 - Integrations:
   - Bridge A.I.: integrations/bridge.md

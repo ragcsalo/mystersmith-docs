@@ -25,7 +25,7 @@ date: 2021-12-27 14:24:52
 
  **- How can I install MysterSmith? I don't see it in the AppStore or Google Play...** 
 
-- MysterSmith is an underground app, not available for the general public. You can install it from TestFlight on iOS, and install an APK version on Android. For the detailed download information [ **please click here** ](https://mystersmith.info/user-guide/download-the-app/).
+- MysterSmith is an underground app, not available for the general public. You can install it from TestFlight on iOS, and install an APK version on Android. For the detailed download information [ **please click here** ](https://mystersmith.info/about-mystersmith/download-the-app/).
 
 ---
 
