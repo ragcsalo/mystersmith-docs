@@ -43,10 +43,10 @@ Rewards after 3 months of continuous subscription:
 
 * **Locked subscription fee** (even if I officially raise the monthly fee)
 * Option to **sell/transfer add-on licences**  to another user (if purchased separately before subscribing)
-* Option to **pause the subscription once** (without loosing rewards), for a maximum time of 3 months
+* Option to **pause the subscription once** (without losing rewards), for a maximum time of 3 months
 <br><br>
  
-(\*) **Paid services** that require additional work from me (like prediction photo editing) are not included. **Credit-based extra services** depending on usage (like HeyGen video avatar creation) are not included. **3rd party add-ons** sold by other developers **are NOT included.**
+(\*) **Paid services** that require additional work from me (like prediction photo editing) are not included. **Credit-based extra services** depending on usage are not included. **3rd party add-ons** sold by other developers **are NOT included.**
 <br><br>
 
 ---
