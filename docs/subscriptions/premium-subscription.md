@@ -35,6 +35,7 @@ As long as your PREMIUM subscription is **active**, you will get:
 * **Early access** for some **new features**, ahead of the official release
 * Access to **ALL my apps and add-ons** (worth  **1950 EUR** ) (\*) 
 * **Unlimited text recognition credits** (to be used with the Google engine in any of my apps)
+* **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **60 A.I. calls** and **10 image generations a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to my services at [ **https://mkm.mom** ](https://mkm.mom) (to be released in August 2026)
 * Access to my Messenger trick called **Mental Agency**  (to be released in September 2026)
 * Access to the Mindreader Alexa skill (to be released later in 2026)
