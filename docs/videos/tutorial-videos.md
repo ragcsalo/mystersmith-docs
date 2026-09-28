@@ -8,18 +8,20 @@ date: 2022-07-19 11:18:38
 * [General usage](#basic)
 * [Text recognition](#textrec)
 * [Impression boards](#boards)
+* [Printers](#printers)
 * [Advanced Input Methods](#input)
+* [Voice Recognition](#voicerec)
 * [Transformer add-on](#transformer)
 * [Teleport by Electricks](#teleport)
 * [Pitata Prediction Keychain](#keychain)
 * [App integrations](#integrations)
 
-  
-  
+ 
+ 
 
 ## General usage {: #basic }
 
-<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Install on iOS:</b><br><a href="https://www.youtube.com/watch?v=-b_7drtn4PM" target="_blank"><img src="https://img.youtube.com/vi/-b_7drtn4PM/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>WearOS watch app:</b><br><a href="https://www.youtube.com/watch?v=1RQxDu-ahZE" target="_blank"><img src="https://img.youtube.com/vi/1RQxDu-ahZE/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
+<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Install on iOS:</b><br><a href="https://www.youtube.com/watch?v=-b_7drtn4PM" target="_blank"><img src="https://img.youtube.com/vi/-b_7drtn4PM/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Update on TestFlight:</b><br><a href="https://www.youtube.com/watch?v=yXGiaN1nqzQ" target="_blank"><img src="https://img.youtube.com/vi/yXGiaN1nqzQ/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>WearOS watch app:</b><br><a href="https://www.youtube.com/watch?v=1RQxDu-ahZE" target="_blank"><img src="https://img.youtube.com/vi/1RQxDu-ahZE/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
 
 ---
 
@@ -35,9 +37,21 @@ date: 2022-07-19 11:18:38
 
 ---
 
+## Printers {: #printers }
+
+<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Sound test:</b><br><a href="https://www.youtube.com/watch?v=dGn90xiUJZk" target="_blank"><img src="https://img.youtube.com/vi/dGn90xiUJZk/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Handwriting to printer:</b><br><a href="https://www.youtube.com/watch?v=LD4usu1V0xA" target="_blank"><img src="https://img.youtube.com/vi/LD4usu1V0xA/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
+
+---
+
 ## Advanced Input Methods {: #input }
 
 <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Swipe method:</b><br><a href="https://www.youtube.com/watch?v=YheEUckKD0k" target="_blank"><img src="https://img.youtube.com/vi/YheEUckKD0k/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Passcode input - basics:</b><br><a href="https://www.youtube.com/watch?v=ne3Skq5Pz_o" target="_blank"><img src="https://img.youtube.com/vi/ne3Skq5Pz_o/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Passcode input - numbers:</b><br><a href="https://www.youtube.com/watch?v=oxtj9_wrOfM" target="_blank"><img src="https://img.youtube.com/vi/oxtj9_wrOfM/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Pitata Palm Remote:</b><br><a href="https://www.youtube.com/watch?v=UCzo1bpEEvs" target="_blank"><img src="https://img.youtube.com/vi/UCzo1bpEEvs/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
+
+---
+
+## Voice Recognition {: #voicerec }
+
+<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Permissions:</b><br><a href="https://www.youtube.com/watch?v=pBiywVOctrs" target="_blank"><img src="https://img.youtube.com/vi/pBiywVOctrs/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Testing:</b><br><a href="https://www.youtube.com/watch?v=TNWqq7Qu9jc" target="_blank"><img src="https://img.youtube.com/vi/TNWqq7Qu9jc/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Using keywords:</b><br><a href="https://www.youtube.com/watch?v=2KBpH33e5VE" target="_blank"><img src="https://img.youtube.com/vi/2KBpH33e5VE/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>START/STOP:</b><br><a href="https://www.youtube.com/watch?v=3tXMsllCuvY" target="_blank"><img src="https://img.youtube.com/vi/3tXMsllCuvY/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>Performing actions:</b><br><a href="https://www.youtube.com/watch?v=0kU1-st1NLs" target="_blank"><img src="https://img.youtube.com/vi/0kU1-st1NLs/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
 
 ---
 
@@ -61,4 +75,6 @@ date: 2022-07-19 11:18:38
 
 ## App integrations {: #integrations }
 
-<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>GooApp - peek:</b><br><a href="https://www.youtube.com/watch?v=1ob2ymRdf48" target="_blank"><img src="https://img.youtube.com/vi/1ob2ymRdf48/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>GooApp - send data:</b><br><a href="https://www.youtube.com/watch?v=TpBRyqm2i5g" target="_blank"><img src="https://img.youtube.com/vi/TpBRyqm2i5g/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div>
+<div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>GooApp - peek:</b><br><a href="https://www.youtube.com/watch?v=1ob2ymRdf48" target="_blank"><img src="https://img.youtube.com/vi/1ob2ymRdf48/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> <div class="tutorial-item" style="display: inline-block; margin:10px; width: 288px; vertical-align: top; text-align:center; font-size:1.1em;"><b>GooApp - send data:</b><br><a href="https://www.youtube.com/watch?v=TpBRyqm2i5g" target="_blank"><img src="https://img.youtube.com/vi/TpBRyqm2i5g/mqdefault.jpg" style="width:100%; border:2px red solid; border-radius:10px; margin-top:10px; margin-bottom:10px;"></a></div> 
+ 
+ 

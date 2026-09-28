@@ -1,0 +1,342 @@
+:root {
+  /* --- MysterSmith Színpaletta --- */
+  
+  /* Primary (Fejléc, Sávok) - Logó Sötétkék */
+  --md-primary-fg-color:        #063153;
+  --md-primary-fg-color--light: #0d6bb3; /* Középkék */
+  --md-primary-fg-color--dark:  #031b2e; 
+
+  /* Accent (Linkek, Kiemelések) - Logó Piros */
+  --md-accent-fg-color:         #e50041;
+  --md-accent-fg-color--transparent: rgba(229, 0, 65, 0.1);
+  
+  /* Egyedi gomb színek */
+  --ms-btn-blue: #0d6bb3;
+  --ms-btn-hover: #2096f0; /* Világoskék hover */
+}
+
+/* --- HÁTTÉRSZÍN MÓDOSÍTÁSA (AliceBlue) --- */
+body, .md-main {
+    background-color: aliceblue !important;
+}
+
+/* 2. A tartalom doboz legyen Fehér */
+.md-content__inner {
+    background-color: white;
+    padding: 25px;       /* Belső térköz */
+    border-radius: 8px;  /* Lekerekített sarkok */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Finom árnyék */
+}
+
+/* --- OLDALSÁV CÍMEK JAVÍTÁSA (Átlátszó háttér) --- */
+/* Ez eltünteti a fehér téglalapot a "Subscriptions" és "On this page" alól */
+.md-sidebar .md-nav__title[for=__toc] {
+    background-color: transparent !important;
+    box-shadow: none !important; /* Ha volt alatta árnyék/vonal, azt is leszedjük */
+}
+
+/* Opcionális: Ha az "On this page" szöveg háttere még mindig makacs */
+.md-nav--primary .md-nav__title[for=__toc] {
+    background: transparent !important;
+}
+
+.md-nav--primary .md-nav__title {
+    background-color: var(--md-default-fg-color--lightest);
+    color: var(--md-accent-fg-color);
+    cursor: pointer;
+    height: 5.6rem;
+    line-height: 2.4rem;
+    padding: 3rem .8rem .2rem;
+    position: relative;
+    white-space: normal;
+}
+
+/* --- BAL OLDALI AKTÍV MENÜ CÍM JAVÍTÁSA --- */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+    background: transparent !important;   /* A fehér háttér eltüntetése */
+    box-shadow: none !important;          /* A fehér "köd" (árnyék) eltüntetése */
+    margin-top: 0 !important;             /* Biztos ami biztos */
+}
+
+
+/* Linkek színe */
+.md-typeset a {
+  color: var(--md-accent-fg-color);
+}
+.md-typeset a:hover {
+  color: #c00036; /* Sötétebb piros hoverkor */
+}
+
+/* Gombok (Download, stb.) dizájnja */
+.md-typeset .md-button--primary {
+    background-color: var(--ms-btn-blue) !important;
+    border-color: var(--ms-btn-blue) !important;
+    color: white !important;
+}
+.md-typeset .md-button--primary:hover {
+    background-color: var(--ms-btn-hover) !important;
+    border-color: var(--ms-btn-hover) !important;
+}
+
+/* --- LOGÓ ÉS FEJLÉC BEÁLLÍTÁSOK --- */
+
+/* 1. A szöveges cím ("MysterSmith Docs") elrejtése, mert a logóban benne van */
+.md-header__title .md-header__topic {
+    display: none;
+}
+
+/* 2. Logó optimalizálása fekvő képhez */
+.md-header__button.md-logo img {
+    height: auto;      /* Hagyjuk, hogy az arány megmaradjon */
+    max-height: 85px;  /* Maximális magasság, hogy beférjen a sávba */
+    width: auto;
+    margin-top: 2px;
+}
+
+
+/* --- OLDALSÁV FEJLÉCEK DIZÁJNJA --- */
+
+/* 1. Jobb oldal: "Table of contents" felirat */
+.md-nav--secondary label.md-nav__title {
+    color: #063153 !important;       /* Márka kék */
+    font-size: 1.1rem !important;    /* Nagyobb betűméret (kb 18px) */
+    font-weight: 800 !important;     /* Jó vastag betű */
+    opacity: 1 !important;           /* Teljesen látható legyen (ne szürke) */
+    line-height: 1.4;
+    margin-bottom: 10px;             /* Kis térköz alatta */
+}
+
+/* Ha van ikon mellette, az is legyen kék */
+.md-nav--secondary .md-nav__title .md-nav__icon {
+    color: #063153 !important;
+}
+
+/* 2. Bal oldal: Navigációs fejléc / Aktuális menücsoport címe */
+/* Ez mobilon a "MysterSmith Docs" felirat, asztalin pedig a szekciók címei */
+.md-nav--primary .md-nav__item--nested > .md-nav__link,
+.md-nav--primary .md-nav__item--nested > label.md-nav__link {
+    color: #e50041 !important;
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
+}
+
+/* Bónusz: Ha azt szeretnéd, hogy a bal oldali listában az 
+   AKTUÁLISAN olvasott oldal neve is kék és vastag legyen: */
+.md-nav__item .md-nav__link--active {
+    color: #063153; 
+    font-weight: 700;
+}
+
+/* +1 Bónusz: Ha ráviszed az egeret egy csoport címére, sötétüljön */
+.md-nav--primary .md-nav__item--nested > .md-nav__link:hover {
+    color: #c00036 !important; /* Sötétebb piros hover */
+}
+
+
+/* --- BOXED BANNER  --- */
+
+.ms-banner-wrapper {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 10px #e50041 solid;
+    padding: 0;
+}
+
+.ms-hero-content {
+    background-image: url('../assets/images/hero_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --- EGYEDI FIGYELMEZTETŐ DOBOZOK (ADMONITIONS) --- */
+
+/* 1. KÉK DOBOZOK (Note, Info) - A márka sötétkék színe */
+.md-typeset .admonition.note,
+.md-typeset .admonition.info {
+    border-color: #063153 !important;
+}
+.md-typeset .admonition.note > .admonition__title, 
+.md-typeset .admonition.info > .admonition__title {
+    background-color: rgba(6, 49, 83, 0.1) !important; /* Halvány kék háttér a címnél */
+    border-color: #063153 !important;
+    color: #063153 !important;
+    font-weight: bold;
+}
+/* Az ikon színe a cím mellett */
+.md-typeset .admonition.note > .admonition__title::before,
+.md-typeset .admonition.info > .admonition__title::before {
+    background-color: #063153 !important; 
+    -webkit-mask-image: var(--md-admonition-icon--note); /* Megtartjuk az eredeti ikont */
+    mask-image: var(--md-admonition-icon--note);
+}
+
+/* 2. PIROS DOBOZOK (Warning, Failure, Danger) - A márka piros színe */
+.md-typeset .admonition.warning,
+.md-typeset .admonition.failure,
+.md-typeset .admonition.danger {
+    border-color: #e50041 !important;
+}
+.md-typeset .admonition.warning > .admonition__title,
+.md-typeset .admonition.failure > .admonition__title,
+.md-typeset .admonition.danger > .admonition__title {
+    background-color: rgba(229, 0, 65, 0.1) !important; /* Halvány piros háttér */
+    border-color: #e50041 !important;
+    color: #e50041 !important;
+    font-weight: bold;
+}
+/* Az ikon színe */
+.md-typeset .admonition.warning > .admonition__title::before,
+.md-typeset .admonition.failure > .admonition__title::before,
+.md-typeset .admonition.danger > .admonition__title::before {
+    background-color: #e50041 !important;
+}
+
+
+/* --- KÓDBLOKKOK DIZÁJNJA --- */
+
+.md-typeset pre > code {
+    border: 1px solid #063153;
+    border-radius: 4px;
+    background-color: #f5f8fa;
+}
+
+html body .md-typeset .md-code__nav {
+    opacity: 1 !important;
+    transition: none !important;
+}
+
+html body .md-typeset .md-code__button {
+    color: #063153 !important;    /* MysterSmith PIROS */
+    opacity: 1 !important;        /* Mindig látszódjon */
+    background-color: transparent !important;
+    transition: none !important;
+}
+
+html body .md-typeset .md-code__button:hover {
+    color: #e50041 !important;      /* Fehérre vált */
+    background-color: transparent !important;
+}
+
+html body .md-typeset .highlight span.filename {
+    color: white !important;
+    background-color: #063153 !important;
+    font-weight: bold;
+}
+
+
+/* --- BACK TO TOP GOMB (MENÜ ALATT) --- */
+
+/* 1. Alapállapot (Mobilon maradjon jobb oldalt alul lebegve) */
+.md-top {
+    color: white !important;
+    background-color: #e50041 !important; /* Mobilon piros */
+}
+
+
+/* --- KÉPMAGASSÁG JAVÍTÁSA --- */
+/* Ha egy képen van 'height' attribútum, akkor ne kényszerítse az auto-t */
+.md-typeset img[height] {
+   height: revert-layer;
+}
+
+
+/* --- MOBIL OPTIMALIZÁLÁS --- */
+/* Ez a blokk csak mobilon és tableten érvényesül (ahol már hamburger menü van) */
+@media screen and (max-width: 76.1875em) {
+
+    /* 1. HERO BANNER: Arányos átméretezés */
+    .ms-hero-content {
+        height: 0 !important;           /* Fix pixel magasság helyett... */
+        /* ...százalékos arányt használunk. */
+        /* Ha a képed pl. 1200x300px, akkor 300/1200 = 25%. */
+        /* Ha túl magasnak érzed, vedd lejjebb 20%-ra, ha túl lapos, vidd fel 30%-ra! */
+        padding-bottom: 25% !important; 
+        background-size: cover !important;
+        background-position: center center !important;
+        width: 100% !important;
+    }
+
+    .md-nav--primary .md-nav__item--nested > .md-nav__link,
+    .md-nav--primary .md-nav__item--nested > label.md-nav__link {
+        color: black !important;
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        opacity: 1 !important;
+    }
+
+}
+
+
+/* --- EGYEDI DOBOZ A TOC ALATT --- */
+.ms-toc-custom-box {
+    margin-top: 1rem;
+    padding: 0.8rem;       /* Belső távolság */
+    border-top: 1px solid rgba(0,0,0,0.1); /* Halvány elválasztó vonal */
+    font-size: 0.8rem;         /* Kicsit kisebb betűméret */
+    line-height: 1.4;
+}
+
+/* --- LÁTHATATLAN GÖRGETŐSÁV A TOC-BAN --- */
+
+/* 1. Chrome, Safari, Opera böngészőkhöz */
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    display: none;
+}
+
+/* 2. Firefox, IE, Edge böngészőkhöz */
+.md-sidebar__scrollwrap {
+    -ms-overflow-style: none;  /* IE és Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+/* --- CSAK A GALÉRIA (LIGHTBOX) THUMBNAIL KÉPEK KERETE --- */
+/* Megkeressük a .glightbox hivatkozást, és csak a benne lévő képet formázzuk */
+a.glightbox img {
+    border: 1px solid #d1d5db !important; /* 1px szürke keret */
+    border-radius: 4px !important;        /* Pici lekerekítés */
+    padding: 2px !important;              /* Egy pici térköz a kép és a keret között (opcionális, de szép) */
+    background-color: white !important;   /* Ha átlátszó a kép, legyen fehér háttere */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Pici árnyék a kiemeléshez */
+    transition: transform 0.2s;           /* Hogy szépen mozogjon hover esetén */
+}
+
+/* Opcionális: Ha ráviszed az egeret, picit emelkedjen ki */
+a.glightbox:hover img {
+    border-color: #aaa !important;        /* Sötétebb keret */
+    transform: translateY(-2px);          /* Picit "felugrik" */
+}
+
+/* A főcím (h1) hangsúlyozása */
+article h1 {
+    font-weight: 600 !important;
+    color: #e50041 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Az alcímek (h2) hangsúlyozása */
+article h2 {
+    font-weight: 400 !important;
+    color: #063153 !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+/* --- "What's new" contextual version submenu (ms-version-nav.js) --- */
+/* Previous documented versions appear indented under the current version,
+   only while viewing a version page. */
+.md-nav__item.ms-version-item {
+    margin-left: .6rem;
+    border-left: 2px solid var(--md-accent-fg-color, #e50041);
+}
+.md-nav__item.ms-version-item > .md-nav__link {
+    font-size: .72rem;
+    padding-left: .55rem;
+}

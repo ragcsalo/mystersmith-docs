@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="md-grid ms-banner-wrapper" style="display: none;">
+    <div class="ms-hero-content">
+       </div>
+  </div>
+
+  <script>
+    (function() {
+      var banner = document.querySelector(".ms-banner-wrapper");
+      var grid = document.querySelector(".md-main__inner");
+      
+      if (banner && grid) {
+        // A JAVÍTÁS: Nem a rácsba, hanem a rács ELÉ tesszük (a szülőjébe)
+        grid.parentNode.insertBefore(banner, grid);
+        
+        // Megjelenítjük
+        banner.style.display = "block";
+      }
+    })();
+  </script>
+
+  {{ super() }}
+{% endblock %}
+

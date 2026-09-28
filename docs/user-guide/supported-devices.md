@@ -1,7 +1,3 @@
----
-title: "Supported devices"
-date: 2025-12-19 09:36:08
----
 
 # Supported devices
 
@@ -9,37 +5,45 @@ date: 2025-12-19 09:36:08
 
 * PeekSmith / Bond
 * Teleport
-* Iarvel Card
 * MrCard
+* Iarvel Card
 * SB Watch 2
-* Lumen Eye (PRO users only)
-* Lumen Prism (PRO users only)
+* Lumen Eye (Lumen PRO users only)
+* Lumen Prism (Lumen PRO users only)
+* Lumen Prism Pro (Lumen PRO users only)
+* Lumen Duo
 * Inversion Board
+* Spirit Echo
+* Iarvel Peek Whiteboard
+* Real Board (using API)
+* The Missing Tape (using API)
 * Prediction Keychain
 * Unifi Notifier
 * Reinkstone case
 * E-ink tags (some Gicisky models)
 * Picdance case
 * LED Mask
-
-  
-  
+<br><br>
+---
+ 
 
 ## IMPRESSION BOARDS
 
 * Lumen boards (PRO users only)
-* Iarvel boards
-* Pitata boards
+* Iarvel boards (all models)
+* Spirit Pad
+* Pitata boards (all models)
 * Mindbuster board
 * Oblivious/Academy board
 * Oracle board
 * Telepathy board
 * Imagine Pad
 * Bamboo boards
-* Magic Pen (Penthal / MasterBen)
-
-  
-  
+* Ultra Sharpie/Pen
+* Penthal pen (Ophaya, MasterBen)
+<br><br>
+---
+ 
 
 ## PRINTERS
 
@@ -49,21 +53,21 @@ date: 2025-12-19 09:36:08
 * Cat printer
 * Temu printer
 * Unifi Scribe / Mini (using custom URL scheme only)
-
-  
-  
+<br><br>
+---
+ 
 
 ## REMOTE CONTROLS
 
 * Atom 2
-* Pitata Remote
+* Pitata Palm Remote (new model)
 * Wilson Nexus Remote
 * Thumper v2
 * Matt Plus
 * A.T.C.
-
-  
-  
+<br><br>
+--- 
+ 
 
 ## OTHER DEVICES
 
@@ -74,5 +78,5 @@ date: 2025-12-19 09:36:08
 * Second Sight
 * Labco Scrabble
 
-  
-  
+<br><br> 
+ 
