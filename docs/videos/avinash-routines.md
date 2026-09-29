@@ -1,8 +1,8 @@
 ---
-title: "Routine explanations by Avinash"
+title: "Explanations by Avinash"
 ---
 
-# Routine explanations by Avinash
+# Explanations by Avinash
 
 Routines, setups and performances with MysterSmith, explained by **Avinash**. All the videos are also available in his YouTube playlist: [**MysterSmith Tutorials**](https://www.youtube.com/playlist?list=PL2vw9chM_ckDDlc9Jj_BQHmRDXQEtMivP){:target="_blank"}
 
