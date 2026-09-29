@@ -4,7 +4,7 @@ title: "Explanations by Avinash"
 
 # Explanations by Avinash
 
-Routines, setups and performances with MysterSmith, explained by **Avinash**. All the videos are also available in his YouTube playlist: [**MysterSmith Tutorials**](https://www.youtube.com/playlist?list=PL2vw9chM_ckDDlc9Jj_BQHmRDXQEtMivP){:target="_blank"}
+Routines, setups and performances with MysterSmith, explained by **Avinash Sridhar**. All the videos are also available in his YouTube playlist: [**MysterSmith Tutorials**](https://www.youtube.com/playlist?list=PL2vw9chM_ckDDlc9Jj_BQHmRDXQEtMivP){:target="_blank"}
 
 * [Passcode Input](#passcode)
 * [Notes to MysterSmith - Real Time Peek](#notes)
