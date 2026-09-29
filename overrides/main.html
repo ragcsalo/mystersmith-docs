@@ -1,5 +1,26 @@
 {% extends "base.html" %}
 
+{# Link previews (Facebook, Messenger, WhatsApp, iMessage, X...): every page shows the same MysterSmith
+   image, instead of whatever large picture the crawler happens to pick from the page (the transparent
+   logo, the FAQ image...). A page can give its own text with "description:" in its front matter. #}
+{% block extrahead %}
+  {% set og_title = "MysterSmith" if page.is_homepage else (page.title | striptags) ~ " - MysterSmith" %}
+  {% set og_desc = page.meta.description if (page.meta and page.meta.description) else config.site_description %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MysterSmith">
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_desc }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="https://mystersmith.info/assets/images/phone_logo.jpg">
+  <meta property="og:image:width" content="608">
+  <meta property="og:image:height" content="286">
+  <meta property="og:image:alt" content="MysterSmith">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_desc }}">
+  <meta name="twitter:image" content="https://mystersmith.info/assets/images/phone_logo.jpg">
+{% endblock %}
+
 {% block content %}
   <div class="md-grid ms-banner-wrapper" style="display: none;">
     <div class="ms-hero-content">

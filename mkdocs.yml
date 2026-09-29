@@ -1,4 +1,6 @@
 site_name: Guides & Documentations
+site_url: https://mystersmith.info/
+site_description: Guides and documentation for the MysterSmith app - features, add-ons, subscriptions, tutorials and demo videos.
 copyright: Copyright &copy; 2025-2026 Benke Smith - All rights reserved.
 theme:
   name: material
