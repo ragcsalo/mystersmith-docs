@@ -41,6 +41,7 @@ plugins:
 - redirects:
     redirect_maps:
       user-guide/download-the-app.md: about-mystersmith/download-the-app.md
+      about-mystersmith/peeksmith-addons-migration.md: purchase-add-ons/peeksmith-addons-migration.md
 - glightbox:
     touchNavigation: true
     loop: true
