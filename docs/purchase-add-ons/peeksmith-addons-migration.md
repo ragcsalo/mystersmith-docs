@@ -25,7 +25,7 @@ description: "Electricks Cloud registration is free and the PeekSmith app keeps 
 * **From October 2026**, the PeekSmith app works with an **Electricks Cloud** account. Registration is free, and with a **Cloud Free** account everything that worked before keeps working.
 * The add-ons you bought from me can be used in the **PeekSmith app** if you **migrate them to Electricks Cloud**.
 
-**Why don't they come along automatically?** BS Magic (me) and Electricks are two separate companies, so purchases are kept separately. The migration code connects them: it tells Electricks Cloud which PeekSmith add-ons you bought from me, so you get them back there - without paying again.
+**Why don't they come along automatically?** MysterSmith Studio Ltd. (aka "BS Magic") and Electricks are two separate companies, so purchases are kept separately. The migration code connects them: it tells Electricks Cloud which PeekSmith add-ons you bought from me, so you get them back there - without paying again.
 
 **MysterSmith is not affected:** your add-ons and your subscription keep working in MysterSmith, whether you migrate them or not.
 
