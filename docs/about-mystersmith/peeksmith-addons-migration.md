@@ -1,6 +1,6 @@
 ---
 title: "PeekSmith add-ons & Electricks Cloud"
-description: "How to keep using your PeekSmith add-ons in the PeekSmith app: migrate them to Electricks Cloud with your BSMAGIC code. In MysterSmith nothing changes."
+description: "Electricks Cloud registration is free and the PeekSmith app keeps working; migrate the PeekSmith add-ons you paid for with your BSMAGIC code. In MysterSmith nothing changes."
 ---
 
 # PeekSmith add-ons & Electricks Cloud
@@ -8,8 +8,12 @@ description: "How to keep using your PeekSmith add-ons in the PeekSmith app: mig
 !!! tip "In short"
     **In MysterSmith NOTHING changes.** Your add-ons keep working exactly as before.
 
-    This page is only about the **PeekSmith app**: if you would like to keep using your add-ons **there**,
-    migrate them to your **Electricks Cloud** account with your personal **BSMAGIC code**.
+    This page is only about the **PeekSmith app**:
+
+    * **Electricks Cloud registration is free** (Cloud Free - no card needed). With a free account,
+      everything you used in the PeekSmith app so far keeps working - you don't have to pay for it.
+    * To get the **add-ons you paid for** in the PeekSmith app too, migrate them to your Electricks Cloud
+      account with your personal **BSMAGIC code**. It's just a few clicks.
 
 ---
 
@@ -18,7 +22,10 @@ description: "How to keep using your PeekSmith add-ons in the PeekSmith app: mig
 * **Until 2025** I sold add-ons for the **PeekSmith app** (External Displays, Audio Assistant, Voice Recorder, Send to API, WEB-doodle...).
 * **In 2025** the **MysterSmith** app was released. The add-ons you bought for the PeekSmith app worked in MysterSmith too - but the newer add-ons are available in MysterSmith only.
 * **In summer 2025** the development of the **PeekSmith app** was taken over by **Electricks**. The PeekSmith app is their app now, and they manage its add-ons in their own system, called **Electricks Cloud**.
-* **From October 2026**, the add-ons you bought from me can be used in the **PeekSmith app** only if you **migrate them to Electricks Cloud**.
+* **From October 2026**, the PeekSmith app works with an **Electricks Cloud** account. Registration is free, and with a **Cloud Free** account everything that worked before keeps working.
+* The add-ons you bought from me can be used in the **PeekSmith app** if you **migrate them to Electricks Cloud**.
+
+**Why don't they come along automatically?** BS Magic (me) and Electricks are two separate companies, so purchases are kept separately. The migration code connects them: it tells Electricks Cloud which PeekSmith add-ons you bought from me, so you get them back there - without paying again.
 
 **MysterSmith is not affected:** your add-ons and your subscription keep working in MysterSmith, whether you migrate them or not.
 
@@ -58,6 +65,12 @@ The redeem page: **https://cloud.electricks.info/redeem/** + your code.
 
 **I use MysterSmith only. Do I have to do anything?**<br>
 No. Nothing changes in MysterSmith.
+
+**Do I have to pay for Electricks Cloud?**<br>
+No. Registration is free (Cloud Free), and you don't need a subscription to keep using the PeekSmith app as before. The migration only brings over the add-ons you have already paid for.
+
+**What happens if I don't migrate?**<br>
+The PeekSmith app keeps working with your free Electricks Cloud account, but without the add-ons you bought from me.
 
 **I didn't get the e-mail.**<br>
 Check your spam folder. If it's not there, sign in to the [BS Magic Account Manager](https://bsmagic.app/account/){:target="_blank"} or open the account details in the MysterSmith app (ACCOUNT SETTINGS &rarr; Show details): if you have add-ons that can be migrated, your code is shown there.
