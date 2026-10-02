@@ -56,7 +56,6 @@ nav:
   - What can I do with MysterSmith?: about-mystersmith/explore.md
   - Free features for everyone: about-mystersmith/free-features.md
   - What's new: about-mystersmith/whats-new.md
-  - PeekSmith add-ons & Electricks Cloud: about-mystersmith/peeksmith-addons-migration.md
   - Upcoming features and routines: about-mystersmith/upcoming-features.md
   - Quotes from users: about-mystersmith/quotes-from-users.md
 - User Guide:
@@ -80,6 +79,7 @@ nav:
   - Voice Recorder: purchase-add-ons/voice-recorder.md
   - Offline text recognition: purchase-add-ons/offline-recognition.md
   - Dictionary API: purchase-add-ons/dictionary-api.md
+  - PeekSmith add-ons & Electricks Cloud: purchase-add-ons/peeksmith-addons-migration.md
 - Subscriptions:
   - Subscription plans: subscriptions/subscription-plans.md
   - MINI subscription: subscriptions/mini-subscription.md
