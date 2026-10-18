@@ -41,7 +41,7 @@ Without a linked account, these actions now say so instead of doing nothing.
 
 ---
 
-## New: Prediction photo (subscribers)
+## New: Prediction photo (for subscribers only in October)
 
 Put an image into the phone's gallery as if it had been taken earlier. The settings are under **Settings → Output / Screens → PREDICTION PHOTO**:
 
