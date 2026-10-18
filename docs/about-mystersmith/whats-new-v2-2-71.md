@@ -6,7 +6,7 @@ date: 2026-09-11 12:00:00
 # What's new in MysterSmith v2.2.71
 
 !!! info "Looking for the latest?"
-    This is the archived **v2.2.71** release page. For the newest features, see [**What's new in v2.3.11**](whats-new.md).
+    This is the archived **v2.2.71** release page. For the newest features, see [**What's new in v2.3.41**](whats-new.md).
 
 Since the big **v2.2.41** update, a series of releases has grown the dice tools into a full performance system, added per-screen automation, smarter connections and a lot of polish. Here are the highlights. :-)
 

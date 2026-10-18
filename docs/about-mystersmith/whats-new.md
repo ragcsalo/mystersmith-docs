@@ -1,235 +1,117 @@
 ---
 title: "What's new"
-date: 2026-09-28 12:00:00
+date: 2026-10-18 12:00:00
 ---
 
-# What's new in MysterSmith v2.3.11
+# What's new in MysterSmith v2.3.41
 
-Since **v2.2.71**, the whole device Settings experience has been rebuilt around a single idea: **every device gets its own panel**, with its own settings. On top of that there's a brand-new **Morse code** input method, the **Pitata Dice** as their own device, a tidied-up **InMind Wheel**, **free Gemini A.I. for subscribers**, **shared button mappings**, and a lot of polish. Here are the highlights. :-)
-
-!!! note "Testing the new build?"
-    If you're helping test **v2.3.11**, here's a full step-by-step [**testing guide**](testing-new-features.md) — a checklist covering every new feature below.
+Since **v2.3.11**, MysterSmith has learned to make pictures: **hidden-word A.I. images**, hand-drawn **TrueWrite / TrueSketch** images from the Electricks Cloud, **prediction photos** with any date you like, and images arriving straight from your **WEB-polling** and **Send to API** sources. On top of that: better Peripage support, battery savings, and a lot of fixes. Here are the highlights. :-)
 
 ---
 
-## Your settings and routines carry over
+## New: Hidden image reveal
 
-Board and printer settings used to be **global** — one set shared by every board and every printer. They're now **per device**, and since that shared value is exactly what you had everywhere, the app simply **copies it onto each device** on the first launch after the update. Routines saved before the update load correctly too. Nothing here needs doing by hand — it's just worth a quick look at the devices you use, since these settings can now differ from one to the next for the first time.
+An A.I. image of one word, built entirely from **another, hidden word** — say, a giraffe made of *ELEPHANT ELEPHANT ELEPHANT...* From a distance everybody sees the picture; up close, every stroke is the hidden word.
 
----
+* Find it under **Settings → A.I. Features → Hidden image reveal**, for every subscriber.
+* **A.I. image engine:** OpenAI or Gemini. Each uses its own drawing settings (size, model, action after drawing).
+* **Image subject** and **Source text** can be any text, with Text Buffer variables. By default the subject is the newest Text Buffer entry (**#LAST1**) and the hidden word is the one before it (**#LAST2**).
+* Start it with the action **"hidden reveal - A.I. image"**. The image appears on the Doodle screen and the black screen, and goes into the Image Buffer.
 
-## Every device now has its own Settings panel
-
-The Settings page used to have one long section per device *family* — IMPRESSION DEVICES, PRINTERS — holding settings that applied to all of them at once. Both sections are gone. Instead:
-
-* **MY DEVICES** lists what you own, and each device opens **its own sliding Settings panel**.
-* Every setting in that panel belongs to **that device only**. Two boards, two printers, two pads — each keeps its own.
-* The panel has the same shape everywhere: device info, the settings, a **Details** sheet for the name / ID / battery and MANAGE DEVICE, and a red **Disconnect** at the bottom.
-
-**Impression boards**
-
-* Corner actions moved into their own **CORNER ACTIONS** block, per board. The corner area size, the connection indicator and *Disable finger drawing* are per board too.
-* The camera pens (**Ultra Sharpie, Nova, Penthal**) have **no corner settings** — they never applied to them.
-* *"Autostart on connect"* has been **removed**. Connecting a board no longer starts a peek screen on its own.
-
-**Multi-unit boards (Iarvel, Pitata)**
-
-* Connecting a second pad no longer replaces the first: **each connected pad gets its own row** in MY DEVICES, and its own panel.
-* **Every** setting is per pad now, not just the calibration. The Connect row stays visible after the first pad connects, so you can keep adding more.
-* *Fixed:* calibrating one pad could overwrite the first pad's saved calibration.
-
-**Printers**
-
-* Each printer has its own panel with its own dotted margins, extra paper feed, action after printing and CUSTOMIZE PRINTING.
-* *"Selected printer"* is gone — it isn't needed when every printer carries its own settings.
-* **Peripage printing status** only appears on Peripage printers, saved per printer.
-* **Peripage paired mode** is now **one setting for all your Peripage printers**, and on Android you can also switch it in **MY DEVICES**, right under the Glyphs / Peripage row, **before connecting** — handy for printers that connect in normal mode and drop immediately, before their panel can be opened. Changing it disconnects the printer so it reconnects in the new mode.
-
-**Everywhere**
-
-* Renaming a device now updates its name **everywhere** on the Settings page at once.
-* MY DEVICES opens itself when nothing is enabled yet, and whenever a device connects.
+*Thanks to Sam Jan for his original idea!*
 
 ---
 
-## New device: Pitata Dice
+## New: TrueWrite and TrueSketch images (Electricks Cloud)
 
-The Pitata dice are now their own device type, instead of sharing one entry with the older BLE dice. They can do things the older ones can't.
+With a linked **Electricks Cloud** account (Account details → Electricks Cloud), the last Text Buffer entry can become a picture:
 
-* **They report their colour**, so the app shows each die in its real colour — red, blue, white.
-* **They're always shown in colour order** — red, blue, white — not in whatever order they happened to connect in. In a routine set to *connected order*, that colour order is what you get.
-* **New setting — "Connected mode"** (DICE INPUT → PITATA DICE, on by default):
-    * **Off** — the dice are only listened to, exactly as before. Nothing is connected, so there's no connection to drop mid-performance (but doesn't work in the background).
-    * **ON** — the dice are connected to as well, and keep being read while the app is in the background.
-* The app tells the two families apart by their firmware, so **your older BLE dice keep working** under their own "BLE Dice" entry.
+* **"text to TrueWrite image"**: the text in realistic handwriting.
+* **"text to TrueSketch image"**: a hand-drawn sketch of the word. Ask for a *cat* and you get a drawn cat, and **never the same one twice**. It knows 3,500+ English words and 45,000+ words across 20 languages. A word with no drawing is written in handwriting instead.
+* **"TrueSketch to Peek Board"**: a new action that draws the sketch live on the Peek Board, just like *TrueWrite to Peek Board*.
 
----
+The images appear on the Doodle screen and (inverted) on the black screen, and go into the Image Buffer. A new **TRUEWRITE / TRUESKETCH** block under **Settings → More settings → INTEGRATIONS** sets them up:
 
-## Dice
+* **Image style:** *marker* (black on white) or *chalk* (white on black).
+* **Image shape** (square / landscape / portrait) and **line thickness**.
+* **Translate:** TrueSketch can take the word in your Performance language.
+* **Action after image generated.**
 
-* **Tap a connected die** to open its Settings panel, like any other device. Auto-connect is per die.
-* The **Details** sheet shows the die's name, ID, battery and a large image of its current value.
-* **Battery is now shown for BLE and Pitata dice.** Fair warning: these cells aren't rechargeable and are rated for 5-10 years, so expect that number to sit at 100% for a very long time — treat it as a rough indicator, not an exact value.
-* The connected dice are shown as images at the **bottom of MY DEVICES**, the same way as in DICE INPUT.
-* **KMD** gets the standard panel with *Enable WHITE / BLACK / RED die*; the old Configure sheet is gone, and the badge now counts **enabled dice** rather than connected units.
-* new dice features: **"Number by digit"** and **"Grand total"**, and **unrolled dice are now faded out**.
+Without a linked account, these actions now say so instead of doing nothing.
 
 ---
 
-## New: Morse code input
+## New: Prediction photo (subscribers)
 
-A new way to get text in without a screen anyone can read over your shoulder.
+Put an image into the phone's gallery as if it had been taken earlier. The settings are under **Settings → Output / Screens → PREDICTION PHOTO**:
 
-!!! tip "The MORSE INPUT screen"
-    **Tap = dot, swipe in any direction = dash.** A pause finishes a letter, and the final text goes to the **text buffer**.
-
-* **Two fingers** — tap and swipe are yours to assign in Settings (they start as *delete the last letter* and *space*), plus a **two-finger long press**.
-* **One finger held for 2 seconds exits** the screen.
-* The **top and bottom 15%** of the screen ignore touches, so nothing fires next to the status bar or the navigation bar.
-* The middle shows the **newest text buffer entry**, large and auto-fitted — and it clears as soon as you start entering something new.
-* *Display on screen* and *Enable vibrations* work as on the swipe screen.
-
-**Morse from a remote — on any screen**
-
-* A new remote mode: **"remote mode: morse code"**. With it on, Morse input works on **every** screen — a fake lockscreen, a black screen... anything.
-* **HID remotes** get a **MORSE KEYS** section in the button mapping, with five roles you assign yourself — **Dot, Dash, Space, Delete, Send**.
-* **Hardware remotes (Atom, Thumper V2, Wilson Nexus, Pitata Remote)** use a fixed layout — **1 = dot, 2 = dash, 0 = space**, **left = delete, right = send** (on the Pitata Remote: **C = delete, D = send**). Any button you *haven't* given a Morse role keeps its normal action.
-* Two new actions for **any** trigger — a volume button, a board corner, anything: **"morse code short (.)"** and **"morse code long (-)"**.
-
-**A one-button Morse key: MATT+ and ATC**
-
-In Morse mode, the **MATT+** and **ATC** remotes work as a classic single-button key (outside Morse mode they keep their usual mapping): **press 50–200 ms = dot**, **201–600 ms = dash**, **hold 1–1.5 s = delete**, **hold 2 s+ = send**, and a pause over 0.5 s ends the letter. The MATT+ no longer buzzes your own dots and dashes back at you (with a new **"Use vibrations"** setting, off by default), and the **ATC** now has its own Settings panel like every other device.
-
-!!! note "The one rule"
-    Morse works **on the MORSE INPUT screen, or anywhere at all in "morse code" remote mode — and nowhere else.** Morse actions left on a button do nothing outside those two situations. And remember: a remote switched into an **HID mode** follows the **MORSE KEYS** you assigned, not the fixed 1/2/0 keypad.
+* **Photo date:** *now*, *days ago*, or a *custom date & time*.
+* **Time source:** a *fixed time*, or the **last time from the Text Buffer** (a time the spectator named). The date still follows the Photo date setting.
+* **Overwrite last photo** (Android, on by default): a new prediction photo replaces the one saved before, so only one stays in the gallery.
+* New actions: **"save image to phone gallery"** (saves the current Image Buffer image with that date) and **"delete last saved photo"**.
+* The date and time are set with wheel pickers on Android and with the native pickers on iOS.
+* On Android the photo gets the right date in every gallery app.
 
 ---
 
-## Reminder about the remote-mode indicator
+## Images from WEB-polling and Send to API
 
-The small icon in the top-right corner that shows which remote input mode is forced on — text / numbers, cards, swipe, and now **morse code**.
+* When the answer of a **WEB-polling** source or a **Send to API** call contains an image (an image URL or base64 data in a JSON field), the image is **saved into the Image Buffer**. The same image is saved only once.
+* **WEB-polling** takes the images from the fields you set for the source.
+* **Send to API** takes images from every field by default. To pick the fields, add **`#image=fieldname`** to the URL (several fields: `#image=field1,field2`).
+* **WEB-polling URLs can use Text Buffer variables:** `#TEXT`, `#TXT1`..`#TXT9`, `#LAST1`..`#LAST9`.
+* **"poll once"** now always processes the answer, and the *action after* waits until the images are saved.
 
-It stays hidden on the disguise screens (peek screen, fake lockscreen, fake homescreen, touch-peek black screen), so nothing gives you away while morse mode is armed behind a lockscreen.
-
----
-
-## InMind Wheel — tidied up, with a new home
-
-The InMind Wheel was spread all over the app. It now lives in one place — a new **Settings → More settings → INTEGRATIONS** block (which also gathers **Dictionary API** and **LifeLike Sketcher**). Every part of it needs a valid **InMind Token** plus the **API Access** add-on.
-
-* **Your own A.I. engine** — OpenAI GPT, Google Gemini or Claude, using the model you picked for that engine in A.I. Features. The word search now runs **straight from the app** (through the A.I. proxy if you use it), instead of through our server on a fixed model.
-* **Show as much or as little as you like** — *Display chosen symbol* and *Display chosen card* (both off by default), and **Translate word** (shown as *WORD = TRANSLATION*). With everything off, only the word is revealed.
-* **Cleaner results** — every possible word becomes its own text-buffer record (no more automatic cycling); the symbol, card and translation are shown just for the best one, e.g. *"ABLAK = WINDOW, heart"*. An **Action after word received** can fire once all results are in.
-* **Tidied-up actions** — *process InMind word* (default / English / any language), *delete last InMind letter*, *InMind word reset*. Routines that used the old actions are switched over **automatically**.
-* **Virtual InMind Wheel (mindwheel.in)** — a WEB-polling source: the spectator spins the wheel on the website and the letters arrive in the app (and on your peek devices) one by one. Start it with a long press on the **blue rail** of the Doodle screen.
+**No Image Buffer add-on?** The **last image** is still kept, whether it came from WEB-polling, Send to API, an A.I. drawing, TrueWrite / TrueSketch or Topix. It can be saved to the phone gallery like any other.
 
 ---
 
-## New: "translate last text"
+## Electricks devices and add-ons
 
-A new action for **any** text: it translates the last text-buffer entry into your Performance language and adds the translation to the buffer. Pick the engine under **A.I. Features → Engine for translations** (OpenAI GPT / Google Gemini / Claude). That same engine now also powers **QuickDraw** word matching — previously OpenAI only.
-
----
-
-## New: free Gemini A.I. for subscribers
-
-MINI, BASIC and PREMIUM subscribers can now use the Gemini A.I. features **without their own API key**, through a shared key we provide:
-
-* **MINI** — 20 calls a day (one every 30 s)
-* **BASIC** — 40 calls a day (one every 15 s)
-* **PREMIUM** — 60 calls a day (one every 10 s), plus 10 image generations a day
-
-The day is the UTC day and only successful calls count; what's left today is shown under **A.I. Features**, and a free answer is marked **(FREE)**. The free calls go through the paid Gemini API, so Google doesn't use what you send to improve its products.
-
-**Your own Gemini key still comes first** — the free calls only step in when your key can't do the job (its quota is used up, or it isn't valid). If you'd rather spend the free calls first, turn on **A.I. Features → Use FREE Gemini calls first**. The free calls use fixed models (a fast Gemini Flash-Lite for text, **Nano Banana 2 Lite** for images), so for the best quality with your own key, leave it off. The full terms are on the **User Guide → FREE Gemini A.I.** page.
-
-Also new for your own key: a **Gemini drawing model** choice (Nano Banana 2 Lite / 2 / Pro) and **Gemini 3.8 Flash** in the model lists, plus **City → Gemini colour / B&W drawing** (and City+title variants). The old "(free)" model labels have been removed, to avoid mixing them up with these subscriber free calls.
+* **PeekSmith 3, Bond, SB Watch 2, MrCard and Iarvel Card:** the **External Displays** add-on is enough to use their buttons too (on the PeekSmith 3 also the gyroscope and the magnet). No Advanced Input Methods add-on is needed for them.
+* The add-on requirement started on **16 October 2026**. A connect notice tells you when a device needs an add-on you don't have.
+* **Account details** shows your **Electricks Cloud migration code** for your PeekSmith add-ons, with a copy button and a link to redeem it.
 
 ---
 
 ## Peripage printers
 
-* **Print density** (per printer) — lighter or darker than the model's default.
-* **Print mode** (per printer): **text** (sharp) or **photo** (dithered — nicer for pictures, and gentler on the printer).
-* The experimental *gentle* print speed has been removed (a printer set to it goes back to *automatic*).
-* **Known issue:** the classic **Peripage A6** can freeze mid-print with an **iPhone 17 or newer** (the manufacturer's own app too) — the device's DEVICE INFO now says so on those iPhones.
+* Support for the **PeriPage P21 HD** and the **P21+** (304 dpi).
+* A new print speed: **"official Peripage app"**. It sends the job the same way the printer's own app does. It's the default for the P21 family, and it's offered only on the models where it works.
+* While one printer is connecting, the app no longer jumps to another paired printer, and a dropped printer reconnects only to itself.
+* *Fixed:* a Peripage bug on iOS.
 
 ---
 
-## Device info
+## Volume buttons and Voice Recognition
 
-* **Every Iarvel device** (impression board, Peek Board, Card, Keychain, Key PRO, MrCard) now shows its **device model number** and the **detected device model** in DEVICE INFO.
-* On iOS, the long **Device ID (BLE)** wraps onto two lines instead of running off the screen.
-
----
-
-## WEB-POLLING: nested JSON fields
-
-Custom WEB-polling sources can now read nested JSON fields by path — `results.word`, `results.0.word` (a number picks an item in an array) — and several at once, e.g. `peek, topResult, results.word, results.line`.
+* **Test volume buttons:** a START / STOP test in the volume button settings. It shows each detected press as a short message, without running any action.
+* Starting **Voice Recognition** switches the volume button control off, and switches it back on when it stops.
+* The volume buttons are released when you **EXIT** the app.
+* *Fixed:* some Voice Recognition bugs. A voice command now runs once per sentence, and the predefined text recall works again.
 
 ---
 
-## Shared button mappings
+## Battery and background
 
-A remote's button mapping used to belong to a single routine. Now it can be shared:
-
-* **"Use mapping for every routine"** — a switch in the mapping editor. A shared mapping shows up in **every** routine's mapping list (marked with a globe), and saving, loading or creating a routine leaves it alone. Which mapping is *active* is still chosen per routine.
-* **Switching it off** keeps the mapping in the loaded routine only — the app asks first (**Save now**, **Later**, or **Cancel**). Deleting a shared mapping asks too, since it disappears from every routine.
-* **"Save as new mapping"** — copies the open mapping (buttons, swipes, Morse keys and their actions) under a new name for the current routine, handy for a routine's own variant of a shared one.
-* Good to know: a routine saved *before* a mapping was shared still holds its own old copy — save the routine again after sharing.
-
----
-
-## More of your settings follow you between phones
-
-Some settings belong to **you**, not to a routine — and until now they lived only on the phone, so a reinstall lost them and your other phones never saw them. They're now saved to your **account** too: your **shared button mappings**, and a few app preferences (*confirm before loading a routine*, *show the routine name*, *show minor updates*, *background music* and the *A.I. proxy* switch).
-
-They upload a few seconds after you change them and download whenever the app syncs your account (e.g. at start), so a new or reinstalled phone gets them after signing in. The phone / tablet display mode stays per phone.
-
----
-
-## HTTP Socket
-
-* The socket's address is now always your **Wi-Fi (or hotspot) address** — the one other devices can actually reach. Without Wi-Fi, the Details dialog says so and offers a **Check again** button instead of showing an address nobody can use.
-* **Details** shows two links: a **localhost** link for apps on this phone, and the **Wi-Fi** link for other devices on the same network.
-
----
-
-## Steadier internet-connection indicator
-
-* No more flip-flopping between online and offline: the checks no longer overlap, and the *no internet* icon only appears after **two** failed checks in a row.
-* *Fixed:* the app could get stuck at start while checking the internet connection.
+* **Keep app alive in background:** a new switch in **OTHER SETTINGS**, on by default. Turn it off if you don't need MysterSmith working in the background, to save battery.
+* No Bluetooth scanning while the app is in the background.
+* **Apple Watch:** a new **"Close watch app"** in the APPLE WATCH settings, which works when the watch is in standby too.
 
 ---
 
 ## Smaller things
 
-* **CUSTOMIZE DISPLAY: font sizes can go down to 1.** The minimum and maximum font size couldn't be set below 5 before. To step in ones rather than fives, tap the **1** button under the stepper.
-* **MY ROUTINES: SAVE / SAVE AS NEW / LOAD.** The new **SAVE** writes straight to the routine you have loaded (after asking); **SAVE AS NEW** is the old save sheet. The newest routine is now on top everywhere, and *Manage routines* shows when each was last saved.
-* **Create new routine (using default settings)** sits at the top of the new-routine list — name it and it's saved as a fresh routine once the defaults load. Starting from the default settings is noticeably faster too.
-* **A.I. errors** are gentler: a failed request is retried once after 5 seconds, and any error shows as a short message at the bottom instead of a box you have to tap away.
-* **Choosing an A.I. engine without its API key** now shows a *Missing API key* message — previously the text-recognition engine silently switched back to Google, so it looked as if the chosen engine was in use.
-* added **button actions for the Lumen Duo**.
-* *Fixed:* *Disconnect all* left the dice connected and the Bluetooth counter didn't count BLE / Pitata dice; the MORSE INPUT text could hide under the notch / Dynamic Island.
-* *Fixed:* the **Printing speed** list on the Cosmos / L2 printers couldn't be scrolled, and the *Sync saved device* sheet in MY DEVICES could be cut off.
-* *Fixed:* **Update now** from the release notes showed "of undefined MB" with a stuck progress bar — the update size is shown again.
+* **Choice lists** open scrolled to the selected item, and the **font lists** use bigger letters.
+* **Doodle:** finger drawing is smooth again, even on slower iPhones.
+* **Camera pens (Penthal, Ultra Sharpie):** a stray dot far from the writing (a camera misread) is left out, so it no longer throws off the drawing.
+* New versions with important bug fixes are always shown, even if you hide minor updates.
 
 ---
 
 ## Fixes & housekeeping
 
-* fixed a firmware-checking bug with the **Iarvel PeekBoard** and **Spirit Echo**.
-* plus the per-device Settings fixes listed above, and many smaller fixes across the app.
-
----
-
-!!! warning "Add-on requirements from 1 October 2026"
-    To keep things sustainable, two add-ons become required for certain devices from **1 October 2026**:
-
-    * **External Displays** — for all PeekSmith models, Bond, MrCard, Teleport, Quantum, SB Watch 2
-    * **Advanced Input Methods** — for Atom 2, all PeekSmith models, Bond, MrCard, Quantum, SB Watch 2, Ray, GhostMove
-
-    Everything else that's currently free stays free.
+* plus many smaller fixes across the app.
 
 ---
 
