@@ -6,7 +6,7 @@ date: 2026-09-28 12:00:00
 # What's new in MysterSmith v2.3.11
 
 !!! info "Looking for the latest?"
-    This is the archived **v2.3.11** release page. For the newest features, see [**What's new in v2.3.41**](whats-new.md).
+    This is the archived **v2.3.11** release page. For the newest features, see [**What's new in v2.3.51**](whats-new.md).
 
 Since **v2.2.71**, the whole device Settings experience has been rebuilt around a single idea: **every device gets its own panel**, with its own settings. On top of that there's a brand-new **Morse code** input method, the **Pitata Dice** as their own device, a tidied-up **InMind Wheel**, **free Gemini A.I. for subscribers**, **shared button mappings**, and a lot of polish. Here are the highlights. :-)
 

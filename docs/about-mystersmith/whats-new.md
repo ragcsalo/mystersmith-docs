@@ -1,11 +1,35 @@
 ---
 title: "What's new"
-date: 2026-10-18 12:00:00
+date: 2026-10-19 12:00:00
 ---
 
-# What's new in MysterSmith v2.3.41
+# What's new in MysterSmith v2.3.51
 
-Since **v2.3.11**, MysterSmith has learned to make pictures: **hidden-word A.I. images**, hand-drawn **TrueWrite / TrueSketch** images from the Electricks Cloud, **prediction photos** with any date you like, and images arriving straight from your **WEB-polling** and **Send to API** sources. On top of that: better Peripage support, battery savings, and a lot of fixes. Here are the highlights. :-)
+Since **v2.3.11**, MysterSmith has learned to make pictures: **your own A.I. image prompts**, **hidden-word A.I. images**, hand-drawn **TrueWrite / TrueSketch** images from the Electricks Cloud, **prediction photos** with any date you like, and images arriving straight from your **WEB-polling** and **Send to API** sources. It can also receive **push notifications** now. On top of that: better Peripage support, battery savings, and a lot of fixes. Here are the highlights. :-)
+
+---
+
+## New: A.I. image prompts (part of the Transformer add-on)
+
+Your own image prompts, next to the text prompts you already know:
+
+* The old **A.I. PROMPTS** section is now two: **A.I. TEXT PROMPTS** and **A.I. IMAGE PROMPTS**.
+* **Image prompts:** a list of your own prompts that describe the image to create, e.g. *"a simple black and white sketch of #TEXT"*. They use the same Text Buffer variables as the text prompts (**#TEXT**, **#TXT1**..**#TXT9**, **#LAST1**..**#LAST9**).
+* **A.I. image engine:** OpenAI GPT or Google Gemini (the engine's own drawing settings are used: size, model).
+* Run one with the new action **"execute A.I. image prompt"** (pick the prompt by its number), or from the HTTP Socket / a URL with `aiimageprompt={N}`. The image appears on the Doodle screen and the black screen, and goes into the Image Buffer.
+* **Action after image generated:** its own trigger for the image prompts.
+
+The text prompts' action is now called **"execute A.I. text prompt"**, and its trigger **"Action after response received"**.
+
+---
+
+## New: Push notifications
+
+MysterSmith can now receive notifications from us: about **important app updates** and **subscription renewals**.
+
+* They arrive like any other app notification, also when MysterSmith is closed. Tapping one opens the app.
+* While the app is open, the message is shown as a short note at the top of the screen for a few seconds, and **never** on the peek screen, the fake lock / home screens or the touch-peek black screen, so it can't give you away during a performance.
+* On Android the notifications have their own channel, **"MysterSmith messages"**, so you can switch them off in the phone's settings without touching the app's other notifications.
 
 ---
 
