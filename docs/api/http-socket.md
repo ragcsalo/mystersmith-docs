@@ -63,7 +63,8 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 | `template={N}` | Generate template number **N**. |
 | `predefined={N}` | Send predefined text number **N**. |
 | `recording={N}` | Play voice recording number **N**. |
-| `aiprompt={N}` | Run A.I. prompt number **N**. |
+| `aiprompt={N}` | Run A.I. text prompt number **N**. |
+| `aiimageprompt={N}` | Run A.I. image prompt number **N** (the image goes to the Doodle / black screen and the Image Buffer). |
 | `wait={N}` | Wait N seconds before the next parameter. |
 
 ---
