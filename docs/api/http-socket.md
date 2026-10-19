@@ -75,9 +75,17 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 
 **URL:** `http://localhost:62369/text/getlast`
 
-**JSON response:** `{"text":"Hello World"}`
+**JSON response:**
+
+```json
+{"text":"123","time":1792411234567,"time_iso":"2026-10-19T12:40:34.567Z","index":4,"count":5}
+```
 
 Returns the newest entry in the TextBuffer (or `"???"` if the buffer is empty).
+
+* `time` - when the text came into the TextBuffer, in milliseconds since 1970 (`time_iso`: the same in UTC). Use it to tell two equal texts apart, e.g. a spectator entering *123* twice. It is `null` for a text the app got from the server at start (its time isn't known).
+* `index` - its position in the TextBuffer (0 = the oldest), `count` - how many texts are in it.
+* `time`, `time_iso`, `index` and `count` are new in **v2.3.51** - older versions return only `text`.
 
 !!! note "Requires the API Access add-on"
     This endpoint only responds if the [API Access](../purchase-add-ons/api-access.md) add-on is active on the account.
