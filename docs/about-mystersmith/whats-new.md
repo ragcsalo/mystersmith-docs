@@ -33,11 +33,11 @@ MysterSmith can now receive notifications from us: about **important app updates
 
 ---
 
-## New: Hidden image reveal
+## New: Hidden image reveal (for subscribers)
 
 An A.I. image of one word, built entirely from **another, hidden word** — say, a giraffe made of *ELEPHANT ELEPHANT ELEPHANT...* From a distance everybody sees the picture; up close, every stroke is the hidden word.
 
-* Find it under **Settings → A.I. Features → Hidden image reveal**, for every subscriber.
+* **For MysterSmith subscribers** (MINI, BASIC or PREMIUM). Find it under **Settings → A.I. Features → Hidden image reveal**.
 * **A.I. image engine:** OpenAI or Gemini. Each uses its own drawing settings (size, model, action after drawing).
 * **Image subject** and **Source text** can be any text, with Text Buffer variables. By default the subject is the newest Text Buffer entry (**#LAST1**) and the hidden word is the one before it (**#LAST2**).
 * Start it with the action **"hidden reveal - A.I. image"**. The image appears on the Doodle screen and the black screen, and goes into the Image Buffer.
