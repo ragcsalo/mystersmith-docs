@@ -65,6 +65,7 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 | `recording={N}` | Play voice recording number **N**. |
 | `aiprompt={N}` | Run A.I. text prompt number **N**. |
 | `aiimageprompt={N}` | Run A.I. image prompt number **N** (the image goes to the Doodle / black screen and the Image Buffer). |
+| `imagetemplate={N}` | Print image template number **N** on the connected printer (subscribers). |
 | `wait={N}` | Wait N seconds before the next parameter. |
 
 ---
