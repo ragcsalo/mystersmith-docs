@@ -31,7 +31,7 @@ You can also open it during a performance with the action **show/hide text buffe
 
 ## Variables: using the buffer anywhere
 
-Wherever you can type a text in MysterSmith — **templates, A.I. prompts, image templates, Send to API URLs, WEB-polling URLs** — you can insert texts from the buffer with these variables:
+Wherever you can type a text in MysterSmith — **templates, A.I. prompts, [image templates](image-templates.md), Send to API URLs, WEB-polling URLs** — you can insert texts from the buffer with these variables:
 
 | Variable | Meaning |
 |---|---|

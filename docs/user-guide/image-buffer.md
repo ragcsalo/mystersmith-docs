@@ -72,7 +72,7 @@ You can always save the Doodle drawing yourself with the action **save doodle dr
 * **save doodle drawing to Image Buffer**
 * **clear Image Buffer**, **delete last image from buffer**
 * **copy image to Doodle canvas**
-* **generate image from template** (see [Image templates](../about-mystersmith/whats-new.md#new-image-templates-for-subscribers-only-in-october))
+* **generate image from template** (see [Image templates](image-templates.md))
 
 **Send the current image to a device** (the one you are looking at, otherwise the newest — fitted to the device's screen):
 
@@ -95,4 +95,4 @@ An image template can place Image Buffer images anywhere on its canvas:
 | `#IMG1` .. `#IMG9` | counted from the **oldest** |
 | `#LAST1` .. `#LAST9` | counted from the **newest** |
 
-An image that is not there (yet) is simply left out. More: [Image templates](../about-mystersmith/whats-new.md#new-image-templates-for-subscribers-only-in-october).
+An image that is not there (yet) is simply left out. More: [Image templates](image-templates.md).

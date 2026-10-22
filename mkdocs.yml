@@ -65,6 +65,7 @@ nav:
   - Triggers and actions: user-guide/triggers-and-actions.md
   - The Text Buffer: user-guide/text-buffer.md
   - The Image Buffer: user-guide/image-buffer.md
+  - Image templates: user-guide/image-templates.md
   - The WearOS watch app: user-guide/wearos.md
   - Supported devices: user-guide/supported-devices.md
   - Text recognition: user-guide/text-recognition.md

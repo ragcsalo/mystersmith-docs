@@ -59,7 +59,7 @@ The Settings page is long — these help:
 | **A.I. FEATURES** | your A.I. engines and API keys |
 | **Input methods** | text recognition, volume buttons, WEB-polling, dice, remote controls, voice recognition, fake passcode, calculator, swipe, Morse, NFC... |
 | **Transform / process** | templates, A.I. text and image prompts, date calculator, acronym word list |
-| **Output / screens** | Send to API, prediction photo, image templates, watches, Doodle screen, black screen, fake homescreen, external displays, audio... |
+| **Output / screens** | Send to API, prediction photo, [image templates](image-templates.md), watches, Doodle screen, black screen, fake homescreen, external displays, audio... |
 | **Device settings** | Peek Board, Reinkstone |
 | **More settings** | integrations, font manager, other settings, debug console |
 

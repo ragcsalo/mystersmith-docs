@@ -11,7 +11,7 @@ Since **v2.3.51**, MysterSmith has a brand-new tool: the **Image Template Editor
 
 ## New: Image templates (for subscribers only in October)
 
-Find it under **Settings → Output / Screens → IMAGE TEMPLATES → Manage templates**. A template is made of:
+Find it under **Settings → Output / Screens → IMAGE TEMPLATES → Manage templates**. The full guide: [Image templates](../user-guide/image-templates.md). A template is made of:
 
 * a **background image**: from your gallery, your last photo or the last Image Buffer image (cover / contain, white or black background),
 * any number of **images**: a picture from your phone, an image **URL** (downloaded fresh each time the template is used) or an **Image Buffer** image: **#IMAGE** (the last one), **#IMG1**..**#IMG9** (from the oldest), **#LAST1**..**#LAST9** (from the newest),

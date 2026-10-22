@@ -90,7 +90,7 @@ Tap **Save and close** when you are done.
 1. In **MANAGE ROUTINES**, swipe left on the routine and share it. It becomes **SHARED**, and its **#ID** is what you give to the other magician.
 2. They tap **LOAD**, type the #ID into the yellow **Shared routine** field and load it.
 
-The routine is loaded with all its settings — their personal settings and API keys stay their own. The **image templates** of the routine come with it as their own copies, with the same numbers, so the routine's actions work right away. When they tap **SAVE**, a loaded shared routine is saved as a **new routine** of their own; your original never changes.
+The routine is loaded with all its settings — their personal settings and API keys stay their own. The [image templates](image-templates.md) of the routine come with it as their own copies, with the same numbers, so the routine's actions work right away. When they tap **SAVE**, a loaded shared routine is saved as a **new routine** of their own; your original never changes.
 
 ---
 
