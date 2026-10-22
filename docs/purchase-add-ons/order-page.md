@@ -16,7 +16,7 @@ You can pay using **PayPal** (PayPal account or credit card needed) or **Stripe*
 
 ## Activating your code
 
-If you have purchased an add-on separately (or received the code as a gift), you can activate the code by entering it in MysterSmith, in the  **ACCOUNT STTINGS**  section. Just look for the line " **Do you have a code?** ", and " **Tap to enter** ", and the code activation screen will pop up. 
+If you have purchased an add-on separately (or received the code as a gift), you can activate the code by entering it in MysterSmith, in the  **ACCOUNT SETTINGS**  section. Just look for the line " **Do you have a code?** ", and " **Tap to enter** ", and the code activation screen will pop up. 
  
 After the code is activated, you can check all your activated add-ons on your account details page. Just tap " **Show details** " under ACCOUNT SETTINGS, and scroll down to the  **PURCHASED ADD-ONS**  section. If you have an active MysterSmith subscription, you will have access to all the available add-ons. 
  

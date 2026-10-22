@@ -60,6 +60,11 @@ nav:
   - Upcoming features and routines: about-mystersmith/upcoming-features.md
   - Quotes from users: about-mystersmith/quotes-from-users.md
 - User Guide:
+  - Getting started: user-guide/getting-started.md
+  - Routines: user-guide/routines.md
+  - Triggers and actions: user-guide/triggers-and-actions.md
+  - The Text Buffer: user-guide/text-buffer.md
+  - The Image Buffer: user-guide/image-buffer.md
   - The WearOS watch app: user-guide/wearos.md
   - Supported devices: user-guide/supported-devices.md
   - Text recognition: user-guide/text-recognition.md
