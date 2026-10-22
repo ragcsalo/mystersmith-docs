@@ -65,7 +65,7 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 | `recording={N}` | Play voice recording number **N**. |
 | `aiprompt={N}` | Run A.I. text prompt number **N**. |
 | `aiimageprompt={N}` | Run A.I. image prompt number **N** (the image goes to the Doodle / black screen and the Image Buffer). |
-| `imagetemplate={N}` | Print image template **#N** on the connected printer (subscribers). **N** is the template's ID, shown next to its name in the template list. |
+| `imagetemplate={N}` | Print image template **#N** on the connected printer (subscribers). **N** is the template's number in the loaded routine, shown next to its name in the template list. |
 | `imagetemplatedoodle={N}` | Show image template **#N** on the Doodle screen. |
 | `imagetemplateprism={N}` | Send image template **#N** to the Lumen Prism. |
 | `imagetemplateteleport={N}` | Send image template **#N** to the Teleport. |

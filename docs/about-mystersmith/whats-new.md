@@ -43,8 +43,10 @@ You choose a **format** for each template (a ratio like 3:4, the printer's varia
 ### Saved with your routines and your account
 
 * Your templates are stored with your **MysterSmith account**, and each **routine** remembers which templates it uses. Load your routine on another phone and the templates come with it, pictures included.
-* **#ID:** every template has its own number, shown in the list. Use it in the actions, and to add the same template to another routine (**Add template**).
-* **Share template:** gives you a short code. Anybody who loads it gets **their own copy**. If you change your template later, they can update their copy from yours with one tap.
+* **#1, #2, #3...:** every template has its own number **in the routine**, shown next to its name. Use it in the actions and URLs. The numbers never change: a removed template's number is not given to another one.
+* **Add one of my templates:** puts any of your templates into the current routine (the same template — a change shows in every routine that uses it).
+* **Share template:** gives you a short code. Anybody who adds it (**Add a shared template**) gets **their own copy** — only one, even if they add it again or load a routine that uses it. If you change your template later, they can update their copy from yours with one tap.
+* **Share the routine too:** when somebody loads your shared routine, its templates come with it as their own copies, and they keep **the same numbers**, so the routine's actions work right away.
 * Deleting a template asks: **remove it from this routine only**, or **delete it permanently**.
 
 ### Using a template
@@ -52,7 +54,7 @@ You choose a **format** for each template (a ratio like 3:4, the printer's varia
 * **"image template to ..."**: shows the template directly on the **Doodle screen, printer, Prism, Teleport, Inversion Board, Inv.Board Ultra, Peek Board, RealBoard, E-ink tag** or **VHS tape**.
 * **"generate image from template"**: puts the finished picture into the Image Buffer, with its own **Action after image generated** (in the IMAGE TEMPLATES settings).
 * Every image made from a template is saved to the Image Buffer too.
-* From the HTTP Socket or a URL: `imagetemplate={ID}` (printer), `imagetemplatedoodle={ID}`, `imagetemplateprism={ID}`, ... and `imagetemplategenerate={ID}` — see the [HTTP Socket](../api/http-socket.md) page for the full list.
+* From the HTTP Socket or a URL: `imagetemplate={N}` (printer), `imagetemplatedoodle={N}`, `imagetemplateprism={N}`, ... and `imagetemplategenerate={N}` — **N** is the template's number in the loaded routine. See the [HTTP Socket](../api/http-socket.md) page for the full list.
 
 ---
 
@@ -76,6 +78,7 @@ You choose a **format** for each template (a ratio like 3:4, the printer's varia
 
 ## More new things
 
+* **Condition for any action:** in the action picker, the new **Condition** chip shows two settings: **Only if Text Buffer has** and **Image Buffer has** *exactly* N items. The action runs only then, otherwise nothing happens. It works with every trigger (volume buttons, remotes, "Action after ...", action lists...), and the Settings page shows it next to the action, e.g. *text to printer (3)*.
 * **New actions:** *vibrate short*, *vibrate long* and *vibrate double*.
 * **ACRONYM WORD LIST:** the *Input letter position (1-6)* switch became a **Letter position** list: *flexible (by input)* or *fixed (1)* .. *fixed (6)*. With a fixed position, the readable letters are in that position of each word.
 * **Voice Recorder:** load audio files from your phone or from a URL, save the last A.I. voice, and a new **stop audio playback** action.
