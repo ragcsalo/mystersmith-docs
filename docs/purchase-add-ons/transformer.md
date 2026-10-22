@@ -9,11 +9,11 @@ The Transformer add-on is a premium feature for the MysterSmith app. The pric
 
 With this add-on you can **transform** the texts you receive (a recognized handwriting, a WEB-polling result, a swipe or passcode input, an NFC tag...) into something else, and send the result to your devices or other apps. The add-on contains these features (in **Settings → Transform / process**):
 
-* **TEMPLATES** — insert texts from the [Text Buffer](../user-guide/text-buffer.md) into your own sentences (action: *text from template*)
-* **A.I. TEXT PROMPTS** — send texts from the Text Buffer to an A.I. engine: OpenAI GPT, Google Gemini or Claude (action: *execute A.I. text prompt*)
-* **A.I. IMAGE PROMPTS** — let the A.I. draw a picture from your prompt: OpenAI GPT or Google Gemini (action: *execute A.I. image prompt*). The image goes to the black screen, the Doodle screen and the [Image Buffer](../user-guide/image-buffer.md).
+* **[TEMPLATES](../user-guide/templates-and-prompts.md#templates)** — insert texts from the [Text Buffer](../user-guide/text-buffer.md) into your own sentences (action: *text from template*)
+* **[A.I. TEXT PROMPTS](../user-guide/templates-and-prompts.md#ai-text-prompts)** — send texts from the Text Buffer to an A.I. engine: OpenAI GPT, Google Gemini or Claude (action: *execute A.I. text prompt*)
+* **[A.I. IMAGE PROMPTS](../user-guide/templates-and-prompts.md#ai-image-prompts)** — let the A.I. draw a picture from your prompt: OpenAI GPT or Google Gemini (action: *execute A.I. image prompt*). The image goes to the black screen, the Doodle screen and the [Image Buffer](../user-guide/image-buffer.md).
 * **DATE CALCULATOR** — *??? days ago*, *??? days until* or *days between* two dates from the Text Buffer (action: *calculate date difference*)
-* **ACRONYM WORD LIST** — makes a list of words whose letters spell the received text: built-in English engine, OpenAI GPT, Google Gemini or Claude, with a flexible or fixed letter position (action: *generate Acronym word list*)
+* **[ACRONYM WORD LIST](../user-guide/acronym.md)** — makes a list of words whose letters spell the received text: built-in English engine, OpenAI GPT, Google Gemini or Claude, with a flexible or fixed letter position (action: *generate Acronym word list*)
 
 Each of them has its own **"Action after ..."** trigger, so you can display, print or process the result automatically — see [Triggers and actions](../user-guide/triggers-and-actions.md).
 

@@ -66,6 +66,8 @@ nav:
   - The Text Buffer: user-guide/text-buffer.md
   - The Image Buffer: user-guide/image-buffer.md
   - Image templates: user-guide/image-templates.md
+  - Templates and A.I. prompts: user-guide/templates-and-prompts.md
+  - Acronym word list: user-guide/acronym.md
   - The WearOS watch app: user-guide/wearos.md
   - Supported devices: user-guide/supported-devices.md
   - Text recognition: user-guide/text-recognition.md
