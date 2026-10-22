@@ -1,7 +1,7 @@
 
 # Supported devices
 
-MysterSmith works with these devices. Switch on the ones you own in **Settings → MY DEVICES → Enable/disable BT devices → Manage**, then connect them in MY DEVICES. See [Getting started](getting-started.md#3-connect-your-devices) for the first steps.
+MysterSmith works with these devices. Switch on the ones you own in **Settings → MY DEVICES → Enable/disable BT devices → Manage**, then connect them in MY DEVICES. See [Getting started](getting-started.md#4-connect-your-devices) for the first steps.
 
 Some devices need an add-on (see [the add-ons below](#add-ons-needed)), and a few work only on Android or only on iOS (marked).
 

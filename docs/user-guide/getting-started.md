@@ -19,7 +19,7 @@ Open the app and sign in with **Apple** or **Google**. Your account keeps your r
 
 After signing in, the home screen shows:
 
-* **START ROUTINE** — starts the performance (see step 5), with the name of the active routine under it,
+* **START ROUTINE** — starts the performance (see step 6), with the name of the active routine under it,
 * **Create/Load routine**,
 * **EXIT APP**,
 * at the top: your **Account ID** and the **Network** state; at the bottom: **Home**, **START**, **User Guide** and **Settings**.
@@ -29,7 +29,20 @@ After signing in, the home screen shows:
 
 ---
 
-## 2. Find your way in Settings
+## 2. Set your username and PIN
+
+Besides the Apple / Google sign-in, MysterSmith needs a **BS Magic username and PIN**. They are needed for **text recognition**, **subscribing**, the **free Gemini A.I. calls**, and the web features where you log in from a browser (e.g. the **WEB screen**). Until they are set, a red reminder shows under CREDENTIALS in your account details.
+
+1. Open **Settings → ACCOUNT SETTINGS → Show details**.
+2. In the **CREDENTIALS** part, tap **Username** and enter any username that is not taken yet: lowercase letters and numbers, no spaces. If you already have a BS Magic username (from another BS Magic app), use that one, with its PIN.
+3. Tap **PIN code** and enter a 4–6 digit number.
+
+!!! tip "Guided tour"
+    The app can show you the way: open the **User Guide** tab (bottom bar) → **Guided tours** → **Account setup: username & PIN**. The tour highlights each step on your screen.
+
+---
+
+## 3. Find your way in Settings
 
 The Settings page is long — these help:
 
@@ -54,7 +67,7 @@ Tap a section's title to open it.
 
 ---
 
-## 3. Connect your devices
+## 4. Connect your devices
 
 Open **MY DEVICES**:
 
@@ -66,13 +79,13 @@ The full list: [Supported devices](supported-devices.md).
 
 ---
 
-## 4. Hide what you don't need
+## 5. Hide what you don't need
 
 MysterSmith has a lot of features. Show only yours: **MY ROUTINES → Enable/disable features → Manage**. Switch off what you don't use (**Disable all**, then switch on the few you need), and **long press** to mark favorites. Hidden features disappear from the Settings page; switch them on again any time.
 
 ---
 
-## 5. Make your first routine
+## 6. Make your first routine
 
 1. Set up one effect: e.g. **text recognition** on the Doodle screen, and **MY ACTIONS → Volume UP → show last text**.
 2. **MY ROUTINES → SAVE AS NEW**, give it a name (e.g. *Drawing duplication*).
@@ -85,7 +98,7 @@ MysterSmith has a lot of features. Show only yours: **MY ROUTINES → Enable/dis
 
 ---
 
-## 6. Learn more
+## 7. Learn more
 
 * The **User Guide** tab in the app: online tutorials and **guided tours** (e.g. *Account setup: username & PIN*), free Gemini A.I., version info.
 * [Triggers and actions](triggers-and-actions.md) — make anything happen on a button press, a gesture or after an event.

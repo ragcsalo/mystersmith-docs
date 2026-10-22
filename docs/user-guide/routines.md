@@ -26,7 +26,7 @@ Find it near the top of the **Settings** page (or tap the **Routines** chip).
 Below the buttons:
 
 * **Manage routines → Open list:** rename, delete and share your routines (see below).
-* **Enable/disable features → Manage:** hide the features you don't use (see [Getting started](getting-started.md#4-hide-what-you-dont-need)).
+* **Enable/disable features → Manage:** hide the features you don't use (see [Getting started](getting-started.md#5-hide-what-you-dont-need)).
 * **Performance language**
 * **Confirm loading routine:** asks before a routine is loaded.
 * **Display active routine name:** shows the name of the loaded routine on the home screen, under START ROUTINE.
