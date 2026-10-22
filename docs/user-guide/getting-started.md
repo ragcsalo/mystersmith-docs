@@ -34,7 +34,7 @@ After signing in, the home screen shows:
 Besides the Apple / Google sign-in, MysterSmith needs a **BS Magic username and PIN**. They are needed for **text recognition**, **subscribing**, the **free Gemini A.I. calls**, and the web features where you log in from a browser (e.g. the **WEB screen**). Until they are set, a red reminder shows under CREDENTIALS in your account details.
 
 1. Open **Settings → ACCOUNT SETTINGS → Show details**.
-2. In the **CREDENTIALS** part, tap **Username** and enter any username that is not taken yet: lowercase letters and numbers, no spaces. If you already have a BS Magic username (from another BS Magic app), use that one, with its PIN.
+2. In the **CREDENTIALS** part, tap **Username** and enter any username that is not taken yet: **3–10 characters**, lowercase letters and numbers only, no spaces. If you already have a BS Magic username (from another BS Magic app), use that one, with its PIN.
 3. Tap **PIN code** and enter a 4–6 digit number.
 
 !!! tip "Guided tour"

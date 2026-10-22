@@ -94,11 +94,17 @@ The routine is loaded with all its settings — their personal settings and API 
 
 ---
 
-## Routine settings worth knowing
+## Settings worth knowing
 
 * **Clear buffer on ROUTINE START** — in the [Text Buffer](text-buffer.md) and [Image Buffer](image-buffer.md) settings.
-* **Clear screen on ROUTINE START** — in the Doodle screen and Black screen settings.
 * **MY ACTIONS → Action after app/routine loaded** — runs an action (after a delay you choose) whenever the app starts or a routine is loaded. See [Triggers and actions](triggers-and-actions.md).
+
+**In More settings → OTHER SETTINGS:**
+
+* **Screen OFF when covered** — leave MysterSmith open and put the phone in your pocket: the screen turns off, so nothing is touched by accident, but the app keeps running in the foreground.
+* **Background mode notification** — switch it on, and you will always see a notification while MysterSmith is running in the background. That way it never runs there unnoticed.
+* **Use proxy for A.I. requests** — if you live in a country where OpenAI, Gemini or Claude is not available, the A.I. requests go through our server. (The same in every routine.)
+* **Keep app alive in background** — only if you really have to run MysterSmith in the background (e.g. while you use another app): it helps to keep the phone from stopping it.
 
 ---
 
