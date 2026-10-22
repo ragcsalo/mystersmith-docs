@@ -25,7 +25,7 @@ You find it in **Settings → Transform / process → ACRONYM WORD LIST**. It ne
 
 1. The spectator's word arrives in the [Text Buffer](text-buffer.md) — from text recognition, WEB-polling, voice recognition, a swipe input, an NFC tag... any input method.
 2. The action **generate Acronym word list** (*Special* group) takes the **last text** of the Text Buffer, and makes one word for each of its letters. Anything that is not a letter (spaces, numbers, punctuation) is left out.
-3. The list goes into the Text Buffer (as *acronym word list*), so it is the new `#TEXT`: send it to a device with *show last text*, print it with *text to printer*, or use it in a [template or prompt](templates-and-prompts.md).
+3. The list goes into the Text Buffer (as *acronym word list*), so it is the new `#TEXT`: send it to a device with *show last text*, print it with *handwriting to printer*, or use it in a [template or prompt](templates-and-prompts.md).
 
 Put the action on **Action after text recognition** (or any other trigger), and the list is ready a moment after the spectator wrote the word. See [Triggers and actions](triggers-and-actions.md).
 
@@ -49,7 +49,7 @@ Put the action on **Action after text recognition** (or any other trigger), and 
 
 **Show response (pop-up):** shows the list on your screen when it is ready (or a message, if it could not be made).
 
-**Action after acronym generated** + **Trigger action:** what happens next — e.g. *text to printer* — with a delay you choose.
+**Action after acronym generated** + **Trigger action:** what happens next — e.g. *handwriting to printer* — with a delay you choose.
 
 **Clear text buffer after 10sec:** empties the Text Buffer 10 seconds after that action (so it works together with an *Action after acronym generated*), so the next spectator starts from zero.
 

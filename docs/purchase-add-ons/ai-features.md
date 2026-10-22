@@ -14,6 +14,10 @@ With the A.I. Features add-on activated, you'll be able to use **A.I. based fe
 
  
 
+**How to use it:** see the User Guide: [A.I. drawings](../user-guide/ai-drawings.md), [A.I. recognition](../user-guide/ai-recognition.md), [Templates and A.I. prompts](../user-guide/templates-and-prompts.md).
+
+---
+
 ### Purchasing the A.I. Features add-on separately
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the A.I. Features add-on separately for  **40 EUR**  by clicking here:

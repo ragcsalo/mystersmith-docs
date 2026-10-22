@@ -20,6 +20,10 @@ With the API Access add-on activated, you'll be able to **send data from the M
 
  
 
+**How to use it:** see the User Guide: [WEB-polling and Send to API](../user-guide/web-polling-and-send-to-api.md).
+
+---
+
 ### Purchasing the API Access add-on separately
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the API Access add-on separately for  **50 EUR**  by clicking here:

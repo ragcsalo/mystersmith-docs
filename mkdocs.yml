@@ -68,6 +68,13 @@ nav:
   - Image templates: user-guide/image-templates.md
   - Templates and A.I. prompts: user-guide/templates-and-prompts.md
   - Acronym word list: user-guide/acronym.md
+  - A.I. drawings: user-guide/ai-drawings.md
+  - The Doodle screen: user-guide/doodle-screen.md
+  - Disguise screens: user-guide/disguise-screens.md
+  - Remotes, volume buttons and phone motion: user-guide/remotes-and-volume-buttons.md
+  - WEB-polling and Send to API: user-guide/web-polling-and-send-to-api.md
+  - Display devices: user-guide/display-devices.md
+  - Printers: user-guide/printers.md
   - The WearOS watch app: user-guide/wearos.md
   - Supported devices: user-guide/supported-devices.md
   - Text recognition: user-guide/text-recognition.md

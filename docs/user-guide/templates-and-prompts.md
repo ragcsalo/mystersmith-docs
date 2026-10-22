@@ -62,7 +62,7 @@ A spectator picks any card and places it under the card box... another spectator
 
 * The action **text from template** (*Special* group) asks for the **Template #ID**.
 * The result goes into the Text Buffer (as a *template result*), so it is also the new `#TEXT` — send it to a device with *show last text*, print it, or use it in a prompt.
-* **Action after template generated** + **Trigger action:** what happens next (e.g. *text to printer*), with a delay you choose. The phone vibrates (long) when it runs.
+* **Action after template generated** + **Trigger action:** what happens next (e.g. *handwriting to printer*), with a delay you choose. The phone vibrates (long) when it runs.
 
 ---
 

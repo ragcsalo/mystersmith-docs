@@ -56,6 +56,10 @@ The full list of devices: [Supported devices](../user-guide/supported-devices.md
 
 
 
+**How to use it:** see the User Guide: [Display devices](../user-guide/display-devices.md).
+
+---
+
 ### Purchasing the External Displays add-on
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the External Displays add-on for  **55 EUR**  by clicking here:

@@ -38,6 +38,10 @@ Voice Recognition tutorials: [ **mystersmith.info/videos/tutorial-videos/#voicer
 
 ---
 
+**How to use it:** see the User Guide: [Remotes, volume buttons and phone motion](../user-guide/remotes-and-volume-buttons.md), [Disguise screens](../user-guide/disguise-screens.md).
+
+---
+
 ### Purchasing the Advanced Input Methods add-on
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Advanced Input Methods add-on for  **70 EUR**  by clicking here:

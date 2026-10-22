@@ -78,7 +78,7 @@ You choose a **format** for each template (a ratio like 3:4, the printer's varia
 
 ## More new things
 
-* **Condition for any action:** in the action picker, the new **Condition** chip shows two settings: **Only if Text Buffer has** and **Image Buffer has** *exactly* N items. The action runs only then, otherwise nothing happens. It works with every trigger (volume buttons, remotes, "Action after ...", action lists...), and the Settings page shows it next to the action, e.g. *text to printer (3)*.
+* **Condition for any action:** in the action picker, the new **Condition** chip shows two settings: **Only if Text Buffer has** and **Image Buffer has** *exactly* N items. The action runs only then, otherwise nothing happens. It works with every trigger (volume buttons, remotes, "Action after ...", action lists...), and the Settings page shows it next to the action, e.g. *handwriting to printer (3)*.
 * **New actions:** *vibrate short*, *vibrate long* and *vibrate double*.
 * **ACRONYM WORD LIST:** the *Input letter position (1-6)* switch became a **Letter position** list: *flexible (by input)* or *fixed (1)* .. *fixed (6)*. With a fixed position, the readable letters are in that position of each word.
 * **Voice Recorder:** load audio files from your phone or from a URL, save the last A.I. voice, and a new **stop audio playback** action.

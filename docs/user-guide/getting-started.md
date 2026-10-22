@@ -54,12 +54,12 @@ The Settings page is long — these help:
 |---|---|
 | **TEXT BUFFER / IMAGE BUFFER** | everything the app received, see [Text Buffer](text-buffer.md) and [Image Buffer](image-buffer.md) |
 | **MY ROUTINES** | save / load your settings, see [Routines](routines.md) |
-| **MY DEVICES** | connect and set up your Bluetooth devices |
+| **MY DEVICES** | connect and set up your Bluetooth devices, see [Display devices](display-devices.md) and [Printers](printers.md) |
 | **MY ACTIONS** | what happens on the volume buttons, the app logo, after the app starts, device buttons..., see [Triggers and actions](triggers-and-actions.md) |
 | **A.I. FEATURES** | your A.I. engines and API keys |
-| **Input methods** | text recognition, volume buttons, WEB-polling, dice, remote controls, voice recognition, fake passcode, calculator, swipe, Morse, NFC... |
+| **Input methods** | [text recognition](text-recognition.md), [volume buttons](remotes-and-volume-buttons.md), [WEB-polling](web-polling-and-send-to-api.md), dice, [remote controls](remotes-and-volume-buttons.md#remote-controls), voice recognition, [fake passcode, calculator](disguise-screens.md), [swipe](swipe.md), Morse, NFC... |
 | **Transform / process** | [templates, A.I. text and image prompts](templates-and-prompts.md), date calculator, [acronym word list](acronym.md) |
-| **Output / screens** | Send to API, prediction photo, [image templates](image-templates.md), watches, Doodle screen, black screen, fake homescreen, external displays, audio... |
+| **Output / screens** | [Send to API](web-polling-and-send-to-api.md#send-to-api), prediction photo, [image templates](image-templates.md), watches, [Doodle screen](doodle-screen.md), [black screen, fake homescreen](disguise-screens.md), [external displays](display-devices.md#external-displays-settings), audio... |
 | **Device settings** | Peek Board, Reinkstone |
 | **More settings** | integrations, font manager, other settings, debug console |
 

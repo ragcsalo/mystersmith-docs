@@ -8,7 +8,7 @@ date: 2026-10-22 12:00:00
 Almost everything in MysterSmith can be started **secretly**: by a volume button, a remote, a tap on a black screen, a button on your PeekSmith — or automatically, a few seconds after something happened (a text was recognized, a drawing was generated, a card was printed...).
 
 * A **trigger** is the moment: *Volume UP*, *2 finger swipe DOWN*, *5 sec after text recognition*...
-* An **action** is what happens then: *show last text*, *text to printer*, *execute A.I. image prompt*, *vibrate short*...
+* An **action** is what happens then: *show last text*, *handwriting to printer*, *execute A.I. image prompt*, *vibrate short*...
 
 Every trigger has one setting: tap it, and pick an action from the list. That's all. With a **Condition** you can make an action wait for the right moment, and with an **action list** one trigger can run many actions.
 
@@ -18,7 +18,7 @@ Every trigger has one setting: tap it, and pick an action from the list. That's 
 
 ## Where the triggers are
 
-**Buttons and remotes**
+**Buttons and remotes** (more: [Remotes, volume buttons and phone motion](remotes-and-volume-buttons.md))
 
 * **Volume buttons** (Input methods): *Volume UP*, *Volume DOWN*, *Volume DOUBLE UP*, *Volume DOUBLE DOWN*, *Volume LONG UP*, *Volume LONG DOWN*. Volume UP and DOWN are also in **MY ACTIONS**.
 * **REMOTE CONTROLS** (Input methods): register the buttons of any Bluetooth remote / keyboard in a **mapping template**, and give each button a *Single click* and a *Double click* action.
@@ -27,7 +27,7 @@ Every trigger has one setting: tap it, and pick an action from the list. That's 
 * **Watches** (MY ACTIONS): WearOS and Apple Watch taps, swipes and hand positions (*hand UP*, *palm FLAT*, *palm VERTICAL*, *hand DOWN*).
 * **App logo**: *Action after app logo clicked* (MY ACTIONS).
 
-**Gestures on full screens**
+**Gestures on full screens** (more: [Disguise screens](disguise-screens.md))
 
 * **BLACK SCREEN**, **FAKE HOMESCREEN** and **DICE INPUT**: *1 / 2 finger single tap*, *1 / 2 finger DOUBLE tap*, *1 / 2 finger swipe UP / DOWN*, and *Action after screen started*.
 * **SWIPE SCREEN** (clock-swipe): swipes in four directions, two-finger swipes, double touch.
@@ -47,7 +47,7 @@ These triggers run an action **after an event**, with a delay you choose:
 * after the **app/routine loaded**, after the **app logo clicked**, after the **last photo changed**
 
 !!! tip "See everything you set"
-    **MY ACTIONS → Automatic action triggers → Show list** lists every "Action after ..." you have set, e.g. *5 sec after NFC tag scanned: text to printer*. **OTHER SETTINGS → Copy action list to clipboard** copies the names of all actions.
+    **MY ACTIONS → Automatic action triggers → Show list** lists every "Action after ..." you have set, e.g. *5 sec after NFC tag scanned: handwriting to printer*. **OTHER SETTINGS → Copy action list to clipboard** copies the names of all actions.
 
 ---
 
@@ -90,9 +90,9 @@ The **Condition** chip (the first chip in the action picker) opens two rows:
 
 With a condition, the action runs **only if the buffer has exactly that many items** — otherwise **nothing happens** (silently, no message). *any* means: no check.
 
-**Example — print after the third word:** three spectators write a word, one after the other. Set **Action after text recognition** to *text to printer* with the condition **Only if Text Buffer has exactly 3**. The first two recognitions print nothing — the third one does. (Switch on *Clear buffer on ROUTINE START* in the Text Buffer settings, so every show starts from zero.)
+**Example — print after the third word:** three spectators write a word, one after the other. Set **Action after text recognition** to *handwriting to printer* with the condition **Only if Text Buffer has exactly 3**. The first two recognitions print nothing — the third one does. (Switch on *Clear buffer on ROUTINE START* in the Text Buffer settings, so every show starts from zero.)
 
-* The condition is shown next to the action's name on the Settings page: *text to printer **(3)***, *image buffer to Prism **(2 img)***, *show last text **(3, 2 img)***.
+* The condition is shown next to the action's name on the Settings page: *handwriting to printer **(3)***, *image buffer to Prism **(2 img)***, *show last text **(3, 2 img)***.
 * It works with **every** trigger: volume buttons, remotes, gestures, device buttons, *Action after ...*, watches.
 * It is saved with the routine.
 * While a condition is set, the chip stays open (red), so you always see it. Set both rows back to *any* to remove it.

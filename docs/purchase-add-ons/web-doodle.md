@@ -105,6 +105,10 @@ These videos were made with the PeekSmith app, but the WEB-doodle works the same
 
 
 
+**How to use it:** see the User Guide: [The Doodle screen](../user-guide/doodle-screen.md#web-doodle).
+
+---
+
 ### Purchasing the "WEB-doodle" add-on
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the WEB-doodle add-on for  **55 EUR**  by clicking here:

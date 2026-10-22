@@ -15,6 +15,10 @@ With the Printers add-on activated, you can connect your **Cosmos/L2 printer**
 
  
 
+**How to use it:** see the User Guide: [Printers](../user-guide/printers.md).
+
+---
+
 ### Purchasing the Printers add-on
 
 If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Printers add-on for  **70 EUR**  by clicking here:
