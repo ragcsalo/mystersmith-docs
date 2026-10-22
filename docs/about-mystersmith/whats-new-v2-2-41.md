@@ -6,7 +6,7 @@ date: 2026-09-04 12:00:00
 # What's new in MysterSmith v2.2.41
 
 !!! info "Looking for the latest?"
-    This is the archived **v2.2.41** release page. For the newest features, see [**What's new in v2.3.51**](whats-new.md).
+    This is the archived **v2.2.41** release page. For the newest features, see [**What's new in v2.3.61**](whats-new.md).
 
 A big update just landed, packed with new input methods, smarter recognition, deeper device support and a redesigned Settings page. Here are the highlights. :-)
 

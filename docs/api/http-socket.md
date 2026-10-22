@@ -65,7 +65,17 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 | `recording={N}` | Play voice recording number **N**. |
 | `aiprompt={N}` | Run A.I. text prompt number **N**. |
 | `aiimageprompt={N}` | Run A.I. image prompt number **N** (the image goes to the Doodle / black screen and the Image Buffer). |
-| `imagetemplate={N}` | Print image template number **N** on the connected printer (subscribers). |
+| `imagetemplate={N}` | Print image template **#N** on the connected printer (subscribers). **N** is the template's ID, shown next to its name in the template list. |
+| `imagetemplatedoodle={N}` | Show image template **#N** on the Doodle screen. |
+| `imagetemplateprism={N}` | Send image template **#N** to the Lumen Prism. |
+| `imagetemplateteleport={N}` | Send image template **#N** to the Teleport. |
+| `imagetemplateinversion={N}` | Send image template **#N** to the Inversion Board. |
+| `imagetemplateultra={N}` | Send image template **#N** to the Inversion Board Ultra. |
+| `imagetemplatepeekboard={N}` | Send image template **#N** to the Iarvel Peek Board. |
+| `imagetemplaterealboard={N}` | Send image template **#N** to the RealBoard. |
+| `imagetemplateeink={N}` | Send image template **#N** to the connected E-ink tag. |
+| `imagetemplatevhs={N}` | Send image template **#N** to the VHS tape (The Missing Tape). |
+| `imagetemplategenerate={N}` | Generate image template **#N** into the Image Buffer (then its "Action after image generated"). |
 | `wait={N}` | Wait N seconds before the next parameter. |
 
 ---

@@ -1,140 +1,91 @@
 ---
 title: "What's new"
-date: 2026-10-19 12:00:00
+date: 2026-10-22 12:00:00
 ---
 
-# What's new in MysterSmith v2.3.51
+# What's new in MysterSmith v2.3.61
 
-Since **v2.3.11**, MysterSmith has learned to make pictures: **your own A.I. image prompts**, **hidden-word A.I. images**, hand-drawn **TrueWrite / TrueSketch** images from the Electricks Cloud, **prediction photos** with any date you like, and images arriving straight from your **WEB-polling** and **Send to API** sources. It can also receive **push notifications** now. On top of that: better Peripage support, battery savings, and a lot of fixes. Here are the highlights. :-)
-
----
-
-## New: A.I. image prompts (part of the Transformer add-on)
-
-Your own image prompts, next to the text prompts you already know:
-
-* The old **A.I. PROMPTS** section is now two: **A.I. TEXT PROMPTS** and **A.I. IMAGE PROMPTS**.
-* **Image prompts:** a list of your own prompts that describe the image to create, e.g. *"a simple black and white sketch of #TEXT"*. They use the same Text Buffer variables as the text prompts (**#TEXT**, **#TXT1**..**#TXT9**, **#LAST1**..**#LAST9**).
-* **A.I. image engine:** OpenAI GPT or Google Gemini (the engine's own drawing settings are used: size, model).
-* Run one with the new action **"execute A.I. image prompt"** (pick the prompt by its number), or from the HTTP Socket / a URL with `aiimageprompt={N}`. The image appears on the Doodle screen and the black screen, and goes into the Image Buffer.
-* **Action after image generated:** its own trigger for the image prompts.
-
-The text prompts' action is now called **"execute A.I. text prompt"**, and its trigger **"Action after response received"**.
+Since **v2.3.51**, MysterSmith has a brand-new tool: the **Image Template Editor**. Design a picture once — a background, images and text fields — and send it to your printer, Doodle screen or any display device, filled with whatever just happened in your routine: the spectator's word, a fresh A.I. drawing, a calculated number. Around it: a smarter **Image Buffer**, better **A.I. drawings**, new actions and a few important fixes. Here are the highlights. :-)
 
 ---
 
-## New: Push notifications
+## New: Image templates (for subscribers only in October)
 
-MysterSmith can now receive notifications from us: about **important app updates** and **subscription renewals**.
+Find it under **Settings → Output / Screens → IMAGE TEMPLATES → Manage templates**. A template is made of:
 
-* They arrive like any other app notification, also when MysterSmith is closed. Tapping one opens the app.
-* While the app is open, the message is shown as a short note at the top of the screen for a few seconds, and **never** on the peek screen, the fake lock / home screens or the touch-peek black screen, so it can't give you away during a performance.
-* On Android the notifications have their own channel, **"MysterSmith messages"**, so you can switch them off in the phone's settings without touching the app's other notifications.
+* a **background image**: from your gallery, your last photo or the last Image Buffer image (cover / contain, white or black background),
+* any number of **images**: a picture from your phone, an image **URL** (downloaded fresh each time the template is used) or an **Image Buffer** image: **#IMAGE** (the last one), **#IMG1**..**#IMG9** (from the oldest), **#LAST1**..**#LAST9** (from the newest),
+* any number of **text fields**: fixed text and/or Text Buffer variables (**#TEXT**, **#TXT1**..**#TXT9**, **#LAST1**..**#LAST9**), with any font, size, alignment and black or white color.
 
----
+You choose a **format** for each template (a ratio like 3:4, the printer's variable height, or the exact size of a display: Prism, Teleport, Inversion Board, Peek Board, RealBoard, VHS tape...), and the template is fitted to whatever device you send it to.
 
-## New: Hidden image reveal (for subscribers only in October)
+### Designing with your fingers
 
-An A.I. image of one word, built entirely from **another, hidden word** — say, a giraffe made of *ELEPHANT ELEPHANT ELEPHANT...* From a distance everybody sees the picture; up close, every stroke is the hidden word.
+* **Tap** an element on the preview to pick it (its frame turns green). Overlapping elements can also be picked from the **"Fingers move"** list.
+* **One finger** moves it, **two fingers** zoom and rotate it.
+* **Double tap:** back to the center, without rotation.
+* **Two-finger double tap:** undo the last move.
+* **Snap:** *Grid* (edges and center of the canvas) or *Elements* (lines up with the other elements' edges and centers).
+* Only the picked element's settings are shown below the preview, so even a big template stays tidy.
 
-* **For MysterSmith subscribers only in October** (MINI, BASIC or PREMIUM). Find it under **Settings → A.I. Features → Hidden image reveal**.
-* **A.I. image engine:** OpenAI or Gemini. Each uses its own drawing settings (size, model, action after drawing).
-* **Image subject** and **Source text** can be any text, with Text Buffer variables. By default the subject is the newest Text Buffer entry (**#LAST1**) and the hidden word is the one before it (**#LAST2**).
-* Start it with the action **"hidden reveal - A.I. image"**. The image appears on the Doodle screen and the black screen, and goes into the Image Buffer.
+### Text fields
 
-*Thanks to Sam Jan for his original idea!*
+* A **preview value** shows instead of #TEXT in the editor, and sets the size of the field's frame, so you can design with a realistic example.
+* **Formulas:** **=(...)** is replaced by its result, e.g. `=(T1+300)` (text field 1 plus 300), `TOTAL: =(T1..T3)` (the sum of fields 1–3) or `=(#TXT1+#LAST2)`.
 
----
+### Images
 
-## New: TrueWrite and TrueSketch images (Electricks Cloud)
+* **Crop to content:** cuts off the empty margins around a picture (great for A.I. drawings).
+* **Transparent white / black:** the template's background color in the picture becomes transparent, so a drawing on white paper sits nicely on your background image.
+* **Inverted:** for white-on-black drawings.
+* **Dummy image:** the editor can show our test cat drawing in place of a picture that isn't there yet (e.g. **#LAST1** of an empty Image Buffer).
 
-With a linked **Electricks Cloud** account (Account details → Electricks Cloud), the last Text Buffer entry can become a picture:
+### Saved with your routines and your account
 
-* **"text to TrueWrite image"**: the text in realistic handwriting.
-* **"text to TrueSketch image"**: a hand-drawn sketch of the word. Ask for a *cat* and you get a drawn cat, and **never the same one twice**. It knows 3,500+ English words and 45,000+ words across 20 languages. A word with no drawing is written in handwriting instead.
-* **"TrueSketch to Peek Board"**: a new action that draws the sketch live on the Peek Board, just like *TrueWrite to Peek Board*.
+* Your templates are stored with your **MysterSmith account**, and each **routine** remembers which templates it uses. Load your routine on another phone and the templates come with it, pictures included.
+* **#ID:** every template has its own number, shown in the list. Use it in the actions, and to add the same template to another routine (**Add template**).
+* **Share template:** gives you a short code. Anybody who loads it gets **their own copy**. If you change your template later, they can update their copy from yours with one tap.
+* Deleting a template asks: **remove it from this routine only**, or **delete it permanently**.
 
-The images appear on the Doodle screen and (inverted) on the black screen, and go into the Image Buffer. A new **TRUEWRITE / TRUESKETCH** block under **Settings → More settings → INTEGRATIONS** sets them up:
+### Using a template
 
-* **Image style:** *marker* (black on white) or *chalk* (white on black).
-* **Image shape** (square / landscape / portrait) and **line thickness**.
-* **Translate:** TrueSketch can take the word in your Performance language.
-* **Action after image generated.**
-
-Without a linked account, these actions now say so instead of doing nothing.
-
----
-
-## New: Prediction photo (for subscribers only in October)
-
-Put an image into the phone's gallery as if it had been taken earlier. The settings are under **Settings → Output / Screens → PREDICTION PHOTO**:
-
-* **Photo date:** *now*, *days ago*, or a *custom date & time*.
-* **Time source:** a *fixed time*, or the **last time from the Text Buffer** (a time the spectator named). The date still follows the Photo date setting.
-* **Overwrite last photo** (Android, on by default): a new prediction photo replaces the one saved before, so only one stays in the gallery.
-* New actions: **"save image to phone gallery"** (saves the current Image Buffer image with that date) and **"delete last saved photo"**.
-* The date and time are set with wheel pickers on Android and with the native pickers on iOS.
-* On Android the photo gets the right date in every gallery app.
+* **"image template to ..."**: shows the template directly on the **Doodle screen, printer, Prism, Teleport, Inversion Board, Inv.Board Ultra, Peek Board, RealBoard, E-ink tag** or **VHS tape**.
+* **"generate image from template"**: puts the finished picture into the Image Buffer, with its own **Action after image generated** (in the IMAGE TEMPLATES settings).
+* Every image made from a template is saved to the Image Buffer too.
+* From the HTTP Socket or a URL: `imagetemplate={ID}` (printer), `imagetemplatedoodle={ID}`, `imagetemplateprism={ID}`, ... and `imagetemplategenerate={ID}` — see the [HTTP Socket](../api/http-socket.md) page for the full list.
 
 ---
 
-## Images from WEB-polling and Send to API
+## Image Buffer
 
-* When the answer of a **WEB-polling** source or a **Send to API** call contains an image (an image URL or base64 data in a JSON field), the image is **saved into the Image Buffer**. The same image is saved only once.
-* **WEB-polling** takes the images from the fields you set for the source.
-* **Send to API** takes images from every field by default. To pick the fields, add **`#image=fieldname`** to the URL (several fields: `#image=field1,field2`).
-* **WEB-polling URLs can use Text Buffer variables:** `#TEXT`, `#TXT1`..`#TXT9`, `#LAST1`..`#LAST9`.
-* **"poll once"** now always processes the answer, and the *action after* waits until the images are saved.
-
-**No Image Buffer add-on?** The **last image** is still kept, whether it came from WEB-polling, Send to API, an A.I. drawing, TrueWrite / TrueSketch or Topix. It can be saved to the phone gallery like any other.
+* **Image types to save:** a new list (like *Text types to save* in the Text Buffer) where you choose which pictures go into the buffer: drawings before erasing, drawings at recognition, A.I. drawings, A.I. image prompt results, images from templates, WEB-polling results, Send to API responses, images from the HTTP socket, TrueWrite / TrueSketch images. It replaces the old "Save drawing..." switches (the rarely used *Save drawing when idle* is gone).
+* **Clear buffer on WEB-polling start:** a new switch, like the Text Buffer's.
+* **New actions:** *image buffer to* **Prism, Teleport, E-ink tag, VHS tape, Reinkstone** and **printer**.
+* **Peek Board:** the *last photo* and *image buffer* actions are back.
 
 ---
 
-## Electricks devices and add-ons
+## A.I. drawings
 
-* **PeekSmith 3, Bond, SB Watch 2, MrCard and Iarvel Card:** the **External Displays** add-on is enough to use their buttons too (on the PeekSmith 3 also the gyroscope and the magnet). No Advanced Input Methods add-on is needed for them.
-* The add-on requirement started on **16 October 2026**. A connect notice tells you when a device needs an add-on you don't have.
-* **Account details** shows your **Electricks Cloud migration code** for your PeekSmith add-ons, with a copy button and a link to redeem it.
-
----
-
-## Peripage printers
-
-* Support for the **PeriPage P21 HD** and the **P21+** (304 dpi).
-* A new print speed: **"official Peripage app"**. It sends the job the same way the printer's own app does. It's the default for the P21 family, and it's offered only on the models where it works.
-* While one printer is connecting, the app no longer jumps to another paired printer, and a dropped printer reconnects only to itself.
-* *Fixed:* a Peripage bug on iOS.
+* A.I. drawings go into the Image Buffer **immediately** and in their **original size** (before, a smaller copy from the Doodle screen was saved after a few seconds).
+* The **"Action after ... drawing"** and **"Action after image generated"** triggers can be set to *immediately* again — they always wait until the drawing is in the buffer.
+* **Use thicker lines for drawings:** a new option for OpenAI and for Gemini (bold Sharpie lines).
+* **OpenAI drawings** look much more like a real child's drawing now.
 
 ---
 
-## Volume buttons and Voice Recognition
+## More new things
 
-* **Test volume buttons:** a START / STOP test in the volume button settings. It shows each detected press as a short message, without running any action.
-* Starting **Voice Recognition** switches the volume button control off, and switches it back on when it stops.
-* The volume buttons are released when you **EXIT** the app.
-* *Fixed:* some Voice Recognition bugs. A voice command now runs once per sentence, and the predefined text recall works again.
-
----
-
-## Battery and background
-
-* **Keep app alive in background:** a new switch in **OTHER SETTINGS**, on by default. Turn it off if you don't need MysterSmith working in the background, to save battery.
-* No Bluetooth scanning while the app is in the background.
-* **Apple Watch:** a new **"Close watch app"** in the APPLE WATCH settings, which works when the watch is in standby too.
-
----
-
-## Smaller things
-
-* **Choice lists** open scrolled to the selected item, and the **font lists** use bigger letters.
-* **Doodle:** finger drawing is smooth again, even on slower iPhones.
-* **Camera pens (Penthal, Ultra Sharpie):** a stray dot far from the writing (a camera misread) is left out, so it no longer throws off the drawing.
-* New versions with important bug fixes are always shown, even if you hide minor updates.
+* **New actions:** *vibrate short*, *vibrate long* and *vibrate double*.
+* **ACRONYM WORD LIST:** the *Input letter position (1-6)* switch became a **Letter position** list: *flexible (by input)* or *fixed (1)* .. *fixed (6)*. With a fixed position, the readable letters are in that position of each word.
+* **Voice Recorder:** load audio files from your phone or from a URL, save the last A.I. voice, and a new **stop audio playback** action.
 
 ---
 
 ## Fixes & housekeeping
 
+* **Romanized text:** with the PeekSmith 3 *Roboto* text size, some texts (like a playing card) were saved into the Text Buffer as numbers. Fixed. The **"Transform Chinese/Hebrew text"** switch has moved to the **Text Buffer** settings, because it affects every Text Buffer entry.
+* Fixed some Voice Recorder file syncing bugs.
 * plus many smaller fixes across the app.
 
 ---
