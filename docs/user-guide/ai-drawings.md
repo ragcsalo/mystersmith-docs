@@ -111,7 +111,7 @@ On an **Iarvel Peek Board**, the actions *TrueWrite to Peek Board*, *TrueSketch 
 
 Settings in **Settings → INTEGRATIONS → QUICKDRAW**:
 
-* **Translate to English using A.I.** (on by default) — the Quickdraw words are English. With this switch on, the spectator's word is translated from your **Performance language** by the A.I. (with the *Engine for translations* set in A.I. FEATURES), and matched to the closest drawing — e.g. *"kutya"* becomes *dog*, *"puppy"* becomes *dog* too. Off: only English words that have a drawing, no A.I.
+* **Translate to English using A.I.** (on by default) — the Quickdraw words are English. With this switch on, the spectator's word is first translated from your **Performance language** by the A.I. (with the *Engine for translations* set in A.I. FEATURES — your own key, or the free Gemini calls of the subscribers), and matched to the closest drawing — e.g. *"kutya"* becomes *dog*, and *"puppy"* becomes *dog* too. This works for *text to Quickdraw* and *Quickdraw to Peek Board*. Off: only English words that have a drawing, no A.I.
 * **Action after drawing generated** + **Trigger action** — what happens when the drawing is ready (it is already in the Image Buffer).
 
 ---
