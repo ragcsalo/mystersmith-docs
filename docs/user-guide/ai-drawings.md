@@ -105,6 +105,17 @@ On an **Iarvel Peek Board**, the actions *TrueWrite to Peek Board*, *TrueSketch 
 
 ---
 
+## Quickdraw
+
+**text to Quickdraw** draws the word with a real doodle from Google's *Quick, Draw!* collection (hundreds of everyday things: animals, objects, food...). The drawings are in the app, so the drawing itself works offline. If nothing matches the word, a short *"No drawing found"* message tells you.
+
+Settings in **Settings → INTEGRATIONS → QUICKDRAW**:
+
+* **Translate to English using A.I.** (on by default) — the Quickdraw words are English. With this switch on, the spectator's word is translated from your **Performance language** by the A.I. (with the *Engine for translations* set in A.I. FEATURES), and matched to the closest drawing — e.g. *"kutya"* becomes *dog*, *"puppy"* becomes *dog* too. Off: only English words that have a drawing, no A.I.
+* **Action after drawing generated** + **Trigger action** — what happens when the drawing is ready (it is already in the Image Buffer).
+
+---
+
 ## LifeLike Sketcher
 
 Realistic drawings by the **LifeLike Sketcher** service (**Settings → INTEGRATIONS → LIFELIKE SKETCHER**, needs a LifeLike API key):
