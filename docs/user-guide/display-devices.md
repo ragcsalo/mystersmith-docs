@@ -67,6 +67,16 @@ Most panels are built the same way:
 * **SB Watch 2** — vibrate for peek, move hands away, peek duration and delay; crown and button actions.
 * **MrCard / Iarvel Card** — peek text, peek drawings, invert; button actions (A / B / X / Y / O).
 
+### Lumen PRO
+
+The Lumen Eye, Lumen Prism (PRO) and Lumen Spectra, and the Lumen boards, work for **Lumen PRO** users. On **iPhone**, MysterSmith checks your PRO status with the **Impra app** (before, it was the Lumen app):
+
+1. Install the **Impra app**, or update it to the latest version.
+2. In MysterSmith open **Account details → CREDENTIALS** and tap **Verify Lumen PRO**.
+3. The Impra app opens for a moment and sends you back — the row changes to **Lumen PRO verified**.
+
+If you see *"Make sure the Impra app is installed..."*, install or update the Impra app and try again.
+
 ---
 
 ## EXTERNAL DISPLAYS settings

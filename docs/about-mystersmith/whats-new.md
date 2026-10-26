@@ -84,6 +84,7 @@ Your add-ons and your subscription are now confirmed by a **signed license** fro
 
 ## More
 
+* **Lumen PRO on iPhone:** the PRO check now uses the **Impra app** instead of the Lumen app — install it before you tap *Verify Lumen PRO* (see [Display devices → Lumen PRO](../user-guide/display-devices.md#lumen-pro)).
 * **Audio Assistant:** a short message (and the assistant switched off) when no Bluetooth earpiece is connected.
 * Fixed: the search highlight in the action picker stuck to the picked action's name.
 * plus many smaller fixes across the app.
