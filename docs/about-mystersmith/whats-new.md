@@ -76,8 +76,8 @@ More: [A.I. drawings → Quickdraw](../user-guide/ai-drawings.md#quickdraw).
 
 Your add-ons and your subscription are now confirmed by a **signed license** from our server, valid on max. **3 devices** of your account at the same time:
 
-* **Account details → DEVICES** lists your devices. A new device says *"You have activated device 2 of 3 on your account."*
-* On a 4th device the add-ons are switched off, and a message lists your other devices: **Sign out** one of them right there. Signing out of the app frees the device too, and a device not used for **60 days** is signed out by itself.
+* **Account details → DEVICES** lists your registered devices. Your first 3 devices are added without any message.
+* On a 4th device the add-ons are switched off, and a message lists your other devices: **Remove** one of them right there. Signing out of the app frees the device too, and a device not used for **60 days** is removed by itself.
 * The license works **offline** too, for 30 days after the last connection — your shows never depend on the Internet.
 
 ---
