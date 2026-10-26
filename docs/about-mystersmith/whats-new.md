@@ -5,6 +5,13 @@ date: 2026-10-26 12:00:00
 
 # What's new in MysterSmith v2.3.71
 
+!!! info "Add-ons and subscriptions on iPhone"
+    To follow the App Store / TestFlight rules, the **iOS app no longer shows purchase links** for add-ons and subscriptions. You'll find everything here:
+
+    **[➜ Add-ons](../purchase-add-ons/order-page.md)** &nbsp;&nbsp; **[➜ Subscription plans](../subscriptions/subscription-plans.md)**
+
+    Already bought something? Just sign in — everything you own is unlocked automatically, on iPhone too.
+
 Since **v2.3.61**, MysterSmith prints in **color**: HP Sprocket, Polaroid, Canon, LG and Liene photo printers turn your Image Buffer pictures, last photos and image templates into real photos. There is a **free bonus music quiz**, a new settings panel for the **Iarvel Peek Board / Spirit Echo**, smarter **Quickdraw** drawings in any language, and your add-ons are now protected by a **signed license** on max. 3 devices. Here are the highlights. :-)
 
 ---
