@@ -6,7 +6,7 @@ date: 2026-10-19 12:00:00
 # What's new in MysterSmith v2.3.51
 
 !!! info "Looking for the latest?"
-    This is the archived **v2.3.51** release page. For the newest features, see [**What's new in v2.3.61**](whats-new.md).
+    This is the archived **v2.3.51** release page. For the newest features, see [**What's new in v2.3.71**](whats-new.md).
 
 Since **v2.3.11**, MysterSmith has learned to make pictures: **your own A.I. image prompts**, **hidden-word A.I. images**, hand-drawn **TrueWrite / TrueSketch** images from the Electricks Cloud, **prediction photos** with any date you like, and images arriving straight from your **WEB-polling** and **Send to API** sources. It can also receive **push notifications** now. On top of that: better Peripage support, battery savings, and a lot of fixes. Here are the highlights. :-)
 

@@ -5,7 +5,8 @@
   // All documented "What's new" versions, newest first.
   // Add a new line here whenever a version gets its own page.
   var VERSIONS = [
-    { label: "v2.3.61 (current)", path: "/about-mystersmith/whats-new/" },
+    { label: "v2.3.71 (current)", path: "/about-mystersmith/whats-new/" },
+    { label: "v2.3.61",           path: "/about-mystersmith/whats-new-v2-3-61/" },
     { label: "v2.3.51",           path: "/about-mystersmith/whats-new-v2-3-51/" },
     { label: "v2.3.11",           path: "/about-mystersmith/whats-new-v2-3-11/" },
     { label: "v2.2.71",           path: "/about-mystersmith/whats-new-v2-2-71/" },
