@@ -138,13 +138,13 @@ Finally, when you have a text or image prepared, you can send it to various devi
 * Cat printers
 
  
-...with support coming soon for COLOR printers, like: 
+...and (from v2.3.71) COLOR photo printers, like: 
 
-* Pitata Photo Prediction
-* HP Sprocket (1st edition)
-* HP Sprocket Plus
-* Polaroid ZIP
-* Polaroid Mint
+* HP Sprocket (Android and iOS)
+* Polaroid ZIP / Mint (Android)
+* Canon IVY / Zoemini (Android)
+* LG PD233 (Android)
+* Liene Pearl (Android and iOS)
 
  **You can send** text and images to:
 
