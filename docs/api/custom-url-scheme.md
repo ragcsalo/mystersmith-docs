@@ -1,4 +1,9 @@
-# Custom URL scheme – mystersmith://
+# Custom URL scheme
+
+<div style="text-align:center; margin:10px 0 28px; padding:22px 12px; border-radius:14px; background:#052741; border:3px solid #e50041;">
+  <div style="font-size:0.8em; letter-spacing:0.15em; text-transform:uppercase; color:#9cc3e6; margin-bottom:6px;">MysterSmith's URL scheme</div>
+  <div style="font-family:monospace; font-size:2.6em; font-weight:bold; color:#ffffff; line-height:1.2; word-break:break-all;">mystersmith://</div>
+</div>
 
 MysterSmith can be opened — and told what to do — with a simple link that starts with **`mystersmith://`**. Any other app, an iOS Shortcut, a Tasker / Automate flow, a link on a web page, a QR code or an NFC tag can use it.
 
