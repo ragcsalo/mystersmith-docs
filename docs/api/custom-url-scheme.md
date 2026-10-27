@@ -99,7 +99,7 @@ A few useful names:
 | `show_imagebuffer` / `clear_image_buffer` | Show / clear the Image Buffer. |
 | `start_fakelockscreen` / `start_fakehomescreen` | Open the fake lock screen / home screen. |
 
-The names are case-sensitive; an unknown name is skipped. Actions that need a number (template, prompt, recording...) have their own parameters in the table above.
+All the names are on the [List of available actions](available-actions.md) page. The names are case-sensitive; an unknown name is skipped. Actions that need a number (template, prompt, recording...) have their own parameters in the table above.
 
 ---
 

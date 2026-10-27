@@ -112,6 +112,7 @@ nav:
   - WEB API - reading data: api/web-api-get.md
   - HTTP Socket - send & receive: api/http-socket.md
   - Custom URL scheme (mystersmith://): api/custom-url-scheme.md
+  - List of available actions: api/available-actions.md
 - Tutorial & DEMO videos:
   - Tutorial videos: videos/tutorial-videos.md
   - Explanations by Avinash: videos/avinash-routines.md
