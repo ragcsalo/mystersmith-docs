@@ -44,9 +44,9 @@ The text is sent to your connected peek display, added to the TextBuffer, and sh
 
 **URL:** `http://localhost:62369/data?action={ACTIONS}`
 
-{ACTIONS} = one or more action names, separated by commas. Insert `pauseN` to wait N seconds between steps.
+{ACTIONS} = one or more action names, separated by commas. Insert `pauseN` to wait N seconds between steps. Some useful names are listed on the [Custom URL scheme](custom-url-scheme.md#actions) page.
 
-**Example:** `http://localhost:62369/data?action=peeksmith_show,pause3,vibrate`
+**Example:** `http://localhost:62369/data?action=vibrate_short,pause3,blackscreen_show`
 
 This runs the actions in order, pausing 3 seconds in the middle.
 

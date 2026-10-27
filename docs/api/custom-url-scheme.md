@@ -1,83 +1,138 @@
-# MysterSmith API
- 
-## Reading the last text from the TextBuffer
+# Custom URL scheme – mystersmith://
 
-Using the basic WEB API URL  you can read/get text from the TextBuffer using a simple GET call. To identify your account, you must use your MysterSmith API key, which you will find in your account details in the app.
+MysterSmith can be opened — and told what to do — with a simple link that starts with **`mystersmith://`**. Any other app, an iOS Shortcut, a Tasker / Automate flow, a link on a web page, a QR code or an NFC tag can use it.
 
-**Short URL:** `https://bsmagic.app/api/get/{APIKEY}`  
-**Long URL:** `https://bsmagic.app/api/textbuffer_json.php?action=get&last=1&token={APIKEY}`
+**Format:** `mystersmith://?{PARAMETER}={VALUE}&{PARAMETER}={VALUE}...`
 
-{APIKEY} = your MysterSmith API key
+**Example:** `mystersmith://?text=Hello%20World`
 
-**Example (short):** `https://bsmagic.app/api/get/ABC123DE`  
-**Example (long):** `https://bsmagic.app/api/textbuffer_json.php?action=get&last=1&token=ABC123DE`
+The parameters are processed **in the order you write them**.
 
-**JSON response format:** `{"found":1,"text":"Hello World","type":"customtext"}`
-
-Using the above URLs, you will always receive the LAST entry from the TextBuffer. The field name is simply "text". You will also receive the type of the text, returned in the "type" field.
+!!! tip "On the same phone? The HTTP socket does the same"
+    Every parameter on this page also works with the [HTTP Socket](http-socket.md) (`http://localhost:62369/data?...`) — without switching apps.
 
 ---
 
-## Reading all items from the TextBuffer
+## Two situations
 
-If you would like to get all entries from the TextBuffer, you can use this URL for your GET request:
-
-**URL:** `https://bsmagic.app/api/textbuffer_json.php?action=get&token={APIKEY}`
-
-{APIKEY} = your MysterSmith API key
-
-**Example:** `https://bsmagic.app/api/textbuffer_json.php?action=get&last=3&token=ABC123DE`
-
-**JSON response format:**  
-`{"text":"purple","last":"purple","first":"Hello World","text_1":"purple","text_2":"7H","text_3":"Hello World","found":3,"type":"any"}`
-
-As you can see, this response contains the last 3 items from the TextBuffer. The field names explained:
-
-"*text*" and "*last*": they both contain the last entry from the buffer (for backwards compatibility reasons)  
-"*first*": contains the first/oldest entry from the buffer  
-"*text_1*", "*text_2*", "*text_3*": the last 3 results ("text_1" being the newest, "text_3" the oldest entry)
+* **The app is not running yet:** the link starts MysterSmith. Only the **start options** below are used (what to open, what to start, a text to send). A link that runs actions or numbered items (routine, template, prompt...) does nothing at this point.
+* **The app is already running:** the link brings it to the front and the parameter is done at once.
 
 ---
 
-## Reading an item at a specific position from the TextBuffer
+## Start options (when the link starts the app)
 
-If you would like to get an entry from the TextBuffer from a specific position, you should use the "**first**" or "**last**" parameter in the URL of your GET request:
+| Parameter | What it does |
+|---|---|
+| `autostart=home` | Start on the home page. |
+| `autostart=settings` | Start on the Settings page. |
+| `autostart=routine` | Start the routine (START ROUTINE). Together with `routine=...` (below) it can also open a screen. |
+| `autostart=text` / `card` / `vibration` | Start the routine and open the send text / send card / send vibration screen. |
+| `autostart=doodle` | Start the routine and open the Doodle screen. |
+| `autostart=black` | Start the routine and open the black screen. |
+| `routine=text` / `card` / `vibration` / `doodle` / `black` | With `autostart=routine`: the screen to open. |
+| `routine=webinput` / `webdoodle` / `webpolling` / `nfc` | With `autostart=routine`: start WEB-input / WEB-doodle / WEB-polling / NFC polling. |
+| `routine={N}` | With `autostart=routine`: load your saved routine **#N**. |
+| `webinput=1` | Start WEB-input a few seconds after the app started. |
+| `webpolling=1` | Start WEB-polling a few seconds after the app started. |
+| `webdoodle=1` | Switch WEB-doodle on and start it a few seconds after the app started. |
+| `nfc=1` | Start NFC polling a few seconds after the app started. |
+| `text={TEXT}` | Send the text to your peek display and add it to the Text Buffer, once the app has started. |
 
-**URL with "first":** `https://bsmagic.app/api/textbuffer_json.php?action=get&first={N}&token={APIKEY}`  
-**URL with "last":** `https://bsmagic.app/api/textbuffer_json.php?action=get&last={N}&token={APIKEY}`
-
-{N} = the position of the required entry
-{APIKEY} = your MysterSmith API key
-
-**JSON response format:** `{"found":1,"text":"Hello World","type":"customtext"}`
-
-**Example buffer:**  
-We add these words to the buffer in this order:  
-Paris, London, blue, red, orange, apple
-
-The TextBuffer will store the last/newest item at the beginning, and the first/oldest item at the end:  
-`["apple", "orange", "red", "blue", "London", "Paris"]`
-
-**Example 1:** `https://bsmagic.app/api/textbuffer_json.php?action=get&first=2&token=ABC123DE`  
-This will return the 2nd oldest entry from the TextBuffer: "London"
-
-**Example 2:** `https://bsmagic.app/api/textbuffer_json.php?action=get&last=3&token=ABC123DE`  
-This will return the 3rd newest entry from the TextBuffer: "red"
-
-<div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 20px 0;"><a href="https://mystersmith.info/assets/images/textbuffer_example.jpg" class="glightbox" data-description=""><img src="https://mystersmith.info/assets/images/textbuffer_example.jpg" alt="" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px; cursor: zoom-in;"></a></div>
+**Example:** `mystersmith://?autostart=routine&routine=doodle` – starts the routine on the Doodle screen.
 
 ---
 
-## Filtering results by type
+## While the app is running
 
-If you'd like to only receive results of a certain type, you can specify the type in both the short and the long URLs, like this:
+| Parameter | What it does |
+|---|---|
+| `text={TEXT}` | Send the text to your peek display and add it to the Text Buffer (a small notification shows it, except on the black screen and the fake home screen). Then *Action after WEB-polling* runs, if you set one. |
+| `routine=text` / `card` / `vibration` / `doodle` / `black` | Start the routine (if it isn't running) and open that screen. |
+| `routine=webinput` / `webpolling` / `nfc` | Start WEB-input / WEB-polling / NFC polling. |
+| `routine={N}` | Load your saved routine **#N**. |
+| `action={ACTIONS}` | Run one or more actions in order (see [Actions](#actions) below). |
+| `template={N}` | Generate text from template **#N**. |
+| `predefined={N}` | Send predefined text **#N**. |
+| `recording={N}` | Play voice recording **#N**. |
+| `aiprompt={N}` | Run A.I. text prompt **#N**. |
+| `aiimageprompt={N}` | Run A.I. image prompt **#N** (the image goes to the black screen, the Doodle screen and the Image Buffer). |
+| `imagetemplate={N}` | Print image template **#N** on the connected printer. |
+| `imagetemplatedoodle={N}` | Show image template **#N** on the Doodle screen. |
+| `imagetemplateprism={N}` | Send image template **#N** to the Lumen Prism. |
+| `imagetemplateteleport={N}` | Send image template **#N** to the Teleport. |
+| `imagetemplateinversion={N}` | Send image template **#N** to the Inversion Board. |
+| `imagetemplateultra={N}` | Send image template **#N** to the Inversion Board Ultra. |
+| `imagetemplatepeekboard={N}` | Send image template **#N** to the Iarvel Peek Board. |
+| `imagetemplaterealboard={N}` | Send image template **#N** to the RealBoard. |
+| `imagetemplateeink={N}` | Send image template **#N** to the E-ink tag. |
+| `imagetemplatevhs={N}` | Send image template **#N** to the VHS tape (The Missing Tape). |
+| `imagetemplatephoto={N}` | Print image template **#N** on the color photo printer. |
+| `imagetemplategenerate={N}` | Generate image template **#N** into the Image Buffer (then its *Action after image generated*). |
+| `wait={N}` | Wait **N** seconds before the next parameter. |
 
-**Short URL:** `https://bsmagic.app/api/get-{TYPE}/{APIKEY}`  
-**Long URL:** `https://bsmagic.app/api/textbuffer_json.php?action=get&last=1&type={TYPE}&token={APIKEY}`
+The **#N** numbers are the same ones the app shows next to the routines, templates, predefined texts, recordings, A.I. prompts and image templates (and asks for in the matching actions).
 
-{TYPE} = the filtered type ([click here for the list of available types](https://docs.google.com/document/d/1AKw3PXOAMZCdcvG9c7c22bAGp3nLNzwAsSzkKYgUpsA/edit?usp=sharing){:target="_blank"})  
-{APIKEY} = your MysterSmith API key
+**Example:** `mystersmith://?predefined=2&wait=5&aiprompt=1` – sends predefined text #2, waits 5 seconds, then runs A.I. prompt #1.
 
-**Example 1:** `https://bsmagic.app/api/get-playingcard/ABC123DE`
+---
 
+## Actions
 
+`action=` runs the same actions you can choose for the triggers, by their **internal names**, separated by commas. Write `pauseN` between them to wait **N** seconds. The app also waits 1 second after every action.
+
+**Example:** `mystersmith://?action=vibrate_short,pause3,blackscreen_show`
+
+A few useful names:
+
+| Name | Action |
+|---|---|
+| `vibrate_short` / `vibrate_long` / `vibrate_double` | Vibrate the phone. |
+| `blackscreen_show` / `blackscreen_hide` | Show / hide the black screen. |
+| `doodle_start` / `doodle_clear` | Open / clear the Doodle screen. |
+| `start_webpolling` / `stop_webpolling` / `poll_once` | WEB-polling. |
+| `start_webinput` / `stop_webinput` | WEB-input. |
+| `start_nfc` / `stop_nfc` | NFC polling. |
+| `delete_last_text` | Delete the last text from the Text Buffer. |
+| `translate_last_text` | Translate the last text. |
+| `lastext_to_clipboard` | Copy the last text to the clipboard. |
+| `show_imagebuffer` / `clear_image_buffer` | Show / clear the Image Buffer. |
+| `start_fakelockscreen` / `start_fakehomescreen` | Open the fake lock screen / home screen. |
+
+The names are case-sensitive; an unknown name is skipped. Actions that need a number (template, prompt, recording...) have their own parameters in the table above.
+
+---
+
+## Home screen shortcuts
+
+These are what the app icon's long-press menu uses — be careful with them:
+
+| Parameter | What it does |
+|---|---|
+| `reset=1` | **Reset app version**: back to the installed version (the downloaded update is forgotten), then the app asks you to restart it. |
+| `default=1` | **Default settings**: every setting back to default, your personal data (account, add-ons, API keys) is kept. |
+| `clear=1` | **Clear all settings**: deletes every setting. |
+
+---
+
+## For app developers
+
+| Parameter | What it does |
+|---|---|
+| `get_token={SCHEME}` | Sends the user's MysterSmith API token back to your app: MysterSmith opens `{SCHEME}://?mystersmith_token={TOKEN}` (`empty` if the user has none). |
+| `open={SCHEME}` | Opens another app (`{SCHEME}://`) 3 seconds later. |
+
+---
+
+## Writing the link
+
+* **Encode the text:** a space is `%20` (a `+` stays a `+`). Accents, emojis and other special characters must be URL-encoded too.
+* **Avoid `&` and `=` inside a text** — they separate the parameters.
+* A link with no parameter (`mystersmith://`) just opens the app.
+
+**Examples of where to use it:**
+
+* **iOS Shortcuts:** the *Open URLs* action with `mystersmith://?text=...`
+* **Android (Tasker, Automate...):** *Browse URL* / *Open URL* with the same link.
+* **A web page:** `<a href="mystersmith://?autostart=black">Start</a>`
+* **NFC tag / QR code:** write the link as a URL (URI) record — scanning it opens MysterSmith.
