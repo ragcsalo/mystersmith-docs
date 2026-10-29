@@ -26,7 +26,7 @@ Please  **[sign in to the Account Manager](https://bsmagic.app/account/)** with
 As long as your  **MINI** subscription is  **active**, you will get: 
  
 
-* Access to **all add-ons in MysterSmith**  (worth  **403 EUR** )  (\*) 
+* Access to **all add-ons in MysterSmith**  (worth  **533 EUR** )  (\*) 
 * **Unlimited text recognition credits**  (to be used with the Google engine in MysterSmith)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **20 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
@@ -84,8 +84,10 @@ In any case, you can choose between the 1 month or 3 months cycle for the BASIC/
 | Offline text recognition | MysterSmith | 45 EUR |
 | Advanced Input Methods add-on | MysterSmith | 50 EUR |
 | Transformer add-on | MysterSmith | 50 EUR |
+| Prediction Photo add-on | MysterSmith | 60 EUR |
+| Image Template Editor add-on | MysterSmith | 70 EUR |
 
-Total worth of included add-ons: **403 EUR** 
+Total worth of included add-ons: **533 EUR** 
 
 If I'll offer new paid add-ons in MysterSmith in the future, they will be added to the list above. 
  

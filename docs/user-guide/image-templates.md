@@ -9,8 +9,8 @@ An **image template** is a picture you design once — a background image, more 
 
 **Example:** a "newspaper front page" template — a background photo of a newspaper, the headline `#TXT1!uc` and today's photo `#LAST1` from the Image Buffer. The spectator names a word, the A.I. draws it, and your printer prints the front page with both.
 
-!!! info "For subscribers"
-    Image templates are currently available for MysterSmith subscribers.
+!!! info "Subscribers or the Image Template Editor add-on"
+    Image templates come with every MysterSmith subscription, or with the [Image Template Editor add-on](../purchase-add-ons/image-templates.md).
 
 <!-- GALLERY: the IMAGE TEMPLATES list, the editor with a picked text field, the Format list, a printed template -->
 

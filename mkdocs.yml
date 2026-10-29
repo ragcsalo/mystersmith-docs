@@ -91,6 +91,8 @@ nav:
   - Transformer: purchase-add-ons/transformer.md
   - Printers: purchase-add-ons/printers.md
   - Image Buffer: purchase-add-ons/image-buffer.md
+  - Prediction Photo: purchase-add-ons/prediction-photo.md
+  - Image Template Editor: purchase-add-ons/image-templates.md
   - Audio Assistant: purchase-add-ons/audio-assistant.md
   - Voice Recorder: purchase-add-ons/voice-recorder.md
   - Offline text recognition: purchase-add-ons/offline-recognition.md

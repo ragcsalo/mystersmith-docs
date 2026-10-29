@@ -33,7 +33,7 @@ As long as your PREMIUM subscription is **active**, you will get:
 * Access to **all features/routines/add-ons in MysterSmith** (\*) 
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
 * **Early access** for some **new features**, ahead of the official release
-* Access to **ALL my apps and add-ons** (worth  **1403 EUR** ) (\*) 
+* Access to **ALL my apps and add-ons** (worth  **1533 EUR** ) (\*) 
 * **Unlimited text recognition credits** (to be used with the Google engine in any of my apps)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **60 A.I. calls** and **10 image generations a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to my services at [ **https://mkm.mom** ](https://mkm.mom/help/)
@@ -118,11 +118,13 @@ If I'll release new magic apps in the future, they will be added to the list abo
 | Offline text recognition | MysterSmith | 45 EUR |
 | Advanced Input Methods add-on | MysterSmith | 50 EUR |
 | Transformer add-on | MysterSmith | 50 EUR |
+| Prediction Photo add-on | MysterSmith | 60 EUR |
+| Image Template Editor add-on | MysterSmith | 70 EUR |
 | Multi-watch feature add-on | TimeSmith | 20 EUR |
 | One Face Pattern routine add-on | CubeSmith | 25 EUR |
 | ACAAN routine add-on | CubeSmith | 25 EUR |
 
-Total worth of included add-ons: **473 EUR** 
+Total worth of included add-ons: **603 EUR** 
 
 If I'll offer new paid add-ons in the future, they will be added to the list above. 
  
