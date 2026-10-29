@@ -5,7 +5,7 @@ date: 2023-07-22 17:09:48
 
 # A.I. Features (add-on)
 
-The A.I. Features add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **40 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The A.I. Features add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **30 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With the A.I. Features add-on activated, you'll be able to use **A.I. based features** in the app, using your own **OpenAI API key** or **Gemini API key** (more info at the bottom of this page). 
  
@@ -20,7 +20,7 @@ With the A.I. Features add-on activated, you'll be able to use **A.I. based fe
 
 ### Purchasing the A.I. Features add-on separately
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the A.I. Features add-on separately for  **40 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the A.I. Features add-on separately for  **30 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=ai_features](https://bsmagic.app/order/?buy=ai_features){:target="_blank"}** 
 

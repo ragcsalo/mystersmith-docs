@@ -11,7 +11,7 @@ date: 2022-06-04 18:04:10
 
 The External Displays add-on is a premium feature for the MysterSmith app (if you have previously purchased the add-on for the PeekSmith app, you can use it in MysterSmith too, and don't have to buy the add-on again). 
  
-The price of the add-on is currently  **55 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The price of the add-on is currently  **45 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
 
 With the External Displays add-on activated, you'll be able to **display text (and images) from the MysterSmith app on a variety of devices**, and use the buttons of some of them.
 
@@ -62,7 +62,7 @@ The full list of devices: [Supported devices](../user-guide/supported-devices.md
 
 ### Purchasing the External Displays add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the External Displays add-on for  **55 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the External Displays add-on for  **45 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=externaldisplays](https://bsmagic.app/order/?buy=externaldisplays){:target="_blank"}** 
 

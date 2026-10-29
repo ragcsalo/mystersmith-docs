@@ -5,7 +5,7 @@ date: 2025-10-02 17:12:30
 
 # Advanced Input Methods
 
-The Advanced Input Methods add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **70 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The Advanced Input Methods add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **50 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With this add-on you can enable some advanced input methods. 
  
@@ -44,7 +44,7 @@ Voice Recognition tutorials: [ **mystersmith.info/videos/tutorial-videos/#voicer
 
 ### Purchasing the Advanced Input Methods add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Advanced Input Methods add-on for  **70 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Advanced Input Methods add-on for  **50 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=input](https://bsmagic.app/order/?buy=input){:target="_blank"}** 
 

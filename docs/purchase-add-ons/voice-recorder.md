@@ -11,7 +11,7 @@ date: 2023-07-22 17:55:28
 
 The Voice Recorder add-on is a premium feature for the MysterSmith app (if you have previously purchased the add-on for the PeekSmith app, you can use it in MysterSmith too, and don't have to buy the add-on again). 
  
-The price of the add-on is currently  **35 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The price of the add-on is currently  **25 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
 
 With the "Voice Recorder" feature you can record audio messages on your phone, and you can replay them at any time through any audio output (phone speaker, connected Bluetooth speaker, earpiece, or a bone conduction device).
 
@@ -27,7 +27,7 @@ With the "Voice Recorder" feature you can record audio messages on your phone, a
 
 ### Purchasing the "Voice recorder" add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Voice Recorder add-on for  **35 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Voice Recorder add-on for  **25 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=voicerecorder](https://bsmagic.app/order/?buy=voicerecorder){:target="_blank"}** 
 

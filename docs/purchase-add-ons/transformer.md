@@ -5,7 +5,7 @@ date: 2025-07-15 10:24:10
 
 # Transformer add-on
 
-The Transformer add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **70 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The Transformer add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **50 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
 
 With this add-on you can **transform** the texts you receive (a recognized handwriting, a WEB-polling result, a swipe or passcode input, an NFC tag...) into something else, and send the result to your devices or other apps. The add-on contains these features (in **Settings → Transform / process**):
 
@@ -44,7 +44,7 @@ A spectator writes the name of their favorite celebrity on a small notepad (for 
 
 ### Purchasing the Transformer add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Transformer add-on for  **70 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Transformer add-on for  **50 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=transformer](https://bsmagic.app/order/?buy=transformer){:target="_blank"}** 
 

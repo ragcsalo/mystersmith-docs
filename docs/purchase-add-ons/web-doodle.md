@@ -4,7 +4,7 @@ title: "WEB-doodle (add-on)"
 
 # WEB-doodle (add-on)
 
-The WEB-doodle add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **55 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM).
+The WEB-doodle add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **30 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM).
 
 With the WEB-doodle add-on activated, the spectator can **draw or write anything on their own phone**, in a simple drawing page opened in the web browser - and you will **see the drawing** on your phone's screen and on your **peek devices**, while they are drawing.
 
@@ -111,7 +111,7 @@ These videos were made with the PeekSmith app, but the WEB-doodle works the same
 
 ### Purchasing the "WEB-doodle" add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the WEB-doodle add-on for  **55 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the WEB-doodle add-on for  **30 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=webdoodle](https://bsmagic.app/order/?buy=webdoodle){:target="_blank"}**
 

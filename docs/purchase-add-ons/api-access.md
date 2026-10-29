@@ -11,7 +11,7 @@ date: 2023-07-22 17:09:48
 
 The API Access add-on is a premium feature for the MysterSmith app (if you have previously purchased the add-on for the PeekSmith app, you can use it in MysterSmith too, and don't have to buy the add-on again). 
 
-The price of the add-on is currently  **50 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The price of the add-on is currently  **40 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With the API Access add-on activated, you'll be able to **send data from the MysterSmith app to any 3rd party WEB API**, so you can integrate with other magic apps easily. You can also use the HTTP Socket feature to both send and receive data in the background. 
  
@@ -26,7 +26,7 @@ With the API Access add-on activated, you'll be able to **send data from the M
 
 ### Purchasing the API Access add-on separately
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the API Access add-on separately for  **50 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the API Access add-on separately for  **40 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=api_access](https://bsmagic.app/order/?buy=api_access){:target="_blank"}** 
 

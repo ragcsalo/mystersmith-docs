@@ -13,7 +13,7 @@ date: 2023-07-22 16:48:30
 
 The Audio Assistant add-on is a premium feature for the MysterSmith app (if you have previously purchased the add-on for the PeekSmith app, you can use it in MysterSmith too, and don't have to buy the add-on again). 
  
-The price of the add-on is currently  **25 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The price of the add-on is currently  **18 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With the "Audio Assistant" feature you'll be able to **hear** information as **text-to-speech**  audio. Scan NFC cards and listen to the values secretly, receive information over the WEB (eg. from Inject), hear what word the spectator has written on the impression board etc. 
  
@@ -25,7 +25,7 @@ With the "Audio Assistant" feature you'll be able to **hear** information as *
 
 ### Purchasing the "Audio Assistant" add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Audio Assistant add-on for  **25 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Audio Assistant add-on for  **18 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=audioassistant](https://bsmagic.app/order/?buy=audioassistant){:target="_blank"}** 
 

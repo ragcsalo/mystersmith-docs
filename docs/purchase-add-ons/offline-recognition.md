@@ -8,7 +8,7 @@ date: 2025-04-19 18:34:13
 ## (Available for both iOS and Android)
 
  
-The Offline text recognition add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **80 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The Offline text recognition add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **45 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With the Offline text recognition add-on activated on your device, you can **recognize text from impression boards** or **from the Doodle screen**, even when you have **no internet connection**. The offline recognition uses a built-in feature of the phone's operating system, through a custom-built plugin created specifically for MysterSmith. 
  
@@ -45,7 +45,7 @@ The offline recognition engine doesn't use any credits, and no other payment is 
 
 ### Purchasing the Offline text recognition add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Offline text recognition add-on for  **80 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Offline text recognition add-on for  **45 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=offlinetextrec](https://bsmagic.app/order/?buy=offlinetextrec){:target="_blank"}** 
 

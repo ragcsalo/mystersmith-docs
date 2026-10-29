@@ -26,7 +26,7 @@ Please  **[sign in to the Account Manager](https://bsmagic.app/account/)** with
 As long as your  **MINI** subscription is  **active**, you will get: 
  
 
-* Access to **all add-ons in MysterSmith**  (worth  **585 EUR** )  (\*) 
+* Access to **all add-ons in MysterSmith**  (worth  **403 EUR** )  (\*) 
 * **Unlimited text recognition credits**  (to be used with the Google engine in MysterSmith)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **20 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
@@ -73,19 +73,19 @@ In any case, you can choose between the 1 month or 3 months cycle for the BASIC/
 
 | Add-on description | App name | Retail price |
 | :--- | :--- | :--- |
-| WEB-doodle add-on | MysterSmith | 55 EUR |
-| External displays add-on | MysterSmith | 55 EUR |
-| API Access add-on | MysterSmith | 50 EUR |
-| A.I. Features add-on | MysterSmith | 40 EUR |
-| Audio assistant add-on | MysterSmith | 25 EUR |
-| Voice recorder add-on | MysterSmith | 35 EUR |
-| Image Buffer add-on | MysterSmith | 35 EUR |
-| Printers add-on | MysterSmith | 70 EUR |
-| Offline text recognition | MysterSmith | 80 EUR |
-| Advanced Input Methods add-on | MysterSmith | 70 EUR |
-| Transformer add-on | MysterSmith | 70 EUR |
+| WEB-doodle add-on | MysterSmith | 30 EUR |
+| External displays add-on | MysterSmith | 45 EUR |
+| API Access add-on | MysterSmith | 40 EUR |
+| A.I. Features add-on | MysterSmith | 30 EUR |
+| Audio assistant add-on | MysterSmith | 18 EUR |
+| Voice recorder add-on | MysterSmith | 25 EUR |
+| Image Buffer add-on | MysterSmith | 25 EUR |
+| Printers add-on | MysterSmith | 45 EUR |
+| Offline text recognition | MysterSmith | 45 EUR |
+| Advanced Input Methods add-on | MysterSmith | 50 EUR |
+| Transformer add-on | MysterSmith | 50 EUR |
 
-Total worth of included add-ons: **585 EUR** 
+Total worth of included add-ons: **403 EUR** 
 
 If I'll offer new paid add-ons in MysterSmith in the future, they will be added to the list above. 
  

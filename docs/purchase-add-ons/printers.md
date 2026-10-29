@@ -5,7 +5,7 @@ date: 2025-04-19 18:32:09
 
 # Printers (add-on)
 
-The Printers add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **70 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The Printers add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **45 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
 With the Printers add-on activated, you can connect your **Cosmos/L2 printer**, **Glyphs/Peripage printer**, **Pitata Printer** or **Cat printer** in MysterSmith. You can print handwritten text, signatures, playing cards, doodle drawings, clock predictions and magic squares. 
  
@@ -21,7 +21,7 @@ With the Printers add-on activated, you can connect your **Cosmos/L2 printer**
 
 ### Purchasing the Printers add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Printers add-on for  **70 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Printers add-on for  **45 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=printers](https://bsmagic.app/order/?buy=printers){:target="_blank"}** 
 

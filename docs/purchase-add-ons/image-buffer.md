@@ -5,7 +5,7 @@ date: 2025-02-19 10:40:15
 
 # Image Buffer (add-on)
 
-The Image Buffer add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **35 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
+The Image Buffer add-on is a premium feature for the MysterSmith app. The price of the add-on is currently  **25 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
 
 With the Image Buffer add-on activated, you can **store, recall and process the last 9 images** of the app: drawings from the Doodle screen and impression boards, A.I. drawings, images made from templates, and images received from WEB-polling, Send to API or the HTTP socket. The images are saved to your account, so they are synced to your other phones too.
 
@@ -21,7 +21,7 @@ All the details: **[The Image Buffer](../user-guide/image-buffer.md)** in the Us
 
 ### Purchasing the "Image Buffer" add-on
 
-If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Image Buffer add-on for  **35 EUR**  by clicking here:
+If you don't want to subscribe for MysterSmith (to get all the available add-ons), you can also purchase the Image Buffer add-on for  **25 EUR**  by clicking here:
 
  **[bsmagic.app/order/?buy=imagebuffer](https://bsmagic.app/order/?buy=imagebuffer){:target="_blank"}** 
 

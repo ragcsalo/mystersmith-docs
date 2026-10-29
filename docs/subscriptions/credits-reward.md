@@ -31,8 +31,8 @@ You've been paying your **BASIC subscription** fees ( **33.75 EUR every 3 months
  
 For example: 
  
-A.I. Features add-on (40 EUR) 
-Audio assistant add-on (25 EUR) 
+Mental Painter - FULL version (40 EUR) 
+Image Buffer add-on (25 EUR) 
  
  **TOTAL: 65 EUR** 
  
@@ -49,10 +49,11 @@ You've been paying your **PREMIUM subscription** fees ( **90 EUR every 3 months*
  
 For example: 
  
-CubeSmith - FULL version (320 EUR) 
-Mental Painter - FULL version (60 EUR) 
+CubeSmith - FULL version (250 EUR) 
+DiceSmith - FULL version (95 EUR) 
+Mental Painter - FULL version (40 EUR) 
  
- **TOTAL: 380 EUR** 
+ **TOTAL: 385 EUR** 
  
 The  **time limit**  for using your credits for purchasing  **will be 1.5 years**  (matching the duration of your last continuous subscription). 
  
@@ -67,11 +68,12 @@ You've been paying your **MINI subscription** fees ( **19.99 EUR every 3 months*
  
 For example: 
  
-Audio assistant add-on (25 EUR) 
-Image Buffer add-on (35 EUR) 
-Voice recorder add-on (35 EUR) 
+Audio assistant add-on (18 EUR) 
+Image Buffer add-on (25 EUR) 
+Voice recorder add-on (25 EUR) 
+A.I. Features add-on (30 EUR) 
  
- **TOTAL: 95 EUR** 
+ **TOTAL: 98 EUR** 
  
 The  **time limit**  for using your credits for purchasing  **will be 15 months**  (matching the duration of your last continuous subscription). 
  

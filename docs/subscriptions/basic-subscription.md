@@ -28,7 +28,7 @@ As long as your BASIC subscription is  **active**, you will get:
 
 * Access to **all features/routines/add-ons in MysterSmith** (\*) 
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
-* Access to **ALL my apps and add-ons** up to 80 EUR (worth  **1260 EUR** ) (\*) 
+* Access to **ALL my apps and add-ons** up to 80 EUR (worth  **838 EUR** ) (\*) 
 * **Unlimited text recognition credits** (to be used with the Google engine in any of my apps)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **40 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to my services at [ **https://mkm.mom** ](https://mkm.mom/help/)
@@ -76,15 +76,15 @@ In any case, you can choose between the 1 month or 3 months cycle for the PREMIU
 
 | App description | Retail price |
 | :--- | :--- |
-| Mental Painter (FULL version) | 60 EUR |
-| E.S.P. Test (FULL version) | 70 EUR |
-| Card Detector (FULL version) | 55 EUR |
-| A.C.A.A.N. (FULL version) | 60 EUR |
-| Color Clown (FULL version) | 50 EUR |
-| KeyCard (FULL version) | 50 EUR |
-| Superhero Domino (FULL version) | 30 EUR |
+| Mental Painter (FULL version) | 40 EUR |
+| E.S.P. Test (FULL version) | 50 EUR |
+| Card Detector (FULL version) | 40 EUR |
+| A.C.A.A.N. (FULL version) | 40 EUR |
+| Color Clown (FULL version) | 30 EUR |
+| KeyCard (FULL version) | 30 EUR |
+| Superhero Domino (FULL version) | 25 EUR |
 
-Total worth of included apps: **375 EUR** 
+Total worth of included apps: **255 EUR** 
 
 If I'll release new magic apps (up to 80 EUR) in the future, they will be added to the list above. 
  
@@ -97,26 +97,26 @@ If I'll release new magic apps (up to 80 EUR) in the future, they will be added
 
 | Add-on description | App name | Retail price |
 | :--- | :--- | :--- |
-| WEB-doodle add-on | MysterSmith | 55 EUR |
-| External displays add-on | MysterSmith | 55 EUR |
-| API Access add-on | MysterSmith | 50 EUR |
-| A.I. Features add-on | MysterSmith | 40 EUR |
-| Audio assistant add-on | MysterSmith | 25 EUR |
-| Voice recorder add-on | MysterSmith | 35 EUR |
-| Image Buffer add-on | MysterSmith | 35 EUR |
-| Printers add-on | MysterSmith | 70 EUR |
-| Offline text recognition | MysterSmith | 80 EUR |
-| Advanced Input Methods add-on | MysterSmith | 70 EUR |
-| Transformer add-on | MysterSmith | 70 EUR |
-| Multi-watch feature add-on | TimeSmith | 30 EUR |
-| One Face Pattern routine add-on | CubeSmith | 35 EUR |
-| ACAAN routine add-on | CubeSmith | 35 EUR |
-| Playing Cards add-on | ScaleSmith BASIC | 50 EUR |
-| Objects add-on | ScaleSmith BASIC | 50 EUR |
-| Time control add-on | ScaleSmith BASIC | 50 EUR |
-| Routine control add-on | ScaleSmith BASIC | 50 EUR |
+| WEB-doodle add-on | MysterSmith | 30 EUR |
+| External displays add-on | MysterSmith | 45 EUR |
+| API Access add-on | MysterSmith | 40 EUR |
+| A.I. Features add-on | MysterSmith | 30 EUR |
+| Audio assistant add-on | MysterSmith | 18 EUR |
+| Voice recorder add-on | MysterSmith | 25 EUR |
+| Image Buffer add-on | MysterSmith | 25 EUR |
+| Printers add-on | MysterSmith | 45 EUR |
+| Offline text recognition | MysterSmith | 45 EUR |
+| Advanced Input Methods add-on | MysterSmith | 50 EUR |
+| Transformer add-on | MysterSmith | 50 EUR |
+| Multi-watch feature add-on | TimeSmith | 20 EUR |
+| One Face Pattern routine add-on | CubeSmith | 25 EUR |
+| ACAAN routine add-on | CubeSmith | 25 EUR |
+| Playing Cards add-on | ScaleSmith BASIC | 30 EUR |
+| Objects add-on | ScaleSmith BASIC | 30 EUR |
+| Time control add-on | ScaleSmith BASIC | 25 EUR |
+| Routine control add-on | ScaleSmith BASIC | 25 EUR |
 
-Total worth of included add-ons: **885 EUR** 
+Total worth of included add-ons: **583 EUR** 
 
 If I'll offer new paid add-ons (up to 80 EUR) in the future, they will be added to the list above. 
  

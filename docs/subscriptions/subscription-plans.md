@@ -36,7 +36,7 @@ Get access to all add-ons in MysterSmith, and enjoy the features and benefits av
 
 ### BASIC subscription - from 11.25 EUR/month
 
-Get access to all my apps and add-ons (with a retail price up to 65 EUR), and enjoy the features and benefits available only for MysterSmith subscribers. 
+Get access to all my apps and add-ons (with a retail price up to 80 EUR), and enjoy the features and benefits available only for MysterSmith subscribers. 
  
 [![](https://mystersmith.info/assets/images/MysterSmith_button_basic.png){ height=120 }](https://mystersmith.info/subscriptions/basic-subscription/)
  
