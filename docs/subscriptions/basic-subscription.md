@@ -28,7 +28,7 @@ As long as your BASIC subscription is  **active**, you will get:
 
 * Access to **all features/routines/add-ons in MysterSmith** (\*) 
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
-* Access to **ALL my apps and add-ons** up to 80 EUR (worth  **838 EUR** ) (\*) 
+* Access to **ALL my apps and add-ons** up to 80 EUR (worth  **918 EUR** ) (\*) 
 * **Unlimited text recognition credits** (to be used with the Google engine in any of my apps)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **40 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
 * Access to my services at [ **https://mkm.mom** ](https://mkm.mom/help/)
@@ -76,6 +76,7 @@ In any case, you can choose between the 1 month or 3 months cycle for the PREMIU
 
 | App description | Retail price |
 | :--- | :--- |
+| ScaleSmith (Basic version) | 80 EUR |
 | Mental Painter (FULL version) | 40 EUR |
 | E.S.P. Test (FULL version) | 50 EUR |
 | Card Detector (FULL version) | 40 EUR |
@@ -84,7 +85,7 @@ In any case, you can choose between the 1 month or 3 months cycle for the PREMIU
 | KeyCard (FULL version) | 30 EUR |
 | Superhero Domino (FULL version) | 25 EUR |
 
-Total worth of included apps: **255 EUR** 
+Total worth of included apps: **335 EUR** 
 
 If I'll release new magic apps (up to 80 EUR) in the future, they will be added to the list above. 
  
