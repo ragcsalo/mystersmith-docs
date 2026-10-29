@@ -1,12 +1,12 @@
 
 # BASIC subscription
 
-Retail price: 1 month = **24 EUR** 
+Retail price: 1 month = **15 EUR** 
  
 
  **25% discount for the quarterly plan:** 
 
-3 months = 54 EUR ( **18 EUR** /month)
+3 months = 33.75 EUR ( **11.25 EUR** /month)
 
  
  

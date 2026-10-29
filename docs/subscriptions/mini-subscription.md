@@ -1,12 +1,12 @@
 
 # MINI subscription
 
-Retail price: 1 month = **12 EUR** 
+Retail price: 1 month = **8.88 EUR** 
  
 
 **25% discount for the quarterly plan:** 
 
-3 months = 27 EUR ( **9** **EUR** /month)
+3 months = 19.99 EUR ( **6.66 EUR** /month)
 
  
  
