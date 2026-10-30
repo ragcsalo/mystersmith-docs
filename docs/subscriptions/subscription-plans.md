@@ -21,7 +21,7 @@ If you keep your subscription active for at least 1 year (without pausing), and 
 
  
 
-### MINI subscription - from 6.66 EUR/month
+### MINI subscription - from 9 EUR/month
 
 Get access to all add-ons in MysterSmith, and enjoy the features and benefits available only for MysterSmith subscribers. 
  
@@ -34,7 +34,7 @@ Get access to all add-ons in MysterSmith, and enjoy the features and benefits av
 
  
 
-### BASIC subscription - from 11.25 EUR/month
+### BASIC subscription - from 18 EUR/month
 
 Get access to all my apps and add-ons (with a retail price up to 80 EUR), and enjoy the features and benefits available only for MysterSmith subscribers. 
  
@@ -46,7 +46,7 @@ Get access to all my apps and add-ons (with a retail price up to 80 EUR), and en
 ---
 
 
-### PREMIUM subscription - from 30 EUR/month
+### PREMIUM subscription - from 40 EUR/month
 
 Get access to **ALL my apps and add-ons**, and enjoy the services, features and benefits available only for MysterSmith premium subscribers. 
  

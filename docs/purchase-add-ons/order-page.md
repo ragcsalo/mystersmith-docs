@@ -1,7 +1,7 @@
 
 # THE ORDER PAGE
 
-If you don't want to subscribe to enable all the add-ons (MINI plan starting at 6.66 EUR/month), you can also purchase add-ons for MysterSmith separately at a higher price on this order page:
+If you don't want to subscribe to enable all the add-ons (MINI plan starting at 9 EUR/month), you can also purchase add-ons for MysterSmith separately at a higher price on this order page:
  
 **[bsmagic.app/order](https://bsmagic.app/order){:target="_blank"}** 
 
