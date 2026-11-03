@@ -53,13 +53,14 @@ Rewards after 3 months of continuous subscription:
 
  
 
-## Upgrading to the BASIC or PREMIUM plans
+## Changing your plan
 
-You can upgrade your MINI plan to the BASIC or PREMIUM plans  **at any time** during your active subscription period, or starting at the next billing cycle. 
+You can upgrade your MINI plan to the BASIC or PREMIUM plan **at any time** in the [Account Manager](https://bsmagic.app/account/), and choose the 1 month or 3 months cycle for the new plan. You can also switch your monthly MINI plan to **quarterly billing** the same way. 
  
-If you decide to do the upgrade **during your paid period** of the MINI plan, the remaining period will be refunded (total paid fee / total days in period \* remaining days). You will receive the partial refund after you signed up for the new BASIC or PREMIUM plan, and paid your first fee. If you choose to switch your plan starting **at your next billing cycle**, no refund will be received (as you use your MINI subscription for the whole paid period). 
+You'll be charged the **prorated difference** right away (the price of the new plan for the rest of your current billing period, minus the unused part of your current fee). If the billing cycle stays the same, your renewal date doesn't change; if it changes, you'll see your new renewal date before you confirm. From your next renewal, the full price of the new plan applies. 
  
-In any case, you can choose between the 1 month or 3 months cycle for the BASIC/PREMIUM plan. 
+Switching from quarterly to monthly billing isn't possible during an active subscription. Cancel your subscription in the [Account Manager](https://bsmagic.app/account/) (it stays active until the end of the paid period), and once it has ended, subscribe to the new plan. 
+ 
  
  **Regarding rewards** after a 3-month continuous subscription, when upgrading from MINI to BASIC/PREMIUM, your **3-month period will start over**, and you will temporarily loose your rewards (such as the locked subscription fee, option to sell purchased app licenses or pause the subscription). 
  

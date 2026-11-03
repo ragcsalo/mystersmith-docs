@@ -65,11 +65,14 @@ Rewards after 3 months of continuous subscription:
 
  
 
-## Downgrading to the BASIC plan
+## Changing your plan
 
-You can only downgrade your PREMIUM plan to the BASIC plan at the start of the next billing cycle. When downgrading, no refund will be received (as you use your PREMIUM subscription for the whole paid period). 
+You can switch your monthly PREMIUM plan to **quarterly billing** **at any time** in the [Account Manager](https://bsmagic.app/account/). 
  
-You can choose between the 1 month or 3 months cycle for the downgraded BASIC plan.
+You'll be charged the **prorated difference** right away (the price of the new plan for the rest of your current billing period, minus the unused part of your current fee). If the billing cycle stays the same, your renewal date doesn't change; if it changes, you'll see your new renewal date before you confirm. From your next renewal, the full price of the new plan applies. 
+ 
+Downgrading to the BASIC or MINI plan, or switching from quarterly to monthly billing, isn't possible during an active subscription. Cancel your subscription in the [Account Manager](https://bsmagic.app/account/) (it stays active until the end of the paid period), and once it has ended, subscribe to the new plan. 
+ 
  
 **Regarding rewards** after a 3-month continuous subscription, when downgrading from PREMIUM to BASIC, you will get to keep your rewards such as the locked subscription fee and the option to sell purchased app licenses. However, you won't be able to pause your subscription until the 4th continuous month of your BASIC plan begins. 
  
