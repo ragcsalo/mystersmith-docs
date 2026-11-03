@@ -74,7 +74,7 @@ You'll be charged the **prorated difference** right away (the price of the new p
 Downgrading to the BASIC or MINI plan, or switching from quarterly to monthly billing, isn't possible during an active subscription. Cancel your subscription in the [Account Manager](https://bsmagic.app/account/) (it stays active until the end of the paid period), and once it has ended, subscribe to the new plan. 
  
  
-**Regarding rewards** after a 3-month continuous subscription, when downgrading from PREMIUM to BASIC, you will get to keep your rewards such as the locked subscription fee and the option to sell purchased app licenses. However, you won't be able to pause your subscription until the 4th continuous month of your BASIC plan begins. 
+**Regarding rewards** after a 3-month continuous subscription: downgrading (or switching from quarterly to monthly billing) means a **new subscription**, so your **3-month period will start over** with the new plan, and you will temporarily lose your rewards (such as the locked subscription fee, the option to sell purchased app licenses or pause the subscription). The new plan is charged at its current price. 
  
 
 ---
