@@ -46,15 +46,15 @@ The **time limit** for using your credits for purchasing **will be 1 year** (mat
 
 ## Example #2
 
-You've been paying your **PREMIUM subscription** fees ( **120 EUR every 3 months** ) continuously for 1.5 years (without pausing). Then after 1.5 year you decide not to renew the subscription, and cancel it. During the continuous subscription you've paid **6 x 120 = 720 EUR** fee, and you can  **turn 75% of this fee into 540 credits**  (=540 EUR). You can now **use your credits to buy**  any apps and/or add-ons that you haven't purchased before... 
+You've been paying your **PREMIUM subscription** fees ( **75.60 EUR every 3 months** ) continuously for 1.5 years (without pausing). Then after 1.5 year you decide not to renew the subscription, and cancel it. During the continuous subscription you've paid **6 x 75.60 = 453.60 EUR** fee, and you can  **turn 75% of this fee into 340.20 credits**  (=340.20 EUR). You can now **use your credits to buy**  any apps and/or add-ons that you haven't purchased before... 
  
 For example: 
  
 CubeSmith - FULL version (250 EUR) 
-TimeSmith - FULL version (180 EUR) 
-DiceSmith - FULL version (95 EUR) 
+E.S.P. Test - FULL version (50 EUR) 
+Mental Painter - FULL version (40 EUR) 
  
- **TOTAL: 525 EUR** 
+ **TOTAL: 340 EUR** 
  
 The  **time limit**  for using your credits for purchasing  **will be 1.5 years**  (matching the duration of your last continuous subscription). 
  

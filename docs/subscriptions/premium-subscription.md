@@ -5,11 +5,11 @@ date: 2025-01-09 14:19:59
 
 # PREMIUM subscription
 
-Retail price: 1 month = **54 EUR** 
+Retail price: 1 month = **36 EUR** 
 
-**25% discount for the quarterly plan:** 
+**30% discount for the quarterly plan:** 
 
-3 months = 120 EUR ( **40 EUR** /month)
+3 months = 75.60 EUR ( **25.20 EUR** /month)
 
  
  

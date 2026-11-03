@@ -46,7 +46,7 @@ Get access to all my apps and add-ons (with a retail price up to 80 EUR), and en
 ---
 
 
-### PREMIUM subscription - from 40 EUR/month
+### PREMIUM subscription - from 25.20 EUR/month
 
 Get access to **ALL my apps and add-ons**, and enjoy the services, features and benefits available only for MysterSmith premium subscribers. 
  
