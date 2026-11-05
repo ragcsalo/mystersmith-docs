@@ -788,6 +788,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | clock drawing to Reinkstone | `clock_to_reinkstone` |  |
 | magic square to Reinkstone | `magic_square_to_reinkstone` |  |
 | ESP symbol to Reinkstone | `esp_to_reinkstone` |  |
+| dice to Reinkstone | `dice_to_reinkstone` |  |
 | clear Reinkstone screen | `reinkstone_erase` |  |
 | last photo to Reinkstone | `lastphoto_to_reinkstone` |  |
 | image buffer to Reinkstone | `imagebuffer_to_reinkstone` | Image buffer (Image Buffer add-on) |
