@@ -77,7 +77,14 @@ The current mode shows as a small icon in the top-right corner.
 
 ### Remotes with their own driver
 
-These remotes are connected in **MY DEVICES** and have their own button settings in their device panel: **Atom 2** (*Atom button actions*), **Pitata Palm Remote**, **Wilson Nexus Remote**, **Thumper v2** (*Short press actions*, *Long press actions*), **Matt+** (short / long presses, up to three, and combinations) and **A.T.C.** (short, x2, x3, long press). See [Supported devices](supported-devices.md#remote-controls).
+These remotes are connected in **MY DEVICES** and have their own button settings in their device panel: **Atom 2** (*Atom button actions*), **Pitata Palm Remote**, **Wilson Nexus Remote**, **Cosmos Connect** (*Short press actions*, *Double press actions*), **Thumper v2** (*Short press actions*, *Long press actions*), **Matt+** (short / long presses, up to three, and combinations) and **A.T.C.** (short, x2, x3, long press). See [Supported devices](supported-devices.md#remote-controls).
+
+**Using the Cosmos Connect:**
+
+* Tap the buttons, don't hold them: holding a number button for 2 seconds changes the remote's mode, and holding **R** for 10 seconds resets some of its settings and restarts it.
+* A double press is two presses of the same button within 0.3 seconds. A button with a double press action runs its short press action a little later, as the app waits for the second press. Double presses don't work on pages that use the remote for input (typing, cards, etc.).
+* Don't pair the remote to the phone, and close the Cosmos Connect app while you use it with MysterSmith.
+* If its button 1 types 0, the remote has an old firmware: please update it with the Cosmos Connect app.
 
 ---
 

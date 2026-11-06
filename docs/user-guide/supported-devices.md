@@ -88,6 +88,7 @@ Some devices need an add-on (see [the add-ons below](#add-ons-needed)), and a fe
 * Atom 2
 * Pitata Palm Remote (new model)
 * Wilson Nexus Remote
+* Cosmos Connect
 * Thumper v2
 * Matt+
 * A.T.C. (Appmazing Thumb Controller)

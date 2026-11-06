@@ -13,7 +13,7 @@ With this add-on you can enable some advanced input methods.
 
 * swipe input
 * fake passcode input
-* remote control input (Atom 2, Pitata Palm Remote, Wilson Nexus, Unifi Thumper V2)
+* remote control input (Atom 2, Pitata Palm Remote, Wilson Nexus, Unifi Thumper V2, Cosmos Connect)
 * fake calculator input
 * voice recognition
 * phone motion control
