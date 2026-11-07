@@ -61,8 +61,8 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 | `routine={N}` | Load saved routine number **N**. |
 | `routine=text` / `card` / `vibration` / `doodle` / `black` | Open the matching send screen / mode. |
 | `template={N}` | Generate template number **N**. |
-| `indextovalue={N}` | Convert the last Text Buffer text from index to value, with conversion list **#N**. |
-| `valuetoindex={N}` | Convert the last Text Buffer text from value to index, with conversion list **#N**. |
+| `indextovalue={N}` | Convert the last Text Buffer text from index to value, with indexed list **#N**. |
+| `valuetoindex={N}` | Convert the last Text Buffer text from value to index, with indexed list **#N**. |
 | `predefined={N}` | Send predefined text number **N**. |
 | `recording={N}` | Play voice recording number **N**. |
 | `aiprompt={N}` | Run A.I. text prompt number **N**. |

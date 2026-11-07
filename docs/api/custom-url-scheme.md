@@ -58,8 +58,8 @@ The parameters are processed **in the order you write them**.
 | `routine={N}` | Load your saved routine **#N**. |
 | `action={ACTIONS}` | Run one or more actions in order (see [Actions](#actions) below). |
 | `template={N}` | Generate text from template **#N**. |
-| `indextovalue={N}` | Convert the last Text Buffer text from index to value, with conversion list **#N**. |
-| `valuetoindex={N}` | Convert the last Text Buffer text from value to index, with conversion list **#N**. |
+| `indextovalue={N}` | Convert the last Text Buffer text from index to value, with indexed list **#N**. |
+| `valuetoindex={N}` | Convert the last Text Buffer text from value to index, with indexed list **#N**. |
 | `predefined={N}` | Send predefined text **#N**. |
 | `recording={N}` | Play voice recording **#N**. |
 | `aiprompt={N}` | Run A.I. text prompt **#N**. |

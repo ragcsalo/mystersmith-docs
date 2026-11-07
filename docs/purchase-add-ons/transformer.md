@@ -14,7 +14,7 @@ With this add-on you can **transform** the texts you receive (a recognized handw
 * **[A.I. IMAGE PROMPTS](../user-guide/templates-and-prompts.md#ai-image-prompts)** — let the A.I. draw a picture from your prompt: OpenAI GPT or Google Gemini (action: *execute A.I. image prompt*). The image goes to the black screen, the Doodle screen and the [Image Buffer](../user-guide/image-buffer.md).
 * **DATE CALCULATOR** — *??? days ago*, *??? days until* or *days between* two dates from the Text Buffer (action: *calculate date difference*)
 * **[ACRONYM WORD LIST](../user-guide/acronym.md)** — makes a list of words whose letters spell the received text: built-in English engine, OpenAI GPT, Google Gemini or Claude, with a flexible or fixed letter position (action: *generate Acronym word list*)
-* **[INDEXED CONVERSION LISTS](../user-guide/conversion-lists.md)** — your own lists of index + value pairs, or 52-card stacks: turn a position into a card, a card into its position, or any text into another (actions: *convert index to value*, *convert value to index*)
+* **[INDEXED LISTS](../user-guide/indexed-lists.md)** — your own lists of index + value pairs, or 52-card stacks: turn a position into a card, a card into its position, or any text into another (actions: *convert index to value*, *convert value to index*)
 
 Each of them has its own **"Action after ..."** trigger, so you can display, print or process the result automatically — see [Triggers and actions](../user-guide/triggers-and-actions.md).
 

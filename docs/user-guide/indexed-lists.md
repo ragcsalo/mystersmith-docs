@@ -1,15 +1,15 @@
 ---
-title: "Indexed conversion lists"
+title: "Indexed lists"
 date: 2026-11-07 12:00:00
 ---
 
-# Indexed conversion lists
+# Indexed lists
 
-An **indexed conversion list** is your own table of index + value pairs. MysterSmith looks up the last text of the [Text Buffer](text-buffer.md) in the list, and adds the other half of the pair to the Text Buffer.
+An **indexed list** is your own table of index + value pairs. MysterSmith looks up the last text of the [Text Buffer](text-buffer.md) in the list, and adds the other half of the pair to the Text Buffer.
 
 **Example:** in a memorized deck, a spectator names a card. The action *convert value to index* turns **Ace of Spades** into its position, **7**. Or the other way around: the spectator names a number, and *convert index to value* turns **7** into **AS**.
 
-You find it in **Settings → Transform / process → INDEXED CONVERSION LISTS**. It needs the [Transformer add-on](../purchase-add-ons/transformer.md) (included in every subscription).
+You find it in **Settings → Transform / process → INDEXED LISTS**. It needs the [Transformer add-on](../purchase-add-ons/transformer.md) (included in every subscription).
 
 ---
 
@@ -37,14 +37,14 @@ Rows that need attention are marked:
 
 ## The actions
 
-Both actions are in the *Special* group, and ask for the **Conversion list #ID**:
+Both actions are in the *Special* group, and ask for the **Indexed list #ID**:
 
 | Action | The last text of the Text Buffer is... | Added to the Text Buffer |
 |---|---|---|
 | *convert index to value (from list)* | an index | the value of that item |
 | *convert value to index (from list)* | a value | the index of that item |
 
-* The result goes into the Text Buffer (as a *conversion list result*), so it is also the new `#TEXT`, and it goes to your display devices like any new text.
+* The result goes into the Text Buffer (as a *indexed list result*), so it is also the new `#TEXT`, and it goes to your display devices like any new text.
 * A card from a card stack arrives in the same form as one from SEND PLAYING CARD (`2H`, or `2 of Hearts` if the full card name is on), so the playing card actions can use it.
 * In a card stack, the text can be in any of the card forms above. In an *Other* list, uppercase and lowercase don't matter, and `07` is the same index as `7`.
 * If the text isn't in the list, nothing happens and no message appears, so nothing gives you away during a performance.

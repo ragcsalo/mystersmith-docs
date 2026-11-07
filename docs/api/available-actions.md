@@ -882,8 +882,8 @@ An action shows up in the app's action picker only when you can use it: when the
 | run Shortcut | `shortcut` | Send data to apps & APIs (API Access add-on), iOS only, asks for a value - not for action= links |
 | send predefined text | `predefined_text` | asks for a #ID (Predefined text) |
 | text from template | `generate_template` | Templates (Transformer add-on), asks for a #ID (Template) |
-| convert index to value (from list) | `convert_index_to_value` | Indexed conversion lists (Transformer add-on), asks for a #ID (Conversion list) |
-| convert value to index (from list) | `convert_value_to_index` | Indexed conversion lists (Transformer add-on), asks for a #ID (Conversion list) |
+| convert index to value (from list) | `convert_index_to_value` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) |
+| convert value to index (from list) | `convert_value_to_index` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) |
 | execute A.I. text prompt | `execute_ai_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. text prompt) |
 | execute A.I. image prompt | `execute_ai_image_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. image prompt) |
 | play audio recording | `play_audio_rec` | Voice Recorder add-on, asks for a #ID (Audio recording) |
