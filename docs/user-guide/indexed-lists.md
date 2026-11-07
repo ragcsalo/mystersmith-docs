@@ -17,7 +17,7 @@ You find it in **Settings → Transform / process → INDEXED LISTS**. It needs 
 
 Tap **Manage lists → Open list**, optionally enter a name in the last row, and tap the **plus** sign. Then choose the type of the new list:
 
-* **Card stack** — always 52 rows, numbered from 1 to 52. The value of a row is a playing card.
+* **Card stack** — always 52 rows, numbered from 1 to 52. The value of a row is a playing card. Then choose a built-in stack (F.R.O.E. by Benke, Si Stebbins, Mnemonica, Nikola, Aronson, Osterlind, DaOrtiz, Crypto, 8 kings), which you can still edit, or **Custom stack** to enter your own.
 * **Other** — any index + value pairs. The index is a number by default, but it can be a text too; it must be unique in the list.
 
 You can make as many lists as you need. Each one gets a number (**#1**, **#2**...): the actions use this **#ID**. Swipe right on a list (or on an item of an *Other* list) to delete it.
