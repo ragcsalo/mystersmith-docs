@@ -74,10 +74,10 @@ Tap any trigger to open **Select an action**:
 * The actions are grouped by feature (*General*, *Voice Recognition*, *Prediction photo*, *Text buffer*, *Image buffer*, *Doodle screen*, *BLACK SCREEN*, *Printer*, the devices..., *Special*). The group of the current action has a yellow title.
 * **tap to cancel action** (the first row) clears the trigger.
 
-Some actions need a number — they ask for it right away: *load routine (settings)* → **Routine #ID**, *text from template* → **Template #ID**, *execute A.I. text prompt* → **Prompt #ID**, *image template to ...* → **Image template #ID**, *play audio recording* → **Recording #ID**...
+Some actions need a number — they ask for it right away: *load routine (settings)* → **Routine #ID**, *text from template* → **Template #ID**, *convert index to value* / *convert value to index* → **Conversion list #ID**, *execute A.I. text prompt* → **Prompt #ID**, *image template to ...* → **Image template #ID**, *play audio recording* → **Recording #ID**...
 
 !!! note "The Special group"
-    *generate Acronym word list*, *calculate date difference*, *open app package* (Android), *open custom URL scheme*, *run Shortcut* (iOS), *send predefined text*, *text from template*, *execute A.I. text / image prompt*, *play audio recording*, *stop audio playback*, *load routine (settings)*.
+    *generate Acronym word list*, *calculate date difference*, *open app package* (Android), *open custom URL scheme*, *run Shortcut* (iOS), *send predefined text*, *text from template*, *convert index to value (from list)*, *convert value to index (from list)*, *execute A.I. text / image prompt*, *play audio recording*, *stop audio playback*, *load routine (settings)*.
 
 ---
 
