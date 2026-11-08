@@ -23,6 +23,13 @@ Tap **Manage lists → Open list**, optionally enter a name in the last row, and
 
 You can make as many lists as you need. Each one gets a number (**#1**, **#2**...): the actions use this **#ID**. Swipe right on a list (or on an item of a numbered or custom list) to delete it.
 
+### Pasting a numbered or custom list
+
+Tap **Paste list from clipboard** in the list to fill it from a copied text, one item per line (it replaces the list's items, after asking):
+
+* **Numbered list:** `apple`, or `1,apple` — the lines are numbered in their order.
+* **Custom list:** `index,value`, e.g. `red,alert`. The first comma separates the two, so the value can have commas too. A tab or a semicolon also works (a copy from a spreadsheet). A line without an index or a value, and a line with an index already used above it, are left out.
+
 ### Card stacks
 
 Write a card in any of these forms: `5C`, `4h`, `QS`, `kd`, `3 of hearts`, `King of Clubs`. MysterSmith shows it as a red or black **4♣**.
