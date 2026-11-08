@@ -18,9 +18,10 @@ You find it in **Settings → Transform / process → INDEXED LISTS**. It needs 
 Tap **Manage lists → Open list**, optionally enter a name in the last row, and tap the **plus** sign. Then choose the type of the new list:
 
 * **Card stack** — always 52 rows, numbered from 1 to 52. The value of a row is a playing card. Then choose a built-in stack (F.R.O.E. by Benke, Si Stebbins, Mnemonica, Nikola, Aronson, Osterlind, DaOrtiz, Crypto, 8 kings), which you can still edit, or **Custom stack** to enter your own.
-* **Other** — any index + value pairs. The index is a number by default, but it can be a text too; it must be unique in the list.
+* **Numbered list** — your own values, numbered automatically: 1, 2, 3... Delete an item, and the ones after it move up.
+* **Custom list** — any index + value pairs. The index can be a number or a text (*aries*, *ten*, *X1*...); it must be unique in the list.
 
-You can make as many lists as you need. Each one gets a number (**#1**, **#2**...): the actions use this **#ID**. Swipe right on a list (or on an item of an *Other* list) to delete it.
+You can make as many lists as you need. Each one gets a number (**#1**, **#2**...): the actions use this **#ID**. Swipe right on a list (or on an item of a numbered or custom list) to delete it.
 
 ### Card stacks
 
@@ -46,7 +47,7 @@ Both actions are in the *Special* group, and ask for the **Indexed list #ID**:
 
 * The result goes into the Text Buffer (as a *indexed list result*), so it is also the new `#TEXT`, and it goes to your display devices like any new text.
 * A card from a card stack arrives in the same form as one from SEND PLAYING CARD (`2H`, or `2 of Hearts` if the full card name is on), so the playing card actions can use it.
-* In a card stack, the text can be in any of the card forms above. In an *Other* list, uppercase and lowercase don't matter, and `07` is the same index as `7`.
+* In a card stack, the text can be in any of the card forms above. In a numbered or custom list, uppercase and lowercase don't matter, and `07` is the same index as `7`.
 * If the text isn't in the list, nothing happens and no message appears, so nothing gives you away during a performance.
 
 **Action after conversion** in the settings can run another action automatically, after the delay you set. See [Triggers and actions](triggers-and-actions.md).
