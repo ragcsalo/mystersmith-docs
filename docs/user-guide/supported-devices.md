@@ -31,10 +31,12 @@ Some devices need an add-on (see [the add-ons below](#add-ons-needed)), and a fe
 * Iarvel Keychain PRO (Key Prediction PRO)
 * Notifier (Unifi Notifier)
 * Reinkstone case (**iOS only**)
-* E-ink tags: Gicisky tags (2.1" BW, 3.6" BWRYGB, 3.7" BWR, 4" BWRY, 4.2" BWR) and HolyIoT Inkcard (4 and 6 colors)
+* E-ink tags: Gicisky tags (2.1" BW, 3.6" BWRYGB, 3.7" BWR, 4" BWRY, 4.2" BWR) and HolyIoT Inkcard (4 and 6 colors), XTE 4-color e-ink badge, FindXeink F20 (4 colors)
 * The Missing Tape (by Yao) — through The Missing Tape app
 * Picdance case
 * LED Mask (Shining App Mask)
+* Selfie Screen (Magnetic Selfie Screen TP02)
+* LCD badge (DG01 round color badge)
 
 <br>
 
@@ -78,6 +80,7 @@ Some devices need an add-on (see [the add-ons below](#add-ons-needed)), and a fe
 * Temu printer (X6, X10)
 * Paperang printer (Paperang P3S 80mm)
 * Unifi Scribe / Mini (using custom URL scheme only)
+* Color photo printers: HP Sprocket, Liene Pearl, Polaroid ZIP / Mint, Canon IVY / Zoemini, LG PD233 (the last three: **Android only**), and an instant (polaroid style) color printer
 
 <br>
 
@@ -120,6 +123,9 @@ Used by the **DICE INPUT** feature:
 * Insight NFC
 * Second Sight
 * Labco Scrabble
+* Labco UFO5 (RFID card reader)
+* Iarvel Color Match
+* Iarvel Photo Album (Inner Vision PRO)
 * NFC tags, with the phone's own NFC reader
 
 <br>

@@ -6,7 +6,7 @@ date: 2026-10-22 12:00:00
 # What's new in MysterSmith v2.3.61
 
 !!! info "Looking for the latest?"
-    This is the archived **v2.3.61** release page. For the newest features, see [**What's new in v2.3.71**](whats-new.md).
+    This is the archived **v2.3.61** release page. For the newest features, see [**What's new in v2.3.91**](whats-new.md).
 
 Since **v2.3.51**, MysterSmith has a brand-new tool: the **Image Template Editor**. Design a picture once — a background, images and text fields — and send it to your printer, Doodle screen or any display device, filled with whatever just happened in your routine: the spectator's word, a fresh A.I. drawing, a calculated number. Around it: a smarter **Image Buffer**, better **A.I. drawings**, new actions and a few important fixes. Here are the highlights. :-)
 
