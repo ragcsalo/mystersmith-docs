@@ -5,7 +5,7 @@ These are the actions you can choose for a **trigger** (button, gesture, recogni
 An action shows up in the app's action picker only when you can use it: when the device is switched on in **MY DEVICES**, the feature is enabled in **AVAILABLE FEATURES**, or the add-on / API key it needs is there. The **Needs** column tells you what that is.
 
 !!! tip "Using the code"
-    The **Code** is the action's internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number — use their own URL parameter (`template=`, `predefined=`, `aiprompt=`, `recording=`, `routine=`, `imagetemplate...=`) instead.
+    The **Code** is the action's internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number, so they **can't go into an `action=` list** (there they run without an ID: "can't find #0"). Use the URL parameter written in their row instead, e.g. `imagetemplatedoodle=9` for *image template to Doodle screen* #9. Example: `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`.
 
 *465 actions in 47 groups. This list is updated from time to time - the app may already have a few more.*
 
@@ -213,7 +213,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | clear Image Buffer | `clear_image_buffer` |  |
 | delete last image from buffer | `delete_last_imagebuffer` |  |
 | copy image to Doodle canvas | `imagebuffer_to_doodle_canvas` |  |
-| generate image from template | `generate_image_from_template` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| generate image from template | `generate_image_from_template` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplategenerate=N` |
 
 ---
 
@@ -254,7 +254,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | emoji to Doodle | `emoji_to_doodle` |  |
 | dice to Doodle | `dice_to_doodle` |  |
 | last photo to Doodle | `lastphoto_to_doodle` | Image buffer (Image Buffer add-on) |
-| image template to Doodle screen | `image_template_to_doodle` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Doodle screen | `image_template_to_doodle` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplatedoodle=N` |
 | show next Ultra Sharpie page | `ultrapen_show_nextpage` | Ultra Sharpie/Pen |
 | show next Penthal page | `penthal_show_nextpage` | Nova/Penthal pen |
 
@@ -389,7 +389,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | Peek Board force reconnect | `iarvel_peekboard_force_reconnect` |  |
 | image buffer to Peek Board | `imagebuffer_to_iarvel_peekboard` |  |
 | last photo to Peek Board | `lastphoto_to_iarvel_peekboard` |  |
-| image template to Peek Board | `image_template_to_iarvel_peekboard` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Peek Board | `image_template_to_iarvel_peekboard` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplatepeekboard=N` |
 
 ---
 
@@ -419,7 +419,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | magic square to printer | `magic_square_to_printer` |  |
 | last photo to printer | `lastphoto_to_printer` |  |
 | image buffer to printer | `imagebuffer_to_printer` | Image buffer (Image Buffer add-on) |
-| image template to printer | `image_template_to_printer` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to printer | `image_template_to_printer` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplate=N` |
 | feed paper 5mm | `printer_feed_5mm` |  |
 | feed paper 25mm | `printer_feed_25mm` |  |
 
@@ -519,7 +519,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | image buffer to color photo printer | `imagebuffer_to_opp_photoprinter` | Image buffer (Image Buffer add-on) |
 | last photo to color photo printer | `lastphoto_to_opp_photoprinter` |  |
 | doodle drawing to color photo printer | `doodle_to_opp_photoprinter` |  |
-| image template to color photo printer | `image_template_to_opp_photoprinter` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to color photo printer | `image_template_to_opp_photoprinter` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplatephoto=N` |
 
 ---
 
@@ -560,7 +560,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | clear Teleport (black) | `teleport_erase` |  |
 | last photo to Teleport | `lastphoto_to_teleport` |  |
 | image buffer to Teleport | `imagebuffer_to_teleport` | Image buffer (Image Buffer add-on) |
-| image template to Teleport | `image_template_to_teleport` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Teleport | `image_template_to_teleport` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplateteleport=N` |
 | emoji to Teleport | `emoji_to_teleport` |  |
 
 ---
@@ -580,7 +580,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | magic square to Prism | `magic_square_to_lumen_prism` |  |
 | last photo to Prism | `lastphoto_to_lumen_prism` |  |
 | image buffer to Prism | `imagebuffer_to_lumen_prism` | Image buffer (Image Buffer add-on) |
-| image template to Prism | `image_template_to_lumen_prism` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Prism | `image_template_to_lumen_prism` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplateprism=N` |
 | emoji to Prism | `emoji_to_lumen_prism` |  |
 | clear Prism (black) | `lumen_prism_erase` |  |
 
@@ -637,7 +637,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | ESP symbol to Inversion Board | `esp_to_pitata_chalk` |  |
 | dice to Inversion Board | `dice_to_pitata_chalk` |  |
 | last photo to Inversion Board | `lastphoto_to_pitata_chalk` |  |
-| image template to Inversion Board | `image_template_to_pitata_chalk` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Inversion Board | `image_template_to_pitata_chalk` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplateinversion=N` |
 | erase Inversion Board | `pitata_chalk_erase` |  |
 | Inversion Board fake wipe | `pitata_chalk_wipe_board` |  |
 
@@ -652,7 +652,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | erase Inv.Board Ultra | `pitata_ultra_erase` |  |
 | Inv.Board Ultra fake wipe | `pitata_ultra_wipe_board` |  |
 | doodle drawing to Inv.Board Ultra | `doodle_to_pitata_ultra` |  |
-| image template to Inv.Board Ultra | `image_template_to_pitata_ultra` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to Inv.Board Ultra | `image_template_to_pitata_ultra` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplateultra=N` |
 | handwriting to Inv.Board Ultra | `handwriting_to_pitata_ultra` |  |
 | signature to Inv.Board Ultra | `signature_to_pitata_ultra` |  |
 | playing card to Inv.Board Ultra | `playingcard_to_pitata_ultra` |  |
@@ -684,7 +684,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | ESP symbol to RealBoard | `esp_to_realboard` |  |
 | dice to RealBoard | `dice_to_realboard` |  |
 | last photo to RealBoard | `lastphoto_to_realboard` |  |
-| image template to RealBoard | `image_template_to_realboard` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to RealBoard | `image_template_to_realboard` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplaterealboard=N` |
 
 ---
 
@@ -696,7 +696,7 @@ An action shows up in the app's action picker only when you can use it: when the
 |---|---|---|
 | doodle drawing to E-ink tag | `doodle_to_eink_tag` |  |
 | image buffer to E-ink tag | `imagebuffer_to_eink_tag` | Image buffer (Image Buffer add-on) |
-| image template to E-ink tag | `image_template_to_eink_tag` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to E-ink tag | `image_template_to_eink_tag` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplateeink=N` |
 | handwriting to E-ink tag | `handwriting_to_eink_tag` |  |
 | signature to E-ink tag | `signature_to_eink_tag` |  |
 | playing card to E-ink tag | `playingcard_to_eink_tag` |  |
@@ -805,7 +805,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | handwriting to VHS tape | `handwriting_to_vhs_tape` |  |
 | image buffer to VHS tape | `imagebuffer_to_vhs_tape` | Image buffer (Image Buffer add-on) |
 | clear VHS tape (white) | `clear_vhs_tape` |  |
-| image template to VHS tape | `image_template_to_vhs_tape` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| image template to VHS tape | `image_template_to_vhs_tape` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplatevhs=N` |
 
 ---
 
@@ -880,12 +880,12 @@ An action shows up in the app's action picker only when you can use it: when the
 | open app package | `customapp` | Send to apps & API, app integrations, Android only, asks for a value - not for action= links |
 | open custom URL scheme | `urlscheme` | Send to apps & API, app integrations, asks for a value - not for action= links |
 | run Shortcut | `shortcut` | Send to apps & API, app integrations, iOS only, asks for a value - not for action= links |
-| send predefined text | `predefined_text` | asks for a #ID (Predefined text) |
-| text from template | `generate_template` | Templates (Transformer add-on), asks for a #ID (Template) |
-| convert index to value (from list) | `convert_index_to_value` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) |
-| convert value to index (from list) | `convert_value_to_index` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) |
-| execute A.I. text prompt | `execute_ai_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. text prompt) |
-| execute A.I. image prompt | `execute_ai_image_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. image prompt) |
-| play audio recording | `play_audio_rec` | Voice Recorder add-on, asks for a #ID (Audio recording) |
+| send predefined text | `predefined_text` | asks for a #ID (Predefined text) — link: `predefined=N` |
+| text from template | `generate_template` | Templates (Transformer add-on), asks for a #ID (Template) — link: `template=N` |
+| convert index to value (from list) | `convert_index_to_value` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) — link: `indextovalue=N` |
+| convert value to index (from list) | `convert_value_to_index` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) — link: `valuetoindex=N` |
+| execute A.I. text prompt | `execute_ai_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. text prompt) — link: `aiprompt=N` |
+| execute A.I. image prompt | `execute_ai_image_prompt` | A.I. Prompts (Transformer + A.I. Features add-on), asks for a #ID (A.I. image prompt) — link: `aiimageprompt=N` |
+| play audio recording | `play_audio_rec` | Voice Recorder add-on, asks for a #ID (Audio recording) — link: `recording=N` |
 | stop audio playback | `stop_audio_rec` | Voice Recorder add-on |
-| load routine (settings) | `load_routine` | asks for a #ID (Routine) |
+| load routine (settings) | `load_routine` | asks for a #ID (Routine) — link: `routine=N` |

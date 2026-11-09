@@ -53,6 +53,12 @@ The text is sent to your connected peek display, added to the TextBuffer, and sh
 
 This runs the actions in order, pausing 3 seconds in the middle.
 
+Actions that ask for a #ID (image templates, templates, A.I. prompts...) have their own parameter instead of `action=` (see the table below). They can be mixed, in order:
+
+`http://localhost:62369/data?action=poll_once,pause3&imagetemplategenerate=9`
+
+runs *poll_once*, waits 3 seconds, then generates image template #9.
+
 ### Other useful parameters
 
 You can combine these in the `/data` URL just like in the Custom URL scheme:

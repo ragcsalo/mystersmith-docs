@@ -87,6 +87,15 @@ The **#N** numbers are the same ones the app shows next to the routines, templat
 
 **Example:** `mystersmith://?predefined=2&wait=5&aiprompt=1` – sends predefined text #2, waits 5 seconds, then runs A.I. prompt #1.
 
+!!! tip "Actions with a #ID: use their own parameter"
+    The actions that ask for a #ID (image templates, templates, predefined texts, A.I. prompts, recordings, indexed lists, routines) can't go into an `action=` list: there they run **without an ID**, and the app says it can't find #0. Use their own parameter from the table above — the [action list](available-actions.md) names it at every such action (e.g. *image template to Doodle screen* → `imagetemplatedoodle=N`).
+
+    You can mix them with actions and pauses — they run in the order you write them:
+
+    `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`
+
+    runs *poll_once*, waits 3 seconds (plus the 1 second the app waits after every action), then generates image template #9. The same with a separate pause: `...action=poll_once&wait=3&imagetemplategenerate=9`
+
 ---
 
 ## Actions
