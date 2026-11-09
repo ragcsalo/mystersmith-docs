@@ -1,9 +1,9 @@
 ---
 title: "What's new"
-date: 2026-11-08 12:00:00
+date: 2026-11-09 18:00:00
 ---
 
-# What's new in MysterSmith v2.3.91
+# What's new in MysterSmith v2.3.94
 
 !!! info "Add-ons and subscriptions on iPhone"
     To follow the App Store / TestFlight rules, the **iOS app doesn't show purchase links** for add-ons and subscriptions. You'll find everything here:
@@ -12,7 +12,56 @@ date: 2026-11-08 12:00:00
 
     Already bought something? Just sign in — everything you own is unlocked automatically, on iPhone too.
 
+**New since v2.3.91:** the clipboard, the WEB-screen, the BT Screen, notifications and sending data to other apps are **free for everyone** now, the **WEB-screen** got a complete makeover, the Settings page has **new sections**, and **auto-connect** became simpler: one switch per device. More below. :-)
+
 Since **v2.3.71**, MysterSmith has a new tool in the Transformer add-on, the **Indexed lists**: memorized decks, numbered lists and your own lookup tables. A lot of **new devices** joined too: the Magnetic Selfie Screen, a round color badge, the Iarvel Photo Album, the Color Match Taskmaster, the Labco UFO5 card reader, two 4-color e-ink tags, an instant photo printer and the Cosmos Connect remote. The **LED Mask** got its own picture editor and A.I. faces. Here are the highlights. :-)
+
+---
+
+## Free for everyone (v2.3.94)
+
+These features needed an add-on so far — now **everybody** can use them:
+
+* **Copy to clipboard**, the **[WEB-screen](../user-guide/webscreen.md)**, the **BT Screen** and **Local notifications** (were: External Displays add-on)
+* **Send text to WEB API** and the **app integrations**: Inject, Goo, Motherboard, TimeSmith, Bridge, Elips, the InMind Wheel, Pi Revelations; the *open app*, *open custom URL scheme* and *run Shortcut* actions, and an NFC tag or a WEB-polling result opening a link or an app (were: API Access add-on)
+
+The add-ons cover less, but the important parts:
+
+* **[External Displays](../purchase-add-ons/external-displays.md)** — the real display devices: peek devices, e-ink screens, smartwatches...
+* **[API Access](../purchase-add-ons/api-access.md)** — the MysterSmith API, the local HTTP Socket server and the incoming mystersmith:// links (loading a routine with a link stays free). See [Custom URL scheme](../api/custom-url-scheme.md) for the details.
+
+---
+
+## The new WEB-screen
+
+The [WEB-screen](../user-guide/webscreen.md) shows your texts in any browser — and now it is a modern page in dark blue and gold, which can be **installed as a fullscreen app** on iPhone and Android:
+
+* **Fullscreen** or a **small peek screen** (top, middle or bottom)
+* text **size**, **color** and **opacity**
+* **Touch to peek**, **Vertical phone only** and **Hide peek after X seconds**
+* **playing cards** shown as real card faces (or as 4♥)
+* the screen stays awake while it is open
+
+It works with my other apps too (PeekSmith, TimeSmith, CubeSmith...). How to set it up and install it: [The WEB-screen](../user-guide/webscreen.md).
+
+---
+
+## Settings: new sections (v2.3.94)
+
+* **MYSTERSMITH API** (below MY ACTIONS) — your MysterSmith API key and URL, and the HTTP Socket server.
+* **APP INTEGRATIONS** — Inject, Bridge, Goo, Motherboard, TimeSmith and Elips settings in one place.
+* **SEND TO APPS & API** (was SEND TO API) — Send text to WEB API and its two encode switches.
+* **OUTPUT OPTIONS** (was EXTERNAL DISPLAYS) — clipboard, WEB-screen, BT Screen, notifications.
+* **WEAROS WATCH** — its own section, like the Apple Watch: *Use WearOS watch* and *Motion sensor*.
+* **Use proxy for A.I. requests** moved to **A.I. FEATURES**.
+
+---
+
+## Auto-connect: one switch per device (v2.3.93)
+
+The four *Auto-connect devices* options (All nearby, My saved devices, Saved for this routine, Custom) are gone. Now **every device has its own Auto-connect switch** (in its settings panel): what is switched on connects by itself — even when it is not advertising at the moment, the app keeps trying in the background. A new **Auto-connect new devices** switch in MY DEVICES decides what happens with a device you connect for the first time.
+
+The switches are saved with your [routines](../user-guide/routines.md), so every routine can connect its own devices. Your old routines are converted automatically the first time you load them. See [Display devices](../user-guide/display-devices.md).
 
 ---
 
@@ -28,6 +77,8 @@ Three kinds of lists:
 * **Card stack** — 52 cards, numbered 1–52. Start from a built-in stack (F.R.O.E. by Benke, Si Stebbins, Mnemonica, Nikola, Aronson, Osterlind, DaOrtiz, Crypto, 8 kings) or enter your own. Write the cards as `5C`, `4h`, `QS`, `3 of hearts` or `King of Clubs`, or **paste** a whole list from the clipboard. The list shows them as red and black **4♣**, and marks the duplicates.
 * **Numbered list** — your values, numbered automatically: 1, 2, 3...
 * **Custom list** — any index and any value, e.g. *aries → March*.
+
+Numbered and custom lists can be **pasted** from the clipboard too (since v2.3.93), one item per line: `apple` or `1,apple` for a numbered list, `index,value` for a custom list (e.g. `red,alert`).
 
 The result is a normal Text Buffer text, so it goes to your display devices, and **Action after conversion** can run the next step. The full guide: [Indexed lists](../user-guide/indexed-lists.md).
 
@@ -103,6 +154,9 @@ As always, both are included in every [subscription plan](../subscriptions/subsc
 * **Reinkstone case (iOS):** its own settings panel, with display details and a *dice to Reinkstone* action.
 * **Your devices:** using the app on more than 3 phones/tablets at the same time only gives a warning now.
 * **Subscriptions:** you can change your plan on your account page — move to a higher plan, or switch to quarterly billing. See *Changing your plan* on your plan's page, e.g. [PREMIUM](../subscriptions/premium-subscription.md#changing-your-plan).
+* **Selfie Screen:** found on iPhone also when it was paired before, and a screen that got stuck recovers by itself (v2.3.92–93).
+* **Your API keys and IDs:** a key you change on one phone is no longer overwritten by the old one from your other phone at the next sync.
+* **Settings:** hidden sections no longer leave empty gaps on the Settings page.
 * plus many smaller fixes across the app (voice commands, saved devices of a routine, printers and more).
 
 ---

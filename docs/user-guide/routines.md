@@ -42,10 +42,10 @@ Below the buttons:
 * **Your routines**, newest first. Tap one to load it.
 * **Shared routine:** the yellow field — type the **#ID** of a routine somebody shared with you.
 
-When a routine is loaded, the app restarts quickly with the new settings. Connected Bluetooth devices are disconnected, then reconnected according to the **Auto-connect devices** setting.
+When a routine is loaded, the app restarts quickly with the new settings. Connected Bluetooth devices are disconnected, then the devices whose **Auto-connect** switch is on in this routine connect again.
 
 !!! tip "Devices per routine"
-    In **MY DEVICES**, set **Auto-connect devices** to **Saved for this routine**, connect the devices you need for this effect and tap **Save connected devices → Save**. From then on, loading the routine connects exactly those devices.
+    The **Auto-connect** switch of every device (in its panel) is saved with the routine: switch it on for the devices you need for this effect, off for the others, and save the routine. From then on, loading the routine connects exactly those devices.
 
 ---
 

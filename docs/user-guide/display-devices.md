@@ -19,13 +19,9 @@ All devices are managed in **Settings → MY DEVICES**:
 
 * **Enable/disable BT devices → Manage** opens **AVAILABLE DEVICES**, in groups: *Display devices*, *Impression devices*, *Printers*, *Remote controls*, *Bluetooth dice*, *Other devices*. Switch on the ones you own. **Long press** a device to make it a favorite, and use **☆ Show only favorites** to keep the list short. **Refresh device list** if a device doesn't show up.
 * Each enabled device has a row in MY DEVICES: **Connect** opens a list of the devices found nearby — tap yours. When it is connected, **Settings** opens its own panel (it closes by itself if the device disconnects).
-* **Auto-connect devices** — what connects by itself:
-    * *All nearby devices* (default),
-    * *My saved devices* — the devices you connected before,
-    * *Saved for this routine* — with **Save connected devices → Save**, each [routine](routines.md) remembers its own devices,
-    * *Custom (per device setting)*.
+* **Auto-connect** — every device has its own **Auto-connect device** switch (in its panel): the devices switched on connect by themselves, and the app keeps trying in the background when one is not found at the moment. **Auto-connect new devices** (in MY DEVICES) decides whether a device you connect for the first time gets its switch on. The switches are saved with each [routine](routines.md). (Before v2.3.93 there was an *Auto-connect devices* option with four modes; old routines are converted when you load them.)
     
-    A device's own **Auto-connect device** switch (in its panel) always wins. **Disable auto-connect for saved devices** (in AVAILABLE DEVICES) switches them all off.
+    **Disable auto-connect for saved devices** (in AVAILABLE DEVICES) switches them all off.
 
 ---
 

@@ -75,7 +75,7 @@ Open **MY DEVICES**:
 
 1. **Enable/disable BT devices → Manage** shows every supported device. Switch on the ones you own (**ENABLE ALL** / **Disable all** at the top; **long press** a device to make it a favorite, and **Show only favorites** to keep the list short).
 2. Turn on your device and tap **Connect** next to it. Once it is connected, **Settings** opens the device's own panel: device info, basic settings, a test, and its button actions.
-3. **Auto-connect devices** decides what connects by itself when the app starts: *All nearby devices*, *My saved devices*, *Saved for this routine* or *Custom (per device setting)*.
+3. **Auto-connect:** every device has its own **Auto-connect device** switch in its panel; the ones switched on connect by themselves. **Auto-connect new devices** (in MY DEVICES) sets it for the devices you connect for the first time.
 
 The full list: [Supported devices](supported-devices.md).
 
