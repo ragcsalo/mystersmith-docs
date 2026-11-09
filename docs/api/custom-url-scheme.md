@@ -14,12 +14,9 @@ MysterSmith can be opened — and told what to do — with a simple link that st
 The parameters are processed **in the order you write them**.
 
 !!! note "Requires the API Access add-on"
-    The mystersmith:// links need the [API Access](../purchase-add-ons/api-access.md) add-on (since v2.3.94). Without it, the app skips the parameters and tells you about the add-on. **Free for everyone:**
+    Since v2.3.94 these parameters need the [API Access](../purchase-add-ons/api-access.md) add-on: `routine`, `webinput`, `webpolling`, `webdoodle`, `nfc`, `text` (`text1`...), `action` (`action1`...), `wait`, `recording`, `template`, `predefined`, `aiprompt`, `aiimageprompt`, `imagetemplate` (and its `imagetemplate...` variants), `indextovalue`, `valuetoindex`. Without the add-on, the app skips them and tells you about the add-on.
 
-    * loading a routine: `autostart=...` and `routine=...`
-    * a plain `mystersmith://` (it just opens the app)
-    * the [home screen shortcuts](#home-screen-shortcuts): `reset`, `default`, `clear`
-    * the [app developer](#for-app-developers) parameters: `get_token`, `open`
+    **Free for everyone:** a plain `mystersmith://` (it just opens the app), `autostart`, the [home screen shortcuts](#home-screen-shortcuts) (`reset`, `default`, `clear`) and the [app developer](#for-app-developers) parameters (`get_token`, `open`).
 
 !!! tip "On the same phone? The HTTP socket does the same"
     Every parameter on this page also works with the [HTTP Socket](http-socket.md) (`http://localhost:62369/data?...`) — without switching apps.

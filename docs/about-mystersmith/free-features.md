@@ -31,7 +31,6 @@ Good news: several features in MysterSmith are **FREE** for everyone!!! :-)
 **RECEIVING DATA:** 
 
 * WEB-polling: you can receive info from any WEB API (like Inject, WikiTest, Elips, Topix, Goo etc. or any other source)
-* Custom URL scheme: other apps can load your routines through the mystersmith:// scheme (sending texts and actions needs the [API Access add-on](../purchase-add-ons/api-access.md), just like the HTTP Socket)
 * WEB-input (WEB-thumper): you can receive data from any WEB-browser, from anywhere in the world (mainly from planet Earth)
 * manual input: your assistant can enter text/numbers, playing cards, colors etc. manually
 * you can use the built-in NFC reader of your phone to receive data
