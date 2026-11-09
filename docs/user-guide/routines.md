@@ -114,4 +114,4 @@ The routine is loaded with all its settings — their personal settings and API 
 ## Switching routines during a show
 
 * The action **load routine (settings)** (in the *Special* group) loads a routine by its **#ID** — without asking, so you can put it on a volume button, a remote button or into an action list.
-* From another app or a shortcut: the URL `mystersmith://?routine=N` loads routine **N** (with the API Access add-on; the HTTP socket accepts `routine=N` too). See [Custom URL scheme](../api/custom-url-scheme.md) and [HTTP Socket](../api/http-socket.md).
+* From another app or a shortcut: the URL `mystersmith://?routine=N` loads routine **N** (free, no add-on needed; the HTTP socket accepts `routine=N` too, with the API Access add-on). See [Custom URL scheme](../api/custom-url-scheme.md) and [HTTP Socket](../api/http-socket.md).

@@ -34,7 +34,7 @@ You find these settings in **Settings → MYSTERSMITH API**.
     * the actions that open other apps: *open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* actions, *last text to Glyphs*, *display on maps*
     * an NFC tag or a WEB-polling result that opens a URL or an app
 
-    Some mystersmith:// links stay free too: a plain `mystersmith://` and the home screen shortcuts (`reset`, `default`, `clear`). See [Custom URL scheme](../api/custom-url-scheme.md) for the list of parameters that need the add-on.
+    Some mystersmith:// links stay free too: loading a routine (`autostart=...`, `routine=...`), a plain `mystersmith://` and the home screen shortcuts (`reset`, `default`, `clear`). See [Custom URL scheme](../api/custom-url-scheme.md) for the list of parameters that need the add-on.
  
 
 ---
