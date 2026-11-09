@@ -124,7 +124,7 @@ Used by the **DICE INPUT** feature:
 * Second Sight
 * Labco Scrabble
 * Labco UFO5 (RFID card reader)
-* Iarvel Color Match
+* Color Match Taskmaster
 * Iarvel Photo Album (Inner Vision PRO)
 * NFC tags, with the phone's own NFC reader
 

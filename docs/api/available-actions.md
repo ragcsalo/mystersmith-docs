@@ -126,9 +126,9 @@ An action shows up in the app's action picker only when you can use it: when the
 
 ---
 
-## Iarvel Color Match
+## Color Match Taskmaster
 
-*Needs: Iarvel Color Match*
+*Needs: Color Match Taskmaster*
 
 | Action | Code | Needs / notes |
 |---|---|---|

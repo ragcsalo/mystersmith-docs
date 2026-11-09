@@ -12,7 +12,7 @@ date: 2026-11-08 12:00:00
 
     Already bought something? Just sign in — everything you own is unlocked automatically, on iPhone too.
 
-Since **v2.3.71**, MysterSmith has a new tool in the Transformer add-on, the **Indexed lists**: memorized decks, numbered lists and your own lookup tables. A lot of **new devices** joined too: the Magnetic Selfie Screen, a round color badge, the Iarvel Photo Album and Color Match, the Labco UFO5 card reader, two 4-color e-ink tags, an instant photo printer and the Cosmos Connect remote. The **LED Mask** got its own picture editor and A.I. faces. Here are the highlights. :-)
+Since **v2.3.71**, MysterSmith has a new tool in the Transformer add-on, the **Indexed lists**: memorized decks, numbered lists and your own lookup tables. A lot of **new devices** joined too: the Magnetic Selfie Screen, a round color badge, the Iarvel Photo Album, the Color Match Taskmaster, the Labco UFO5 card reader, two 4-color e-ink tags, an instant photo printer and the Cosmos Connect remote. The **LED Mask** got its own picture editor and A.I. faces. Here are the highlights. :-)
 
 ---
 
@@ -56,7 +56,7 @@ The album tells MysterSmith which page the spectator stops at:
 * The chosen photo's **name** goes into the Text Buffer, and the photo can appear on the BLACK SCREEN and in the Image Buffer (action: *display InnerVision photo*), or even become the background of the fake lockscreen.
 * Every photo can have its own action, plus an **Action after photo selected**. (Actions other than the Text Buffer need the [Advanced Input Methods](../purchase-add-ons/advanced-inputs.md) add-on or a subscription.)
 
-### Iarvel Color Match
+### Color Match Taskmaster
 
 The holder of 6 pens: when the spectator **takes out a pen**, its color goes into the Text Buffer (free). You can rename the 6 colors, and choose any other action for it with the Advanced Input Methods add-on or a subscription.
 
