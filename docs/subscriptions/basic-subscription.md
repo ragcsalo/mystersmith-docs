@@ -31,6 +31,7 @@ As long as your BASIC subscription is  **active**, you will get:
 * Access to **ALL my apps and add-ons** up to 80 EUR (worth  **1048 EUR** ) (\*) 
 * **Unlimited text recognition credits** (to be used with the Google engine in any of my apps)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **40 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
+* **Bonus routine: Alexa the mind reader** - the Magic Mind Reader Alexa skill says the word your spectator is thinking of ([details](https://mystersmith.info/subscriptions/alexa-mind-reader/))
 * Access to my services at [ **https://mkm.mom** ](https://mkm.mom/help/)
 * Access to my Messenger trick called **Mental Agency**  (to be released later in 2026)
 * **25% discount**  for certain  **3rd party add-ons**  (sold by other developers, purchased through my service)

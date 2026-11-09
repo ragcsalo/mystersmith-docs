@@ -29,6 +29,7 @@ As long as your  **MINI** subscription is  **active**, you will get:
 * Access to **all add-ons in MysterSmith**  (worth  **533 EUR** )  (\*) 
 * **Unlimited text recognition credits**  (to be used with the Google engine in MysterSmith)
 * **FREE Gemini A.I.** - Gemini A.I. features without your own API key: **20 A.I. calls a day** ([details](https://mystersmith.info/subscriptions/free-gemini/))
+* **Bonus routine: Alexa the mind reader** - the Magic Mind Reader Alexa skill says the word your spectator is thinking of ([details](https://mystersmith.info/subscriptions/alexa-mind-reader/))
 * Access to **exclusive features** in MysterSmith, available to **subscribers only** 
 * Access to the **closed Facebook group** of MysterSmith subscribers
 * Access to the **private helpdesk chat**  for MysterSmith subscribers

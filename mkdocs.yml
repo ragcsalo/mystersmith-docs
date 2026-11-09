@@ -107,11 +107,13 @@ nav:
   - PREMIUM subscription: subscriptions/premium-subscription.md
   - Free Gemini A.I.: subscriptions/free-gemini.md
   - Credits reward: subscriptions/credits-reward.md
+  - "Bonus: Alexa the mind reader": subscriptions/alexa-mind-reader.md
 - Integrations:
   - Bridge A.I.: integrations/bridge.md
   - Send data to Inject: integrations/inject-send.md
   - Notarized: integrations/notarized.md
   - Unknown Destination: integrations/unknown-destination.md
+  - "Alexa: Magic Mind Reader": /subscriptions/alexa-mind-reader/
 - API documentation:
   - WEB API - reading data: api/web-api-get.md
   - HTTP Socket - send & receive: api/http-socket.md
