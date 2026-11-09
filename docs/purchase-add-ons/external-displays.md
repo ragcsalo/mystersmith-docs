@@ -94,3 +94,5 @@ After the code is activated, you can check all your activated add-ons on your ac
 The WEB-screen is free (no add-on needed). You can view the text sent from the MysterSmith app in any WEB browser. Switch on **Enable WEBscreen** in **OUTPUT OPTIONS**, open the following URL, and use your username/PIN to log in to the MysterSmith WEB-screen: 
  
 [bsmagic.app/webscreen/?app=mystersmith](https://bsmagic.app/webscreen/?app=mystersmith){:target="_blank"}
+
+All its options (fullscreen or a small peek screen, touch to peek, playing cards, installing it as a fullscreen app ...): [The WEB-screen](../user-guide/webscreen.md).

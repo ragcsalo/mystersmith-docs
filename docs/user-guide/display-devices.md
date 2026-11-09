@@ -85,7 +85,7 @@ If you see *"Make sure the Impra app is installed..."*, install or update the Im
 
 * **Copy to clipboard** — every new text is copied, so you can paste it in any app.
 * **Reinkstone NFC case** (iOS) and **The Missing Tape** — their settings.
-* **Enable WEBscreen** — the texts appear on a web page; open [bsmagic.app/webscreen](https://bsmagic.app/webscreen/?app=mystersmith){:target="_blank"} in any browser and log in with your username and PIN.
+* **Enable WEBscreen** — the texts appear on a web page; open [bsmagic.app/webscreen](https://bsmagic.app/webscreen/?app=mystersmith){:target="_blank"} in any browser and log in with your username and PIN. See [The WEB-screen](webscreen.md).
 * **Use BT Screen** — the BT Screen app on another phone or tablet.
 * **Local notifications** — every text arrives as a notification (any smartwatch or smartband that shows notifications becomes a peek display). **Linebreaks**: off = line breaks become spaces.
 
