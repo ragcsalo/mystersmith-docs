@@ -28,20 +28,9 @@ If you go with text recognition, please read all info on this page:  **[Text re
 
  
 
-### API Access add-on needed
-
-To be able to send data from the MysterSmith app to 3rd party apps and APIs, you have to buy the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
- 
-More information:  **["API Access" add-on](https://mystersmith.info/purchase-add-ons/api-access/)** 
- 
-
----
-
- 
-
 ### Inject account setup
 
-First of all you have to buy **Inject 2.0**  by Greg Rostami, and set up a username. Then in the MysterSmith app go to Settings, and scroll down to the **API ACCESS** settings. There you can enter your **Inject ID / username**. The Inject **account number** should be automatically filled in (in some cases it's not the same as the Inject ID). In case the account number is not properly set automatically, you can manually enter it (ask for help from someone who knows how to get the account number). 
+First of all you have to buy **Inject 2.0**  by Greg Rostami, and set up a username. Then in the MysterSmith app go to Settings, and open the **APP INTEGRATIONS** section. There you can enter your **Inject ID / username**. The Inject **account number** should be automatically filled in (in some cases it's not the same as the Inject ID). In case the account number is not properly set automatically, you can manually enter it (ask for help from someone who knows how to get the account number). 
 <br><br>
  
  
@@ -78,7 +67,7 @@ As soon as you trigger the "last text to Inject" action (in the "Text buffer" se
 
 ### Second method: send to active APIs (manually)
 
-With this method you can send the text not only to Inject, but to any other active WEB API URLs as well. To add Inject as an API URL, you have to go to **API ACCESS** and select "Send text to WEB API" - " **Manage** ". In a new empty field enter " **inject** " (see the screenshot below), and make sure the toggle is activated. You can add other URLs as well, and activate them with the toggle. 
+With this method you can send the text not only to Inject, but to any other active WEB API URLs as well. To add Inject as an API URL, you have to go to **SEND TO APPS & API** (in the Output / Screens group of the Settings) and select "Send text to WEB API" - " **Manage** ". In a new empty field enter " **inject** " (see the screenshot below), and make sure the toggle is activated. You can add other URLs as well, and activate them with the toggle. 
  
 When you trigger the action "last text to WEB APIs" then all active URLs will receive the text. I recommend using this method only if you need to send the text to other targets as well, and not only to Inject. 
 <br><br>

@@ -7,7 +7,7 @@ date: 2026-10-22 12:00:00
 
 A **display device** is where the secret information appears: a PeekSmith on your wrist or in your pocket, a Teleport card, a Lumen Prism, an Inversion Board that reveals a drawing, an e-ink tag on a keychain... MysterSmith sends texts, drawings and images to all of them.
 
-The full list: [Supported devices](supported-devices.md). Most display devices need the [External Displays add-on](../purchase-add-ons/external-displays.md) (included in every subscription); their test buttons work without it.
+The full list: [Supported devices](supported-devices.md). Most display devices (and the watches) need the [External Displays add-on](../purchase-add-ons/external-displays.md) (included in every subscription); their test buttons work without it. The clipboard, WEBscreen, BT Screen and local notifications are free.
 
 <!-- GALLERY: MY DEVICES with connected displays, a device's settings panel, a text on PeekSmith / Teleport -->
 
@@ -35,7 +35,7 @@ All devices are managed in **Settings → MY DEVICES**:
 
 * **PeekSmith / Bond**, **SB Watch 2**, **Quantum**, **Notifier**,
 * **MrCard**, **Iarvel Card**, **Iarvel Peek Board**, the **Lumen** displays — if their **Peek text** setting is on,
-* your **watch** (Apple Watch / WearOS), **local notifications**, **WEB screen**, **BT Screen**, the **clipboard** (see External Displays settings below).
+* your **watch** (Apple Watch / WearOS), **local notifications**, **WEB screen**, **BT Screen**, the **clipboard** (see OUTPUT OPTIONS settings below).
 
 The *Text buffer* actions **show last text**, **show previous text**, **show next text** and **auto cycle text** send them again.
 
@@ -79,16 +79,17 @@ If you see *"Make sure the Impra app is installed..."*, install or update the Im
 
 ---
 
-## EXTERNAL DISPLAYS settings
+## OUTPUT OPTIONS settings
 
-**Settings → Output / Screens → EXTERNAL DISPLAYS** — outputs without a Bluetooth device:
+**Settings → Output / Screens → OUTPUT OPTIONS** (before v2.3.94: EXTERNAL DISPLAYS) — outputs without a Bluetooth device. **Copy to clipboard**, **WEBscreen**, **BT Screen** and **Local notifications** are free (no add-on needed, since v2.3.94):
 
 * **Copy to clipboard** — every new text is copied, so you can paste it in any app.
-* **Use WearOS watch** (Android) — see [The WearOS watch app](wearos.md). Apple Watch has its own section (iOS).
 * **Reinkstone NFC case** (iOS) and **The Missing Tape** — their settings.
 * **Enable WEBscreen** — the texts appear on a web page; open [bsmagic.app/webscreen](https://bsmagic.app/webscreen/?app=mystersmith){:target="_blank"} in any browser and log in with your username and PIN.
 * **Use BT Screen** — the BT Screen app on another phone or tablet.
 * **Local notifications** — every text arrives as a notification (any smartwatch or smartband that shows notifications becomes a peek display). **Linebreaks**: off = line breaks become spaces.
+
+**Watches** have their own sections in **Output / Screens**: **APPLE WATCH** (iOS) and **WEAROS WATCH** (Android: **Use WearOS watch** and **Motion sensor** — see [The WearOS watch app](wearos.md)). Both need the [External Displays add-on](../purchase-add-ons/external-displays.md).
 
 !!! info "Add-ons since October 16, 2026"
     PeekSmith 3, Bond, Teleport, MrCard, SB Watch 2 and Quantum need the **External Displays** add-on to display texts; for PeekSmith 3, Bond, SB Watch 2, MrCard and Iarvel Card, it also covers their buttons. See [Supported devices → Add-ons needed](supported-devices.md#add-ons-needed).

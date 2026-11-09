@@ -1,5 +1,8 @@
 # WEB API - reading data
  
+!!! note "Requires the API Access add-on"
+    The MysterSmith API needs the [API Access](../purchase-add-ons/api-access.md) add-on. You find your **MysterSmith API key** and **MysterSmith API URL** in **Settings → MYSTERSMITH API** (and in your account details).
+
 ## Reading the last text from the TextBuffer
 
 Using the basic WEB API URL  you can read/get text from the TextBuffer using a simple GET call. To identify your account, you must use your MysterSmith API key, which you will find in your account details in the app.

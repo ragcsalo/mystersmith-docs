@@ -7,7 +7,7 @@ date: 2025-02-07 17:45:05
 
 ### API Access add-on needed
 
-To be able to send data from the MysterSmith app to 3rd party apps and APIs, you have to buy the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
+Notarized and MysterSmith exchange texts through the MysterSmith API, so you need the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
  
 More information:  **["API Access" add-on](https://mystersmith.info/purchase-add-ons/api-access/)** 
  

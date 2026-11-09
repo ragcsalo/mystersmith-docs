@@ -1,6 +1,6 @@
 # List of available actions
 
-These are the actions you can choose for a **trigger** (button, gesture, recognition, WEB-polling, timer...), put into an **action list**, or run from another app with the [Custom URL scheme](custom-url-scheme.md#actions) / [HTTP Socket](http-socket.md) (`action={CODE}`).
+These are the actions you can choose for a **trigger** (button, gesture, recognition, WEB-polling, timer...), put into an **action list**, or run from another app with the [Custom URL scheme](custom-url-scheme.md#actions) / [HTTP Socket](http-socket.md) (`action={CODE}`; this needs the [API Access add-on](../purchase-add-ons/api-access.md)).
 
 An action shows up in the app's action picker only when you can use it: when the device is switched on in **MY DEVICES**, the feature is enabled in **AVAILABLE FEATURES**, or the add-on / API key it needs is there. The **Needs** column tells you what that is.
 
@@ -176,10 +176,10 @@ An action shows up in the app's action picker only when you can use it: when the
 | delete last text | `delete_last_text` |  |
 | copy last text to clipboard | `lastext_to_clipboard` |  |
 | translate last text | `translate_last_text` | A.I. translation engine |
-| last text to WEB APIs | `lastrec_to_webapi` | Send data to apps & APIs (API Access add-on) |
-| last text to Bridge | `text_to_bridge` | Send data to apps & APIs (API Access add-on) |
-| last text to Inject | `lastrec_to_inject` | Send data to apps & APIs (API Access add-on) |
-| last text to Motherboard | `text_to_motherboard` | Send data to apps & APIs (API Access add-on) |
+| last text to WEB APIs | `lastrec_to_webapi` | Send to apps & API, app integrations |
+| last text to Bridge | `text_to_bridge` | Send to apps & API, app integrations |
+| last text to Inject | `lastrec_to_inject` | Send to apps & API, app integrations |
+| last text to Motherboard | `text_to_motherboard` | Send to apps & API, app integrations |
 | text to OpenAI drawing | `text_to_openai_drawing` | OpenAI (A.I. Features add-on + your API key) |
 | City to OpenAI color drawing | `city_to_openai_drawing` | OpenAI (A.I. Features add-on + your API key) |
 | City to OpenAI B/W drawing | `city_to_openai_drawing_BW` | OpenAI (A.I. Features add-on + your API key) |
@@ -194,7 +194,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | text to TrueSketch image | `last_text_to_truesketch` |  |
 | text to TrueWrite image | `last_text_to_truewrite_image` |  |
 | text to Quickdraw | `text_to_quickdraw` |  |
-| display on maps | `lastext_to_maps` | Send data to apps & APIs (API Access add-on) |
+| display on maps | `lastext_to_maps` | Send to apps & API, app integrations |
 
 ---
 
@@ -262,7 +262,7 @@ An action shows up in the app's action picker only when you can use it: when the
 
 ## iOS apps
 
-*Needs: Send data to apps & APIs (API Access add-on), iOS only*
+*Needs: Send to apps & API, app integrations, iOS only*
 
 | Action | Code | Needs / notes |
 |---|---|---|
@@ -324,7 +324,7 @@ An action shows up in the app's action picker only when you can use it: when the
 
 ## App Integrations
 
-*Needs: Send data to apps & APIs (API Access add-on)*
+*Needs: Send to apps & API, app integrations*
 
 | Action | Code | Needs / notes |
 |---|---|---|
@@ -877,9 +877,9 @@ An action shows up in the app's action picker only when you can use it: when the
 |---|---|---|
 | generate Acronym word list | `acronym_generate` | Acronym word list (Transformer add-on) |
 | calculate date difference | `date_calculate` | Date calculator (Transformer add-on) |
-| open app package | `customapp` | Send data to apps & APIs (API Access add-on), Android only, asks for a value - not for action= links |
-| open custom URL scheme | `urlscheme` | Send data to apps & APIs (API Access add-on), asks for a value - not for action= links |
-| run Shortcut | `shortcut` | Send data to apps & APIs (API Access add-on), iOS only, asks for a value - not for action= links |
+| open app package | `customapp` | Send to apps & API, app integrations, Android only, asks for a value - not for action= links |
+| open custom URL scheme | `urlscheme` | Send to apps & API, app integrations, asks for a value - not for action= links |
+| run Shortcut | `shortcut` | Send to apps & API, app integrations, iOS only, asks for a value - not for action= links |
 | send predefined text | `predefined_text` | asks for a #ID (Predefined text) |
 | text from template | `generate_template` | Templates (Transformer add-on), asks for a #ID (Template) |
 | convert index to value (from list) | `convert_index_to_value` | Indexed lists (Transformer add-on), asks for a #ID (Indexed list) |

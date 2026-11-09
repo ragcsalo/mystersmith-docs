@@ -34,7 +34,7 @@ Under **WEB-POLLING & WEB-INPUT**:
 
 **WEB data sources → Configure** has the **BUILT-IN data sources** — just switch one on and enter your ID / key:
 
-* **MysterSmith API** (texts sent to your own account; *Custom types*: leave empty for all)
+* **MysterSmith API** (texts sent to your own account; *Custom types*: leave empty for all) — needs the [API Access add-on](../purchase-add-ons/api-access.md)
 * **Bridge A.I.**, **Inject 2.0**, **Elips**, **WikiTest**, **InMind system**, **Topix**, **Goo app**, **Notarized**, **iMagination**, **Hacked by Appmazing**, **iUnlock Elite**, **Passcode Checker**, **Let's Draw PRO**, **Lumen PRO** (for Lumen PRO users)
 * **London time (test)** and **Random word (test)** — to try WEB-polling without another app.
 
@@ -64,7 +64,7 @@ More about the integrations: [Bridge A.I.](../integrations/bridge.md), [Inject](
 
 ## Send to API
 
-**Settings → Output / Screens → SEND TO API** — needs the [API Access add-on](../purchase-add-ons/api-access.md).
+**Settings → Output / Screens → SEND TO APPS & API** — free (no add-on needed, since v2.3.94).
 
 **Send text to WEB API → Manage** opens your list of URLs: type a new one in the last field, switch them on/off, swipe right to delete. In the URL:
 
@@ -88,19 +88,23 @@ More about the integrations: [Bridge A.I.](../integrations/bridge.md), [Inject](
 * **`post `** — sends a POST request with the parameters,
 * **`json `** — sends POST JSON (use this for Inject).
 
-Shortcuts: just write **`inject`**, **`goo`** or **`bridge`** — MysterSmith fills in the right address from your IDs below.
+Shortcuts: just write **`inject`**, **`goo`** or **`bridge`** — MysterSmith fills in the right address from your IDs in **APP INTEGRATIONS** (below).
 
 **Answers:** images in the answer are saved to the Image Buffer (like in WEB-polling); the text of the answer is not stored.
 
-More rows in SEND TO API:
+More rows in SEND TO APPS & API: **Encode SPACE to %20**, **Encode NEW LINE to %0A**.
 
-* **Encode SPACE to %20**, **Encode NEW LINE to %0A**
-* **MysterSmith API key** and **MysterSmith API URL** (tap to copy) — see [WEB API - reading data](../api/web-api-get.md)
+### APP INTEGRATIONS
+
+**Settings → APP INTEGRATIONS** (below MYSTERSMITH API) — free (no add-on needed, since v2.3.94):
+
 * **Inject ID (username)**, **Inject account number**, **Bridge URL**, **Goo ID**
 * **Motherboard API key** — the action **last text to Motherboard** shows the text on a Motherboard.
 * **TimeSmith integration** — every time you enter a time, it is sent to the TimeSmith app.
 
-Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *show last Inject result*...).
+Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
+
+In **AVAILABLE FEATURES** all of this is the free feature **Send to apps & API, app integrations**.
 
 !!! tip "The other direction: your own API"
-    Other apps can also **read** MysterSmith's Text Buffer, or **send** texts and commands to it: see [WEB API - reading data](../api/web-api-get.md) and the [HTTP Socket](../api/http-socket.md).
+    Other apps can also **read** MysterSmith's Text Buffer, or **send** texts and commands to it: see [WEB API - reading data](../api/web-api-get.md), the [HTTP Socket](../api/http-socket.md) and the [Custom URL scheme](../api/custom-url-scheme.md). These need the [API Access add-on](../purchase-add-ons/api-access.md); your **MysterSmith API key** and **MysterSmith API URL** (tap to copy) and the **HTTP Socket server** are in **Settings → MYSTERSMITH API** (below MY ACTIONS).

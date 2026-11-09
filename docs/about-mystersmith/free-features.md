@@ -14,14 +14,24 @@ Good news: several features in MysterSmith are **FREE** for everyone!!! :-)
 * you can display received text and drawings on the small peek screen (Home page)
 * you can display received text and drawings on the BLACK SCREEN
 * you can display handwritings, signatures, playing cards, magic squares, Tic-Tac-Toe boards etc. on the Doodle screen
+* you can copy every new text to the clipboard
+* you can display texts on the WEB screen (in any browser) and the BT screen
+* you can get every new text as a local notification (use any smartwatch or smartband)
+
+---
+
+**SENDING DATA:** 
+
+* Send to apps & API: you can send texts to any WEB API or URL (Send text to WEB API)
+* app integrations: you can send data to Inject, Bridge, Goo, Motherboard, TimeSmith and other apps
+* you can open other apps (app package, custom URL scheme, Shortcuts, iOS apps), also from an NFC tag or a WEB-polling result
 
 ---
 
 **RECEIVING DATA:** 
 
 * WEB-polling: you can receive info from any WEB API (like Inject, WikiTest, Elips, Topix, Goo etc. or any other source)
-* Custom URL scheme: you can receive data from any app through the mystersmith:// scheme
-* HTTP Socket: you can receive data from any app or WEB-browser (on the same local WiFi network) on localhost:62369
+* Custom URL scheme: other apps can load your routines through the mystersmith:// scheme (sending texts and actions needs the [API Access add-on](../purchase-add-ons/api-access.md), just like the HTTP Socket)
 * WEB-input (WEB-thumper): you can receive data from any WEB-browser, from anywhere in the world (mainly from planet Earth)
 * manual input: your assistant can enter text/numbers, playing cards, colors etc. manually
 * you can use the built-in NFC reader of your phone to receive data

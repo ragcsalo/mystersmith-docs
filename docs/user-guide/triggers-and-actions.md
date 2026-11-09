@@ -126,4 +126,4 @@ Every list appears in the action picker in its own **ACTION LISTS** block, at th
 
 ## Actions from other apps
 
-The custom URL scheme and the [HTTP Socket](../api/http-socket.md) can run actions too: `action=peeksmith_show,pause3,vibrate` runs the actions one after the other (1 second apart; `pauseN` waits N seconds). The same interface can load routines, templates, prompts and image templates.
+The custom URL scheme and the [HTTP Socket](../api/http-socket.md) can run actions too: `action=peeksmith_show,pause3,vibrate` runs the actions one after the other (1 second apart; `pauseN` waits N seconds). The same interface can load routines, templates, prompts and image templates. This needs the [API Access add-on](../purchase-add-ons/api-access.md) — only loading a routine with a mystersmith:// link is free (see [Custom URL scheme](../api/custom-url-scheme.md)).

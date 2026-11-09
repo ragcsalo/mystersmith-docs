@@ -46,8 +46,8 @@ Some devices need an add-on (see [the add-ons below](#add-ons-needed)), and a fe
 
 * Apple Watch (**iOS only**)
 * WearOS watches (**Android only**) — see [The WearOS watch app](wearos.md)
-* any smartwatch / smartband, through local notifications
-* WEB screen (in any browser) and BT screen
+* any smartwatch / smartband, through local notifications (free)
+* WEB screen (in any browser) and BT screen (free)
 
 <br>
 
@@ -134,7 +134,7 @@ Used by the **DICE INPUT** feature:
 
 ## Add-ons needed
 
-* **[External Displays](../purchase-add-ons/external-displays.md):** to show text on the display devices and watches (PeekSmith, Bond, Teleport, MrCard, SB Watch 2, Quantum, Iarvel Card, the Lumen, Pitata, Iarvel, Yao and e-ink displays, Apple Watch, WearOS...). For PeekSmith 3, Bond, SB Watch 2, MrCard and Iarvel Card, it also unlocks their buttons.
+* **[External Displays](../purchase-add-ons/external-displays.md):** to show text on the display devices and watches (PeekSmith, Bond, Teleport, MrCard, SB Watch 2, Quantum, Iarvel Card, the Lumen, Pitata, Iarvel, Yao and e-ink displays, Apple Watch, WearOS...). For PeekSmith 3, Bond, SB Watch 2, MrCard and Iarvel Card, it also unlocks their buttons. (Local notifications, the WEB screen, the BT screen and copy to clipboard are free.)
 * **[Advanced Input Methods](../purchase-add-ons/advanced-inputs.md):** to use devices as **input** (Atom 2, the PeekSmith models, Bond, MrCard, Quantum, SB Watch 2, Ray, GhostMove), the remote control button mapping and the Bluetooth dice.
 * **[Printers](../purchase-add-ons/printers.md):** for all printers (a test print is free).
 

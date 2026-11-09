@@ -13,14 +13,35 @@ The API Access add-on is a premium feature for the MysterSmith app (if you have 
 
 The price of the add-on is currently  **40 EUR**  (one time fee), but of course it's also **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
  
-With the API Access add-on activated, you'll be able to **send data from the MysterSmith app to any 3rd party WEB API**, so you can integrate with other magic apps easily. You can also use the HTTP Socket feature to both send and receive data in the background. 
+With the API Access add-on activated, **other apps can talk to MysterSmith**: read data from it, and send texts and commands into it.
+
+### The add-on currently covers:
+
+* the **MysterSmith API**: your **MysterSmith API key** and **MysterSmith API URL**, so other apps can read (and write) your Text Buffer — see [WEB API - reading data](../api/web-api-get.md)
+* the **MysterSmith API** data source in WEB-polling (texts sent to your own account)
+* **Sync contents from server** in the Text Buffer settings
+* the **HTTP Socket** server (`localhost:62369`) — without the add-on, the server doesn't start — see [HTTP Socket](../api/http-socket.md)
+* incoming **mystersmith://** links (texts, actions, templates, prompts...) — see [Custom URL scheme](../api/custom-url-scheme.md)
+* **Notarized** (it sends texts to the MysterSmith API) — see [Notarized](../integrations/notarized.md)
+
+You find these settings in **Settings → MYSTERSMITH API**.
+
+!!! success "Free for everyone (since v2.3.94)"
+    Sending data **from** MysterSmith doesn't need the add-on any more:
+
+    * **Send text to WEB API** (your list of URLs) — **Settings → Output / Screens → SEND TO APPS & API**
+    * the **app integrations**: Inject, Bridge, Goo, Motherboard, TimeSmith, InMind, Pi Revelations, Prevision... — **Settings → APP INTEGRATIONS**
+    * the actions that open other apps: *open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* actions, *last text to Glyphs*, *display on maps*
+    * an NFC tag or a WEB-polling result that opens a URL or an app
+
+    Some mystersmith:// links stay free too: loading a routine (`autostart=...`, `routine=...`), a plain `mystersmith://`, and the home screen shortcuts (`reset`, `default`, `clear`).
  
 
 ---
 
  
 
-**How to use it:** see the User Guide: [WEB-polling and Send to API](../user-guide/web-polling-and-send-to-api.md).
+**How to use it:** see [HTTP Socket](../api/http-socket.md), [Custom URL scheme](../api/custom-url-scheme.md) and [WEB API - reading data](../api/web-api-get.md).
 
 ---
 

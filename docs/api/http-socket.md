@@ -4,6 +4,9 @@ Besides the cloud-based WEB API, MysterSmith can also run a **small HTTP server 
 
 The server listens on port **`62369`**.
 
+!!! note "Requires the API Access add-on"
+    The whole HTTP Socket server needs the [API Access](../purchase-add-ons/api-access.md) add-on (since v2.3.94). Without it, the server doesn't start at all.
+
 !!! tip "On the same device? Just use `localhost` – no API key needed"
 
     If the app that talks to MysterSmith runs on the **same phone** (a Shortcut, Tasker/Automate flow, a companion app, a local web page, etc.), always use:
@@ -18,7 +21,7 @@ The server listens on port **`62369`**.
 
 ## Turning the server on
 
-The HTTP Socket server is **not** running by default. Switch it on in the app first – once it is running, the app shows you the exact address it is listening on (and lets you copy the base URL to the clipboard).
+With the API Access add-on, the server starts by itself when the app starts. You find it in **Settings → MYSTERSMITH API → HTTP Socket server**: tap **START** if it is not running, or **Details** to see the exact address it is listening on (and copy the base URL to the clipboard).
 
 While the server is on, the endpoints below are available at `http://localhost:62369`.
 
@@ -100,9 +103,6 @@ Returns the newest entry in the TextBuffer (or `"???"` if the buffer is empty).
 * `index` - its position in the TextBuffer (0 = the oldest), `count` - how many texts are in it.
 * `time`, `time_iso`, `index` and `count` are new in **v2.3.51** - older versions return only `text`.
 
-!!! note "Requires the API Access add-on"
-    This endpoint only responds if the [API Access](../purchase-add-ons/api-access.md) add-on is active on the account.
-
 ### Read the last image from the ImageBuffer
 
 **URL:** `http://localhost:62369/image/getlast`
@@ -167,8 +167,9 @@ await fetch("http://localhost:62369/base64/push", {
 
 ## Good to know
 
-- **Start the server first.** The endpoints only respond while the HTTP Socket server is switched on in the app.
+- **API Access add-on.** Without it, the HTTP Socket server doesn't start, so nothing answers on port 62369.
+- **The server must be running.** The endpoints only respond while the HTTP Socket server is on (it starts with the app; **START** in **Settings → MYSTERSMITH API** if it was stopped).
 - **`localhost` on the same device, no key.** The base URL `http://localhost:62369` is identical for everyone and needs no token. Use the device's Wi‑Fi IP address only when connecting from a *different* device.
 - **URL-encode your text.** Encode spaces and special characters (e.g. `Hello%20World`).
-- **Add-on-gated endpoints stay silent if the add-on is missing.** If the required add-on (API Access / Image Buffer) is not active, the request receives no reply instead of an error – so set a timeout on the caller's side.
+- **Add-on-gated endpoints stay silent if the add-on is missing.** If the required add-on (Image Buffer) is not active, the request receives no reply instead of an error – so set a timeout on the caller's side.
 - **`/data` mirrors the Custom URL scheme.** The same parameters work in both, so you can reuse anything documented there.

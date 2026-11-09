@@ -13,15 +13,15 @@ The External Displays add-on is a premium feature for the MysterSmith app (if yo
  
 The price of the add-on is currently  **45 EUR**  (one time fee), but of course it's also  **included in all subscription plans**  (MINI, BASIC and PREMIUM). 
 
-With the External Displays add-on activated, you'll be able to **display text (and images) from the MysterSmith app on a variety of devices**, and use the buttons of some of them.
+With the External Displays add-on activated, you'll be able to **display text (and images) from the MysterSmith app on a variety of external display devices** (peek devices, e-ink screens, smartwatches...), and use the buttons of some of them.
 
-### The add-on currently supports the following display options:
+!!! success "Free for everyone (since v2.3.94)"
+    These outputs don't need the add-on any more: **copy to clipboard**, **WEB screen** (in any browser), **BT Screen** and **local notifications** (use any smartwatch or smartband). You find them in **Settings → Output / Screens → OUTPUT OPTIONS**.
 
-* local notifications (use any smartwatch or smartband)
+### The add-on currently supports the following display devices:
+
 * Apple Watch (iOS only)
 * WearOS watches (Android only)
-* WEB screen (in any browser) and BT screen
-* copy to clipboard
 * PeekSmith 3 / Bond
 * Teleport
 * MrCard
@@ -91,6 +91,6 @@ After the code is activated, you can check all your activated add-ons on your ac
 
 ### WEB-screen
 
-You can view the text sent from the MysterSmith app in any WEB browser. Open the following URL, and use your username/PIN to log in to the MysterSmith WEB-screen: 
+The WEB-screen is free (no add-on needed). You can view the text sent from the MysterSmith app in any WEB browser. Switch on **Enable WEBscreen** in **OUTPUT OPTIONS**, open the following URL, and use your username/PIN to log in to the MysterSmith WEB-screen: 
  
 [bsmagic.app/webscreen/?app=mystersmith](https://bsmagic.app/webscreen/?app=mystersmith){:target="_blank"}

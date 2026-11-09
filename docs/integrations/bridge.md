@@ -16,17 +16,6 @@ Bridge A.I. is an iOS app by **Marc Kerstein**. Get the app from the AppStore:
 
  
 
-### API Access add-on needed
-
-To be able to send data from the MysterSmith app to 3rd party apps and APIs, you have to buy the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
- 
-More information:  **["API Access" add-on](https://mystersmith.info/purchase-add-ons/api-access/)** 
- 
-
----
-
- 
-
 ### Copy/paste your Bridge URL
 
 - open the Bridge app 
@@ -37,8 +26,8 @@ More information:  **["API Access" add-on](https://mystersmith.info/purchase-ad
 (the same API URL is used to send data from Bridge to MysterSmith) 
  
 - open MysterSmith 
-- go to Settings, and scroll down to API ACCESS settings
-- find "Your Bridge URL" and paste your URL 
+- go to Settings → APP INTEGRATIONS
+- tap "Bridge URL" and paste your URL 
 - alternatively (if you only want to receive data), go to WEB-POLLING, edit WEB data sources, enable Bridge A.I. and paste your API URL 
 <br><br>
  
@@ -63,9 +52,8 @@ More information:  **["API Access" add-on](https://mystersmith.info/purchase-ad
 ### Send data to Bridge
 
 - you don't need to open/run the Bridge app on your iPhone 
-- make sure you have the API Access add-on (purchased separately, or subscribed) 
 - you can invoke the action "last text to Bridge" by any trigger available (PS3 button, volume button, Atom 2 remote, Apple watch tap/swipe, or even automatically after recognizing a text) 
-- or you can go to API ACCESS settings, "Send text to WEB API" -> "Manage", and enter "bridge" (or "!bridge" to send text automatically) 
+- or you can go to Settings → Output / Screens → SEND TO APPS & API, "Send text to WEB API" -> "Manage", and enter "bridge" (or "!bridge" to send text automatically) 
  
 
 ---

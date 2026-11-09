@@ -64,7 +64,7 @@ If you go with text recognition, please read all info on this page:  **[Text re
 
 ### API Access add-on needed
 
-To be able to send data from the MysterSmith app to 3rd party apps and APIs, you have to buy the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
+The Unknown Destination app reads the text from MysterSmith on the same phone (MS Local). For this, other apps must be able to talk to MysterSmith, so you need the **"API Access" add-on**. Alternatively **you can subscribe to MysterSmith**, and get access to all the available add-ons. 
  
 More information:  **["API Access" add-on](https://mystersmith.info/purchase-add-ons/api-access/)** 
  

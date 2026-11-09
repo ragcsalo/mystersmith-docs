@@ -1,5 +1,8 @@
 # WEB API - writing data
  
+!!! note "Requires the API Access add-on"
+    The MysterSmith API needs the [API Access](../purchase-add-ons/api-access.md) add-on. You find your **MysterSmith API key** and **MysterSmith API URL** in **Settings → MYSTERSMITH API** (and in your account details).
+
 ## Sending/saving text to the TextBuffer
 
 You can use the WEB API to send/save a text in the TextBuffer using either a GET or a POST request. To identify your account, you must use your MysterSmith API key, which you will find in your account details in the app.

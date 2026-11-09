@@ -103,12 +103,15 @@ The routine is loaded with all its settings — their personal settings and API 
 
 * **Screen OFF when covered** — leave MysterSmith open and put the phone in your pocket: the screen turns off, so nothing is touched by accident, but the app keeps running in the foreground.
 * **Background mode notification** — switch it on, and you will always see a notification while MysterSmith is running in the background. That way it never runs there unnoticed.
-* **Use proxy for A.I. requests** — if you live in a country where OpenAI, Gemini or Claude is not available, the A.I. requests go through our server. (The same in every routine.)
 * **Keep app alive in background** — only if you really have to run MysterSmith in the background (e.g. while you use another app): it helps to keep the phone from stopping it.
+
+**In A.I. FEATURES:**
+
+* **Use proxy for A.I. requests** — if you live in a country where OpenAI, Gemini or Claude is not available, the A.I. requests go through our server. (The same in every routine.)
 
 ---
 
 ## Switching routines during a show
 
 * The action **load routine (settings)** (in the *Special* group) loads a routine by its **#ID** — without asking, so you can put it on a volume button, a remote button or into an action list.
-* From another app or a shortcut: the URL `mystersmith://?routine=N` loads routine **N** (the HTTP socket accepts `routine=N` too). See [HTTP Socket](../api/http-socket.md).
+* From another app or a shortcut: the URL `mystersmith://?routine=N` loads routine **N** (free, no add-on needed; the HTTP socket accepts `routine=N` too, with the API Access add-on). See [Custom URL scheme](../api/custom-url-scheme.md) and [HTTP Socket](../api/http-socket.md).
