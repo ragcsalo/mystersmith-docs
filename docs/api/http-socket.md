@@ -93,7 +93,7 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 
 ## Reading data from MysterSmith
 
-### Read the last text from the TextBuffer
+### Read the current text from the TextBuffer
 
 **URL:** `http://localhost:62369/text/getlast`
 
@@ -103,11 +103,54 @@ You can combine these in the `/data` URL just like in the Custom URL scheme:
 {"text":"123","time":1792411234567,"time_iso":"2026-10-19T12:40:34.567Z","index":4,"count":5}
 ```
 
-Returns the newest entry in the TextBuffer (or `"???"` if the buffer is empty).
+Returns the newest entry in the TextBuffer — or, if you have stepped back in the TextBuffer, the one you are on (`"???"` if the buffer is empty).
 
 * `time` - when the text came into the TextBuffer, in milliseconds since 1970 (`time_iso`: the same in UTC). Use it to tell two equal texts apart, e.g. a spectator entering *123* twice. It is `null` for a text the app got from the server at start (its time isn't known).
 * `index` - its position in the TextBuffer (0 = the oldest), `count` - how many texts are in it.
 * `time`, `time_iso`, `index` and `count` are new in **v2.3.51** - older versions return only `text`.
+
+### Read any text from the TextBuffer
+
+**URL:** `http://localhost:62369/text/get/txt1` … `http://localhost:62369/text/get/last2`
+
+The positions work just like the #TXT / #LAST variables:
+
+| URL | Returns |
+|---|---|
+| `/text/get/txt1` | the **oldest** text in the TextBuffer (#TXT1) |
+| `/text/get/txt2` | the second oldest (#TXT2) |
+| `/text/get/last1` | the **newest** text (#LAST1) |
+| `/text/get/last2` | the one before the newest (#LAST2) |
+
+Any number works, not only 1–9 (e.g. `/text/get/last12`).
+
+**JSON response:**
+
+```json
+{"text":"queen of hearts","time":1792411234567,"time_iso":"2026-10-19T12:40:34.567Z","index":3,"txt":4,"last":2,"count":5}
+```
+
+* `index` - its position (0 = the oldest), `txt` / `last` - its #TXT and #LAST number, `count` - how many texts are in the TextBuffer.
+* If there is no such text (e.g. `/text/get/last3` with only 2 texts), the reply is **HTTP 404** with `{"error":"not in the Text Buffer","count":2}`.
+* New in **v2.3.96**.
+
+### Read the whole TextBuffer
+
+**URL:** `http://localhost:62369/text/getall`
+
+**JSON response:**
+
+```json
+{"count":2,"current":1,"texts":[
+  {"text":"123","time":1792411200000,"time_iso":"2026-10-19T12:40:00.000Z","index":0,"txt":1,"last":2},
+  {"text":"queen of hearts","time":1792411234567,"time_iso":"2026-10-19T12:40:34.567Z","index":1,"txt":2,"last":1}
+]}
+```
+
+Every text, the **oldest first**, with the same fields as above. `current` is the index of the text you are on in the TextBuffer (usually the newest). New in **v2.3.96**.
+
+!!! tip "Collecting every peek in your own app"
+    Poll `/text/getlast` and watch `count`: if it grew by more than one since your last request, read the missed texts with `/text/get/lastN` — or simply read `/text/getall`. Everything stays on the phone, no internet needed.
 
 ### Read the last image from the ImageBuffer
 
@@ -157,6 +200,14 @@ Read the current TextBuffer:
 const res  = await fetch("http://localhost:62369/text/getlast");
 const data = await res.json();
 console.log(data.text);
+```
+
+Read the text before the newest one, and the whole TextBuffer:
+
+```js
+const prev = await (await fetch("http://localhost:62369/text/get/last2")).json();
+const all  = await (await fetch("http://localhost:62369/text/getall")).json();
+all.texts.forEach(t => console.log(t.txt, t.text));
 ```
 
 Push an image:
