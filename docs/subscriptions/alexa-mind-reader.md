@@ -33,9 +33,19 @@ Alexa says the **last text of your [Text Buffer](../user-guide/text-buffer.md)**
 2. **Allow it to use your email address**: the Alexa app asks for it when you enable the skill (later: Alexa app → Skills & Games → Your Skills → Magic Mind Reader → Settings → Manage permissions → Email Address).
 3. **The same email** must be on your Amazon account and on your MysterSmith account: the **Google account** you sign in with on Android, or your **Apple ID** email on iPhone. (If you signed in with Apple's *Hide My Email*, the two will not match.)
 4. In MysterSmith, be **signed in** with an active **subscription**. In **Settings → Text Buffer → Text types to save**, keep the types switched on that you want Alexa to say.
-5. Your Alexa has to speak **English** (English US, UK, Canada, Australia or India). It works in other countries too, if the Alexa device's language is set to English.
+5. Your Alexa has to speak one of the skill's languages: **English**, **Spanish**, **German**, **Italian** or **French** (since November 2026). It works in other countries too, if the Alexa device's language is set to one of these.
 
-Then just say: **"Alexa, read my mind"** (or *"Alexa, open read my mind"*).
+Then just say the phrase of your Alexa's language:
+
+| Language | Say | Or |
+|---|---|---|
+| English | **"Alexa, read my mind"** | *"Alexa, open read my mind"* |
+| Spanish | **"Alexa, lee mi mente"** | *"Alexa, abre lee mi mente"* |
+| German | **"Alexa, lies meine Gedanken"** | *"Alexa, öffne lies meine Gedanken"* |
+| Italian | **"Alexa, leggi la mia mente"** | *"Alexa, apri leggi la mia mente"* |
+| French | **"Alexa, lis dans mes pensées"** | *"Alexa, ouvre lis dans mes pensées"* |
+
+Alexa answers in the same language. The word itself is said as it is written in your Text Buffer — with the pronunciation of your Alexa's language.
 
 ---
 
