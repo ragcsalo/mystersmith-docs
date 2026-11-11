@@ -110,6 +110,19 @@ Page 206, column 2, line 1
 Page 241, column 2, line 45 
 4th word from the bottom, around the 3/4 of the page 
 
+ 
+#### Thesaurus word, hidden word, movie and book
+
+For many words the Dictionary API knows more than the location. Three more actions use the word in the text buffer:
+
+* **Dictionary: thesaurus** - a synonym of the word, and its location in the dictionary (e.g. abandon → **leave**)
+* **Dictionary: hidden word** - a longer word in the dictionary that the word is hidden in, and its location (e.g. abase → **database**)
+* **Dictionary: get movie/book** - a movie and a book with the word in the title (e.g. abandon → **Abandon (2002)** and **Abandon by Blake Crouch**)
+
+The thesaurus and hidden word results look like the location result, with the found word in the first row (e.g. "leave", then "197 1 52", then "-2  bot-"). If there is no synonym, hidden word, movie or book for the word, you will see "no thesaurus", "no hidden word" or "no movie/book". With "Add to text buffer" turned on, the location (or the movie and the book titles) is added to the text buffer.
+
+The inflected forms of the words are found too: "aardvarks" finds "aardvark", "abaci" finds "abacus".
+
  
 
 ---
@@ -150,6 +163,18 @@ Explanation of the JSON fields:
  **wordcount\_txt** : detailed info about the number of the word 
  **verticalpos** : short info about the vertical position of the word 
  **verticalpos\_txt** : detailed info about the vertical position of the word 
+ **searched** : the searched word 
+ **matched\_variant** : if an inflected form was found (e.g. "aardvarks"), the searched form - "word" is then the headword 
+ **fromtop, words\_from\_top, words\_from\_bottom** : the number of the word in the column, from the top and from the bottom 
+ **line\_on\_page, line\_from\_bottom** : the line of the word on the page, from the top and from the bottom 
+ **word\_count\_text** : e.g. "3 from top" 
+ **position\_code** : page-column-word number in one code (e.g. "1-1-8"; "15-1e-1" = extra column) 
+ **variants** : the inflected forms of the word 
+ **thesaurus** : a synonym of the word with the same location fields (word, page, column, line...), or null 
+ **hidden** : a longer word the word is hidden in, with the same location fields, or null 
+ **movie, book** : a movie and a book with the word in the title (empty if there is none) 
+ 
+The text result also lists the thesaurus word, the hidden word, the movie and the book. 
  
  
 If the success field returns a 0 value, there will be also an error message included for a better understanding.

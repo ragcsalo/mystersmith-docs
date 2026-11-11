@@ -7,7 +7,7 @@ An action shows up in the app's action picker only when you can use it: when the
 !!! tip "Using the code"
     The **Code** is the action's internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number, so they **can't go into an `action=` list** (there they run without an ID: "can't find #0"). Use the URL parameter written in their row instead, e.g. `imagetemplatedoodle=9` for *image template to Doodle screen* #9. Example: `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`.
 
-*465 actions in 47 groups. This list is updated from time to time - the app may already have a few more.*
+*468 actions in 47 groups. This list is updated from time to time - the app may already have a few more.*
 
 ---
 
@@ -338,6 +338,9 @@ An action shows up in the app's action picker only when you can use it: when the
 | last text to Glyphs | `text2glyphs` | iOS only |
 | enable Dictionary API for apps | `dictionary_enable` |  |
 | Dictionary API position | `dictionary_getword_info` |  |
+| Dictionary: thesaurus | `dictionary_thesaurus` |  |
+| Dictionary: hidden word | `dictionary_hidden_word` |  |
+| Dictionary: get movie/book | `dictionary_movie_book` |  |
 | re-display Dictionary info | `dictionary_display_info` |  |
 | process InMind word (default language) | `process_inmind_word_default` | InMind Wheel |
 | process InMind word (English) | `process_inmind_word_english` | InMind Wheel |
