@@ -7,7 +7,7 @@ An action shows up in the app's action picker only when you can use it: when the
 !!! tip "Using the code"
     The **Code** is the action's internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number, so they **can't go into an `action=` list** (there they run without an ID: "can't find #0"). Use the URL parameter written in their row instead, e.g. `imagetemplatedoodle=9` for *image template to Doodle screen* #9. Example: `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`.
 
-*468 actions in 47 groups. This list is updated from time to time - the app may already have a few more.*
+*530 actions in 51 groups. This list is updated from time to time - the app may already have a few more.*
 
 ---
 
@@ -133,6 +133,16 @@ An action shows up in the app's action picker only when you can use it: when the
 | Action | Code | Needs / notes |
 |---|---|---|
 | add Color Match to text buffer | `colormatch_to_textbuffer` |  |
+
+---
+
+## Iarvel Photo Album
+
+*Needs: Iarvel Photo Album*
+
+| Action | Code | Needs / notes |
+|---|---|---|
+| display InnerVision photo | `display_innervision_photo` |  |
 
 ---
 
@@ -589,6 +599,73 @@ An action shows up in the app's action picker only when you can use it: when the
 
 ---
 
+## MysterBox
+
+*Needs: MysterBox*
+
+| Action | Code | Needs / notes |
+|---|---|---|
+| text to MysterBox | `text_to_mysterbox` |  |
+| handwriting to MysterBox | `handwriting_to_mysterbox` |  |
+| doodle drawing to MysterBox | `doodle_to_mysterbox` |  |
+| playing card to MysterBox | `playingcard_to_mysterbox` |  |
+| playing card to Mr.Boxy | `playingcard_to_mysterbox_robot` |  |
+| ESP symbol to MysterBox | `esp_to_mysterbox` |  |
+| dice to MysterBox | `dice_to_mysterbox` |  |
+| magic square to MysterBox | `magic_square_to_mysterbox` |  |
+| emoji to MysterBox | `emoji_to_mysterbox` |  |
+| last photo to MysterBox | `lastphoto_to_mysterbox` |  |
+| image buffer to MysterBox | `imagebuffer_to_mysterbox` | Image buffer (Image Buffer add-on) |
+| image template to MysterBox | `image_template_to_mysterbox` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| Mr.Boxy happy | `mysterbox_robot_happy` |  |
+| Mr.Boxy excited | `mysterbox_robot_excited` |  |
+| Mr.Boxy sad | `mysterbox_robot_sad` |  |
+| Mr.Boxy love | `mysterbox_robot_love` |  |
+| Mr.Boxy angry | `mysterbox_robot_angry` |  |
+| Mr.Boxy surprised | `mysterbox_robot_surprised` |  |
+| clear MysterBox (black) | `clear_mysterbox` |  |
+
+---
+
+## Selfie Screen
+
+*Needs: Selfie Screen*
+
+| Action | Code | Needs / notes |
+|---|---|---|
+| handwriting to Selfie Screen | `handwriting_to_selfie_screen` |  |
+| doodle drawing to Selfie Screen | `doodle_to_selfie_screen` |  |
+| playing card to Selfie Screen | `playingcard_to_selfie_screen` |  |
+| ESP symbol to Selfie Screen | `esp_to_selfie_screen` |  |
+| dice to Selfie Screen | `dice_to_selfie_screen` |  |
+| magic square to Selfie Screen | `magic_square_to_selfie_screen` |  |
+| emoji to Selfie Screen | `emoji_to_selfie_screen` |  |
+| last photo to Selfie Screen | `lastphoto_to_selfie_screen` |  |
+| image buffer to Selfie Screen | `imagebuffer_to_selfie_screen` | Image buffer (Image Buffer add-on) |
+| image template to Selfie Screen | `image_template_to_selfie_screen` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) |
+| clear Selfie Screen (black) | `clear_selfie_screen` |  |
+
+---
+
+## LCD badge
+
+*Needs: LCD badge*
+
+| Action | Code | Needs / notes |
+|---|---|---|
+| handwriting to LCD badge | `handwriting_to_lcd_badge` |  |
+| doodle drawing to LCD badge | `doodle_to_lcd_badge` |  |
+| playing card to LCD badge | `playingcard_to_lcd_badge` |  |
+| ESP symbol to LCD badge | `esp_to_lcd_badge` |  |
+| dice to LCD badge | `dice_to_lcd_badge` |  |
+| magic square to LCD badge | `magic_square_to_lcd_badge` |  |
+| emoji to LCD badge | `emoji_to_lcd_badge` |  |
+| last photo to LCD badge | `lastphoto_to_lcd_badge` |  |
+| image buffer to LCD badge | `imagebuffer_to_lcd_badge` | Image buffer (Image Buffer add-on) |
+| image template to LCD badge | `image_template_to_lcd_badge` | Image Template Editor (subscription or add-on), asks for a #ID (Image template) — link: `imagetemplatebadge=N` |
+
+---
+
 ## Iarvel Card
 
 *Needs: Iarvel Card*
@@ -831,6 +908,20 @@ An action shows up in the app's action picker only when you can use it: when the
 
 | Action | Code | Needs / notes |
 |---|---|---|
+| playing card to Mask | `playingcard_to_mask` |  |
+| ESP symbol to Mask | `esp_to_mask` |  |
+| emoji to Mask | `emoji_to_mask` |  |
+| scrolling text to Mask | `peektext_to_mask` |  |
+| image buffer to Mask | `imagebuffer_to_mask` | Image buffer (Image Buffer add-on) |
+| generate A.I. mask image | `ai_face_to_mask` |  |
+| picture editor drawing to Mask | `drawing_to_mask` |  |
+| local gallery picture # to Mask | `gallery_picture_to_mask` | asks for a #ID (Local gallery picture) |
+| next mask from local gallery | `next_gallery_mask` |  |
+| previous mask from local gallery | `previous_gallery_mask` |  |
+| show next DIY mask | `next_diy_mask` |  |
+| show previous DIY mask | `previous_diy_mask` |  |
+| show next built-in mask | `next_builtin_mask` |  |
+| show previous built-in mask | `previous_builtin_mask` |  |
 | Mask blinking eye | `mask_blinking` |  |
 | Mask grin | `mask_grin` |  |
 | Mask Halloween | `mask_halloween` |  |
@@ -844,6 +935,10 @@ An action shows up in the app's action picker only when you can use it: when the
 | Mask Scream | `mask_sikoly` |  |
 | Mask clown | `mask_bohoc` |  |
 | Mask neon clown | `mask_neonclown` |  |
+| built-in picture # to Mask | `builtin_picture_to_mask` | asks for a #ID (Built-in picture) |
+| built-in animation # to Mask | `builtin_animation_to_mask` | asks for a #ID (Built-in animation) |
+| DIY picture # to Mask | `diy_picture_to_mask` | asks for a #ID (DIY picture) |
+| save Mask picture to DIY slot # | `save_picture_to_mask_slot` | asks for a #ID (DIY slot) |
 
 ---
 

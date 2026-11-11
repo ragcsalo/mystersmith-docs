@@ -78,6 +78,17 @@ var szamos = {};
 var ns = asrc.substring(asrc.indexOf('var ACTIONLIST_NUM_SPECIALS'), asrc.indexOf('};', asrc.indexOf('var ACTIONLIST_NUM_SPECIALS')));
 ns.replace(/'([a-z0-9_]+)':\s*'([^']+)'/g, function(_, id, cimke) { szamos[id] = cimke.replace(/\s*#$/, ''); });
 
+// the URL parameter of a #ID action (customurl.js: pname=='template' -> action_generate_template(trigger, Number(pval)),
+// image_templates.js IMGTPL_URL_CELOK: imagetemplatedoodle -> image_template_to_doodle); the first name wins
+var url_param = {};
+olvas('customurl.js').replace(/pname=='([a-z]+)'\)\s*\{[^}]*?action_([a-z0-9_]+)\(trigger,\s*Number\(pval\)\)/g, function(_, p, id) {
+  if (!url_param[id]) { url_param[id] = p; }
+});
+var isrc = olvas('image_templates.js');
+var icel = isrc.substring(isrc.indexOf('var IMGTPL_URL_CELOK'), isrc.indexOf('};', isrc.indexOf('var IMGTPL_URL_CELOK')));
+icel.replace(/'([a-z]+)':\s*'([a-z0-9_]+)'/g, function(_, p, id) { if (!url_param[id]) { url_param[id] = p; } });
+url_param.load_routine = url_param.load_routine || 'routine';   // routine=N (in the routine=text|card|... branch)
+
 // the requirements of one action, from its classes (and its group title's classes)
 function igenyek(osztalyok, felt) {
   var ki = [], platform = '';
@@ -138,12 +149,12 @@ akciok.forEach(function(o) {
 var md = [];
 md.push('# List of available actions');
 md.push('');
-md.push('These are the actions you can choose for a **trigger** (button, gesture, recognition, WEB-polling, timer...), put into an **action list**, or run from another app with the [Custom URL scheme](custom-url-scheme.md#actions) / [HTTP Socket](http-socket.md) (`action={CODE}`).');
+md.push('These are the actions you can choose for a **trigger** (button, gesture, recognition, WEB-polling, timer...), put into an **action list**, or run from another app with the [Custom URL scheme](custom-url-scheme.md#actions) / [HTTP Socket](http-socket.md) (`action={CODE}`; this needs the [API Access add-on](../purchase-add-ons/api-access.md)).');
 md.push('');
 md.push('An action shows up in the app\'s action picker only when you can use it: when the device is switched on in **MY DEVICES**, the feature is enabled in **AVAILABLE FEATURES**, or the add-on / API key it needs is there. The **Needs** column tells you what that is.');
 md.push('');
 md.push('!!! tip "Using the code"');
-md.push('    The **Code** is the action\'s internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number — use their own URL parameter (`template=`, `predefined=`, `aiprompt=`, `recording=`, `routine=`, `imagetemplate...=`) instead.');
+md.push('    The **Code** is the action\'s internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number, so they **can\'t go into an `action=` list** (there they run without an ID: "can\'t find #0"). Use the URL parameter written in their row instead, e.g. `imagetemplatedoodle=9` for *image template to Doodle screen* #9. Example: `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`.');
 md.push('');
 md.push('*' + db + ' actions in ' + csoportok.filter(function(c) { return c.sorok.length; }).length + ' groups. This list is updated from time to time - the app may already have a few more.*');
 md.push('');
@@ -164,7 +175,7 @@ csoportok.forEach(function(cs) {
     var ig = igenyek(osztalyai(o), o.cond);
     var sajat = ig.ki.filter(function(x) { return cs_ig.ki.indexOf(x) < 0; });
     if (ig.platform && ig.platform != cs_ig.platform) { sajat.push(ig.platform); }
-    if (szamos[o.id]) { sajat.push('asks for a #ID (' + szamos[o.id] + ')'); }
+    if (szamos[o.id]) { sajat.push('asks for a #ID (' + szamos[o.id] + ')' + (url_param[o.id] ? ' — link: `' + url_param[o.id] + '=N`' : '')); }
     if (['customapp', 'urlscheme', 'shortcut'].indexOf(o.id) >= 0) { sajat.push('asks for a value - not for action= links'); }
     md.push('| ' + cella(o.name) + ' | `' + o.id + '` | ' + cella(sajat.join(', ')) + ' |');
   });
