@@ -101,7 +101,7 @@ More rows in SEND TO APPS & API: **Encode SPACE to %20**, **Encode NEW LINE to %
 **Settings → APP INTEGRATIONS** (below MYSTERSMITH API) — free (no add-on needed, since v2.3.94):
 
 * **Inject ID (username)**, **Inject account number**
-* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the last text of the Text Buffer, as a number, to the ReaList app in the background. *"forty two"* is sent as `42`; a text with digits in it sends its digits (*Room 12* → `12`). Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
+* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the **last number** of the Text Buffer (like [`#NUMBER`](text-buffer.md#variables-using-the-buffer-anywhere)) to the ReaList app in the background — texts that came after it don't matter, so in a multi-action list one trigger can send the last text to Inject and the last number to ReaList. *"forty two"* is sent as `42`. Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
 * **Bridge URL**, **Goo ID**
 * **Motherboard API key** — the action **last text to Motherboard** shows the text on a Motherboard.
 * **TimeSmith integration** — every time you enter a time, it is sent to the TimeSmith app.
