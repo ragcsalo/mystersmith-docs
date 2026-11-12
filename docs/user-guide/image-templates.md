@@ -104,6 +104,7 @@ Options for each image:
 **TEXT FIELDS → Add text field.** A text field holds any text, with [Text Buffer variables](text-buffer.md#variables-using-the-buffer-anywhere):
 
 * `#TEXT` (the last text), `#TXT1`..`#TXT9` (from the oldest), `#LAST1`..`#LAST9` (from the newest), with `!uc`, `!lc` or `!tc` for the letter case,
+* the number variables: `#NUMBER` (the last number), `#NUM1`..`#NUM9`, `#LASTNUM1`..`#LASTNUM9` ([only the numbers of the buffer](text-buffer.md#variables-using-the-buffer-anywhere)),
 * fixed text around them, e.g. `Your word: #TEXT!uc`.
 
 A field whose variable has no text yet stays empty.
@@ -121,6 +122,7 @@ A field whose variable has no text yet stays empty.
 | `=(T1+300)` | text field 1 plus 300 |
 | `TOTAL: =(T1..T3)` | the sum of text fields 1–3 |
 | `=(#TXT1+#LAST2)` | Text Buffer values added up |
+| `=(#NUM1+#NUM2)` | the first two numbers of the buffer added up — texts in between don't matter |
 
 Operators: `+ - * /` and brackets. Anything that is not a number counts as 0.
 

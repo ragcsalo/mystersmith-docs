@@ -42,7 +42,7 @@ and your own **CUSTOM data sources**: tap the **+**, give it a name, switch it o
 
 * **Enable anti-cache** — adds a random number to every request, so you always get a fresh answer.
 * **JSON format** → **Display field(s)**: the field(s) of a JSON answer to use, separated by commas. Dotted paths work: `results.word`; from a list, the first item is used unless you give a number: `results.1.word`.
-* The URL may contain Text Buffer variables (`#TEXT`, `#TXT1`..`#TXT9`, `#LAST1`..`#LAST9`, with `!uc` / `!lc` / `!tc`); the round is skipped while the buffer doesn't have enough texts.
+* The URL may contain Text Buffer variables (`#TEXT`, `#TXT1`..`#TXT9`, `#LAST1`..`#LAST9`, the number variables `#NUMBER`, `#NUM1`..`#NUM9`, `#LASTNUM1`..`#LASTNUM9`, with `!uc` / `!lc` / `!tc`); the round is skipped while the buffer doesn't have enough texts.
 
 ### What happens with the results
 
@@ -74,6 +74,8 @@ More about the integrations: [Bridge A.I.](../integrations/bridge.md), [Inject](
 | `#NOSPACE` | the text without spaces |
 | `#TXT1` .. `#TXT9` | the 1st (oldest) .. 9th text of the buffer |
 | `#LAST2` .. `#LAST9` | the 2nd .. 9th text from the end |
+| `#NUMBER` | the last number in the buffer (in digits: *forty two* → `42`) |
+| `#NUM1` .. `#NUM9` / `#LASTNUM1` .. `#LASTNUM9` | the 1st .. 9th number from the oldest / from the end ([number variables](text-buffer.md#variables-using-the-buffer-anywhere)) |
 | `!uc` / `!lc` / `!tc` | after a variable: UPPERCASE / lowercase / Title Case |
 | `#delay=X` | send X seconds later |
 
@@ -101,8 +103,9 @@ More rows in SEND TO APPS & API: **Encode SPACE to %20**, **Encode NEW LINE to %
 * **Inject ID (username)**, **Inject account number**, **Bridge URL**, **Goo ID**
 * **Motherboard API key** — the action **last text to Motherboard** shows the text on a Motherboard.
 * **TimeSmith integration** — every time you enter a time, it is sent to the TimeSmith app.
+* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the last text of the Text Buffer, as a number, to the ReaList app in the background. *"forty two"* is sent as `42`; a text with digits in it sends its digits (*Room 12* → `12`). Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
 
-Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
+Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *send number to ReaList*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
 
 In **AVAILABLE FEATURES** all of this is the free feature **Send to apps & API, app integrations**.
 

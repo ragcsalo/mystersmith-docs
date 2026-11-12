@@ -25,7 +25,7 @@ Each of them has its own **"Action after ..."** trigger, so you can display, pri
 
 ### Templates
 
-You can insert text that you received via any input method (text recognition, WEB-polling, swipe input, passcode input, NFC reader etc.) into pre-made templates, and display the result on connected devices (or send it to other apps). Use the variables **#TEXT** (the last text), **#TXT1**..**#TXT9** (from the oldest) and **#LAST1**..**#LAST9** (from the newest), with **!uc**, **!lc** or **!tc** for UPPERCASE, lowercase or Title Case — see [Variables](../user-guide/text-buffer.md#variables-using-the-buffer-anywhere).
+You can insert text that you received via any input method (text recognition, WEB-polling, swipe input, passcode input, NFC reader etc.) into pre-made templates, and display the result on connected devices (or send it to other apps). Use the variables **#TEXT** (the last text), **#TXT1**..**#TXT9** (from the oldest) and **#LAST1**..**#LAST9** (from the newest), the number variables **#NUMBER**, **#NUM1**..**#NUM9** and **#LASTNUM1**..**#LASTNUM9** (only the numbers of the buffer), with **!uc**, **!lc** or **!tc** for UPPERCASE, lowercase or Title Case — see [Variables](../user-guide/text-buffer.md#variables-using-the-buffer-anywhere).
 
 **Example:** *"In my dream I saw the #TXT1 in the hands of #TXT2."*
 

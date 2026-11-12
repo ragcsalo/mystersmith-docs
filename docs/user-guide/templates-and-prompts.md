@@ -30,6 +30,7 @@ Templates and prompts use the same variables:
 | `#TEXT` | the last text in the Text Buffer |
 | `#TXT1` .. `#TXT9` | counted from the **oldest**: `#TXT1` is the first text |
 | `#LAST1` .. `#LAST9` | counted from the **newest**: `#LAST2` is the one before the last |
+| `#NUMBER`, `#NUM1` .. `#NUM9`, `#LASTNUM1` .. `#LASTNUM9` | the same for the **numbers** of the buffer only (in digits) — see [number variables](text-buffer.md#variables-using-the-buffer-anywhere) |
 
 Add `!uc` (UPPERCASE), `!lc` (lowercase) or `!tc` (Title Case): `#TEXT!uc`, `#TXT2!tc`.
 

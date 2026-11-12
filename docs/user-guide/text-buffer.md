@@ -38,11 +38,18 @@ Wherever you can type a text in MysterSmith — **templates, A.I. prompts, [imag
 | `#TEXT` | the current text (the newest one, unless you stepped back with *show previous text*) |
 | `#TXT1` .. `#TXT9` | counted from the **oldest**: `#TXT1` is the first text in the buffer, `#TXT2` the second... |
 | `#LAST1` .. `#LAST9` | counted from the **newest**: `#LAST1` is the newest, `#LAST2` the one before... |
+| `#NUMBER` | the last **number** in the buffer |
+| `#NUM1` .. `#NUM9` | the numbers, counted from the **oldest**: `#NUM1` is the first number in the buffer |
+| `#LASTNUM1` .. `#LASTNUM9` | the numbers, counted from the **newest**: `#LASTNUM1` is the last number (= `#NUMBER`), `#LASTNUM2` the one before... |
 
 **Letter case:** add `!uc` (UPPERCASE), `!lc` (lowercase) or `!tc` (Title Case) to any variable, e.g. `#TEXT!uc` or `#LAST2!tc`.
 
+**Number variables** (since v2.4.11) skip every text that is not a number. A text counts as a number when the **whole text** is a number: digits (`42`, `-3`, `1.5`, `1,500`, `12 345`) or English number words (`forty two`, `one hundred and five`). The value is always given **in digits**: a spectator says *"forty two"*, and `#NUMBER` is `42`.
+
+**Example:** the buffer holds *apple, 12, seven, queen of hearts, 100*. Then `#NUMBER` = `100`, `#NUM1` = `12`, `#NUM2` = `7`, `#LASTNUM2` = `7` — while `#LAST2` is *queen of hearts*.
+
 !!! tip "Only when there is enough in the buffer"
-    A template, prompt or URL that uses `#TXT3` or `#LAST3` runs **only if the buffer already has at least 3 texts**. With an empty buffer, nothing that uses a variable runs. This way a routine never shows a half-filled text.
+    A template, prompt or URL that uses `#TXT3` or `#LAST3` runs **only if the buffer already has at least 3 texts** (with `#NUM3` or `#LASTNUM3`: at least 3 numbers). With an empty buffer, nothing that uses a variable runs. This way a routine never shows a half-filled text.
 
 **Example:** a spectator names a card (`#TXT1`), another one a celebrity (`#TXT2`). The template *"In my dream I saw the #TXT1 in the hands of #TXT2."* is generated only after both texts arrived.
 
