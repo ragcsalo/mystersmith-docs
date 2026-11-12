@@ -100,10 +100,11 @@ More rows in SEND TO APPS & API: **Encode SPACE to %20**, **Encode NEW LINE to %
 
 **Settings → APP INTEGRATIONS** (below MYSTERSMITH API) — free (no add-on needed, since v2.3.94):
 
-* **Inject ID (username)**, **Inject account number**, **Bridge URL**, **Goo ID**
+* **Inject ID (username)**, **Inject account number**
+* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the last text of the Text Buffer, as a number, to the ReaList app in the background. *"forty two"* is sent as `42`; a text with digits in it sends its digits (*Room 12* → `12`). Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
+* **Bridge URL**, **Goo ID**
 * **Motherboard API key** — the action **last text to Motherboard** shows the text on a Motherboard.
 * **TimeSmith integration** — every time you enter a time, it is sent to the TimeSmith app.
-* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the last text of the Text Buffer, as a number, to the ReaList app in the background. *"forty two"* is sent as `42`; a text with digits in it sends its digits (*Room 12* → `12`). Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
 
 Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *send number to ReaList*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
 
