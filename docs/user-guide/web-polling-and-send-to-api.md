@@ -101,13 +101,13 @@ More rows in SEND TO APPS & API: **Encode SPACE to %20**, **Encode NEW LINE to %
 **Settings → APP INTEGRATIONS** (below MYSTERSMITH API) — free (no add-on needed, since v2.3.94):
 
 * **Inject ID (username)**, **Inject account number**
-* **Your ReaList ID** — for the action **send number to ReaList** (*App Integrations* group, since v2.4.11): it sends the **last number** of the Text Buffer (like [`#NUMBER`](text-buffer.md#variables-using-the-buffer-anywhere)) to the ReaList app in the background — texts that came after it don't matter, so in a multi-action list one trigger can send the last text to Inject and the last number to ReaList. *"forty two"* is sent as `42`.
+* **Your ReaList ID** — for the action **send last NUMBER to ReaList** (*App Integrations* group, since v2.4.11): it sends the **last number** of the Text Buffer (like [`#NUMBER`](text-buffer.md#variables-using-the-buffer-anywhere)) to the ReaList app in the background — texts that came after it don't matter, so in a multi-action list one trigger can send the last text to Inject and the last number to ReaList. *"forty two"* is sent as `42`.
 * **Your ReaList PIN** (since v2.4.12, below the ID when you tap **Your ReaList ID**) — your current pairing PIN from the ReaList app (it changes every day). With it, the actions **ReaList pairing URL to clipboard** and **ReaList pairing URL to QR code** make the pairing link `https://google-stats.com/f/<PIN>`: opened on the spectator's phone, it pairs that browser with your PIN at once — safer than the automatic pairing, where two spectators on the same page at the same time can get mixed up. The QR code goes into the Image Buffer and is shown on the BLACK screen, ready to be scanned. Paste your ID into the field (it is blurred on the Settings page, like the other IDs, and synced with your account).
 * **Bridge URL**, **Goo ID**
 * **Motherboard API key** — the action **last text to Motherboard** shows the text on a Motherboard.
 * **TimeSmith integration** — every time you enter a time, it is sent to the TimeSmith app.
 
-Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *send number to ReaList*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
+Related actions: **last text to Bridge**, **last text to Inject**, **last text to Motherboard** (*Text buffer* group), and the *App Integrations* group (*send time to TimeSmith*, *send last NUMBER to ReaList*, *show last Inject result*...). The actions that open other apps (*open app package*, *open custom URL scheme*, *run Shortcut*, the *iOS apps* group) are free too.
 
 In **AVAILABLE FEATURES** all of this is the free feature **Send to apps & API, app integrations**.
 

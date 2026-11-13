@@ -339,7 +339,7 @@ An action shows up in the app's action picker only when you can use it: when the
 | Action | Code | Needs / notes |
 |---|---|---|
 | send time to TimeSmith | `send_to_timesmith` |  |
-| send number to ReaList | `number_to_realist` |  |
+| send last NUMBER to ReaList | `number_to_realist` |  |
 | ReaList pairing URL to clipboard | `realist_pairing_to_clipboard` |  |
 | ReaList pairing URL to QR code | `realist_pairing_to_qr` |  |
 | show last Inject result | `last_inject_buffer` |  |
