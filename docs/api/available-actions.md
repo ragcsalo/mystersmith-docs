@@ -7,7 +7,7 @@ An action shows up in the app's action picker only when you can use it: when the
 !!! tip "Using the code"
     The **Code** is the action's internal name, for `action=` links: `mystersmith://?action=vibrate_short,pause2,blackscreen_show`. Actions marked *asks for a #ID* need a number, so they **can't go into an `action=` list** (there they run without an ID: "can't find #0"). Use the URL parameter written in their row instead, e.g. `imagetemplatedoodle=9` for *image template to Doodle screen* #9. Example: `mystersmith://?action=poll_once,pause3&imagetemplategenerate=9`.
 
-*531 actions in 51 groups. This list is updated from time to time - the app may already have a few more.*
+*533 actions in 51 groups. This list is updated from time to time - the app may already have a few more.*
 
 ---
 
@@ -340,6 +340,8 @@ An action shows up in the app's action picker only when you can use it: when the
 |---|---|---|
 | send time to TimeSmith | `send_to_timesmith` |  |
 | send number to ReaList | `number_to_realist` |  |
+| ReaList pairing URL to clipboard | `realist_pairing_to_clipboard` |  |
+| ReaList pairing URL to QR code | `realist_pairing_to_qr` |  |
 | show last Inject result | `last_inject_buffer` |  |
 | show Pi Revelations numbers | `show_pi_revelations` |  |
 | Pi numbers to handwriting | `pi_numbers_to_doodle` |  |
